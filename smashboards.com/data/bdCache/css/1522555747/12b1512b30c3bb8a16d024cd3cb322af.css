@@ -1,0 +1,818 @@
+@charset "UTF-8";html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal;text-decoration:none}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}input,button,textarea,select{*font-size:100%}body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif}table{font-size:inherit;font:100%}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%}img:-moz-broken,img:-moz-user-disabled{-moz-force-broken-image-icon:1}img:-moz-broken:not([width]),img:-moz-user-disabled:not([width]){width:50px}img:-moz-broken:not([height]),img:-moz-user-disabled:not([height]){height:50px}html{background-color:rgb(26, 21, 32);background:rgb(26, 21, 32);overflow-y:scroll !important}body{-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%;font-family:Helvetica,Arial,sans-serif;color:rgb(217, 217, 217);background:transparent url('../../../../styles/warchamp/ridleyboards/bgridley.jpg') no-repeat top center;background-size:cover;word-wrap:break-word;line-height:1.28;min-width:300px;background-attachment:fixed}pre,textarea{word-wrap:normal}[dir=auto]{text-align:left}a:link,a:visited{color:rgb(108,67,255);text-decoration:none}a[href]:hover{color:rgb(233,233,233);text-decoration:underline}a:hover{_text-decoration:underline}a.noOutline{outline:0
+none}.emCtrl,
+.messageContent
+a{-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px}.emCtrl:hover,
+.emCtrl:focus,
+.ugc a:hover,
+.ugc a:focus{text-decoration:none;-webkit-box-shadow:5px 5px 7px #CCC;-moz-box-shadow:5px 5px 7px #CCC;-khtml-box-shadow:5px 5px 7px #CCC;box-shadow:5px 5px 7px #CCC;outline:0
+none}.emCtrl:active,
+.ugc a:active{position:relative;top:1px;-webkit-box-shadow:2px 2px 7px #CCC;-moz-box-shadow:2px 2px 7px #CCC;-khtml-box-shadow:2px 2px 7px #CCC;box-shadow:2px 2px 7px #CCC;outline:0
+none}.ugc a:link,
+.ugc a:visited{padding:0
+3px;margin:0
+-3px;-webkit-border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;border-radius:0}.ugc a:hover,
+.ugc a:focus{background:url(https://smashboards.com/rgba.php?r=255&amp;g=255&amp;b=255&amp;a=51);background:rgba(255,255,255,.2);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33FFFFFF,endColorstr=#33FFFFFF);;-webkit-box-shadow:0 1px 0 rgb(108, 67, 255);-moz-box-shadow:0 1px 0 rgb(108, 67, 255);-khtml-box-shadow:0 1px 0 rgb(108, 67, 255);box-shadow:0 1px 0 rgb(108,67,255)}img.mceSmilie,img.mceSmilieSprite{vertical-align:text-bottom;margin:0
+1px}.titleBar{margin-bottom:10px}.titleBar{zoom:1}.titleBar:after{content:'.';display:block;height:0;clear:both;visibility:hidden}.titleBar
+h1{font-size:18pt;overflow:hidden;zoom:1}.titleBar h1
+em{color:rgb(102, 102, 102)}.titleBar h1
+.Popup{float:left}#pageDescription{font-size:13px;color:rgb(159,159,159);margin-top:2px}.topCtrl{float:right}.topCtrl
+h2{font-size:12pt}img{-ms-interpolation-mode:bicubic}a.avatar{*cursor:pointer}.avatar img,
+.avatar .img,.avatarCropper{background-position:0 0 !important}.avatar.plainImage img,
+.avatar.plainImage
+.img{border:none;-webkit-border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;border-radius:0;padding:0;background-position:left top}.avatar
+.img{display:block;background-repeat:no-repeat;background-position:2px 2px;text-indent:1000px;overflow:hidden;white-space:nowrap;word-wrap:normal}.avatar
+.img.s{width:48px;height:48px}.avatar
+.img.m{width:96px;height:96px}.avatar
+.img.l{width:150px;height:150px}.avatarCropper{width:150px;max-height:150px;direction:ltr}.avatarCropper a,
+.avatarCropper span,
+.avatarCropper
+label{overflow:hidden;position:relative;display:block;width:150px;max-height:150px}.avatarCropper
+img{padding:0;border:none;-webkit-border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;border-radius:0;position:relative;display:block;max-width:100%}.premium .avatarCropper, .premium .avatarCropper a,.avatarCropper.premium{max-height:210px}.avatarScaler
+img{max-width:150px;_width:150px}body .dimmed, body a.dimmed, body .dimmed
+a{color:rgb(102, 102, 102)}body .muted, body a.muted, body .muted
+a{color:rgb(159, 159, 159)}body .faint, body a.faint, body .faint
+a{color:rgb(187,187,187)}.highlight{font-weight:bold}.concealed,
+.concealed a,
+.cloaked,
+.cloaked
+a{text-decoration:inherit !important;color:inherit !important;*clear:expression( style.color = parentNode.currentStyle.color, style.clear = "none", 0)}a.concealed:hover,
+.concealed a:hover{text-decoration:underline !important}.xenTooltip{font-size:11px;color:rgb(255, 255, 255);background-color:rgb(64, 64, 64);padding:5px
+10px;-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px;display:none;z-index:15000;cursor:default}.xenTooltip a,
+.xenTooltip a:hover{color:rgb(255, 255, 255);text-decoration:underline}.xenTooltip
+.arrow{border-top:6px solid rgb(64, 64, 64);border-right:6px solid transparent;border-bottom:1px none black;border-left:6px solid transparent;position:absolute;bottom: -6px;line-height:0px;width:0px;height:0px;left:9px;_display:none}.xenTooltip.flipped
+.arrow{left:auto;right:9px}.xenTooltip.statusTip{padding:5px
+10px;line-height:17px;width:250px;height:auto}.xenTooltip.statusTip
+.arrow{border:6px
+solid transparent;border-right-color:rgb(64, 64, 64);border-left:1px none black;top:6px;left: -6px;bottom:auto;right:auto}.xenTooltip.iconTip{margin-left: -6px}.xenTooltip.iconTip.flipped{margin-left:7px}#PreviewTooltip{display:none}.xenPreviewTooltip{background-color:rgb(70, 70, 70);border:2px
+solid rgb(233, 233, 233);-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;position:relative;width:400px;display:none;z-index:15000;cursor:default}.xenPreviewTooltip
+.arrow{border-top:15px solid rgb(233, 233, 233);border-right:15px solid transparent;border-bottom:1px none black;border-left:15px solid transparent;position:absolute;bottom: -15px;left:22px;_display:none}.xenPreviewTooltip .arrow
+span{border-top:15px solid rgb(70, 70, 70);border-right:15px solid transparent;border-bottom:1px none black;border-left:15px solid transparent;position:absolute;top: -17px;left: -15px}.xenPreviewTooltip .section,
+.xenPreviewTooltip .sectionMain,
+.xenPreviewTooltip .primaryContent,
+.xenPreviewTooltip
+.secondaryContent{margin:0}.xenPreviewTooltip
+.previewContent{overflow:hidden;zoom:1;min-height:1em}.importantMessage{margin:10px
+0;color:rgb(222, 222, 222);background-color:rgb(31, 31, 31);text-align:center;padding:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;border:solid 1px rgb(62, 62, 62)}.importantMessage
+a{font-weight:bold;color:rgb(222,222,222)}.section{margin:16px
+auto}.sectionMain{padding:8px;margin:16px
+auto;border-top:0px solid #555}.heading,
+.xenForm
+.formHeader{font-weight:bold;font-size:16px;color:rgb(45, 45, 45);background-color:rgb(108, 67, 255);padding:8px;margin-bottom:3px;-webkit-border-top-left-radius:2px;-moz-border-radius-topleft:2px;-khtml-border-top-left-radius:2px;border-top-left-radius:2px;-webkit-border-top-right-radius:2px;-moz-border-radius-topright:2px;-khtml-border-top-right-radius:2px;border-top-right-radius:2px}.heading
+a{color:rgb(45,45,45)}.subHeading{font-size:15px;color:rgb(203, 203, 203);text-decoration:none;background-color:rgb(48, 48, 48);padding:8px;margin:3px
+auto 0;border-top:1px solid rgb(115, 115, 115);border-bottom:1px solid rgb(115, 115, 115)}.subHeading
+a{color:rgb(203, 203, 203)}.textHeading,
+.xenForm
+.sectionHeader{font-weight:bold;color:rgb(217, 217, 217);padding-bottom:8px;margin:8px
+auto;border-bottom:1px solid rgb(65, 65, 65)}.xenForm .sectionHeader,
+.xenForm
+.formHeader{margin:10px
+0}.primaryContent>.textHeading:first-child,.secondaryContent>.textHeading:first-child{margin-top:0}.larger.textHeading,
+.xenForm
+.sectionHeader{color:rgb(65, 65, 65);font-size:11pt;margin-bottom:6px}.larger.textHeading a,
+.xenForm .sectionHeader
+a{color:rgb(65,65,65)}.primaryContent{background-color:rgb(45, 45, 45);padding:8px}.primaryContent
+a{color:rgb(108,67,255)}.secondaryContent{background-color:rgb(45, 45, 45);padding:8px}.secondaryContent
+a{color:rgb(108,67,255)}.sectionFooter{overflow:hidden;zoom:1;font-size:15px;color:rgb(217, 217, 217);background-color:rgb(65, 65, 65);padding:8px;border-bottom:1px solid rgb(65, 65, 65);line-height:16px}.sectionFooter
+a{color:rgb(217, 217, 217)}.sectionFooter
+.left{float:left}.sectionFooter
+.right{float:right}.actionList{text-align:center}.opposedOptions{overflow:hidden;zoom:1}.opposedOptions
+.left{float:left}.opposedOptions
+.right{float:right}.columns{overflow:hidden;zoom:1}.columns
+.columnContainer{float:left}.columns .columnContainer
+.column{margin-left:3px}.columns .columnContainer:first-child
+.column{margin-left:0}.c50_50 .c1,
+.c50_50
+.c2{width:49.99%}.c70_30
+.c1{width:70%}.c70_30
+.c2{width:29.99%}.c60_40
+.c1{width:60%}.c60_40
+.c2{width:39.99%}.c40_30_30
+.c1{width:40%}.c40_30_30 .c2,
+.c40_30_30
+.c3{width:29.99%}.c50_25_25
+.c1{width:50%}.c50_25_25 .c2,
+.c50_25_25
+.c3{width:25%}.tabs{font-size:15px;background-repeat:repeat-x;background-position:top;padding:0
+8px;margin-top:8px;border-bottom:1px solid rgb(65, 65, 65);word-wrap:normal;min-height:30px;_height:23px;display:table;width:100%;*width:auto;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.tabs
+li{float:left}.tabs li a,
+.tabs.noLinks
+li{color:rgb(217, 217, 217);text-decoration:none;background-color:rgb(31, 26, 43);background-repeat:repeat-x;background-position:top;padding:0
+8px;margin-right: -1px;margin-bottom: -1px;border:1px
+solid rgb(65, 65, 65);-webkit-border-top-left-radius:1px;-moz-border-radius-topleft:1px;-khtml-border-top-left-radius:1px;border-top-left-radius:1px;-webkit-border-top-right-radius:1px;-moz-border-radius-topright:1px;-khtml-border-top-right-radius:1px;border-top-right-radius:1px;display:inline-block;line-height:28px;cursor:pointer;outline:0
+none;white-space:nowrap;word-wrap:normal;height:28px}.tabs li:hover a,
+.tabs.noLinks li:hover{text-decoration:none;background-color:rgb(65, 65, 65)}.tabs li.active a,
+.tabs.noLinks
+li.active{background-color:rgb(47, 44, 54);padding-bottom:1px;border-bottom:1px none black}.xenForm .tabs,.xenFormTabs{padding:5px
+30px 0}@media (max-width:480px){.Responsive .redactor_smilies
+.tabs{text-align:center}.Responsive .tabs
+li{display:inline-block;float:none}.Responsive .tabs li
+a{padding-left:20px;padding-right:20px}.Responsive .tabs li a,
+.Responsive .tabs.noLinks
+li{display:block}}.Popup{position:relative}.Popup.inline{display:inline}.Popup
+.arrowWidget{background:transparent none no-repeat -32px 0;margin-top:0;margin-left:2px;display:inline-block;*margin-top:0;vertical-align:middle;background-size:160px 48px;height:auto !important;width:12px !important;text-align:center;width:16px;height:16px}.PopupOpen
+.arrowWidget{background-position: -48px 0}.Popup .PopupControl,.Popup.PopupContainerControl{display:inline-block;cursor:pointer}.Popup .PopupControl:hover,.Popup.PopupContainerControl:hover{color:rgb(217, 217, 217);text-decoration:none;background:url(https://smashboards.com/rgba.php?r=0&amp;g=0&amp;b=0&amp;a=51);background:rgba(0, 0, 0, .2);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000)}.Popup .PopupControl:focus,
+.Popup .PopupControl:active,.Popup.PopupContainerControl:focus,.Popup.PopupContainerControl:active{outline:0}.Popup .PopupControl.PopupOpen,.Popup.PopupContainerControl.PopupOpen{color:#FFF;background-color:rgb(108, 67, 255);background-repeat:repeat-x;background-position:top;-webkit-border-top-left-radius:1px;-moz-border-radius-topleft:1px;-khtml-border-top-left-radius:1px;border-top-left-radius:1px;-webkit-border-top-right-radius:1px;-moz-border-radius-topright:1px;-khtml-border-top-right-radius:1px;border-top-right-radius:1px;-webkit-border-bottom-right-radius:0;-moz-border-radius-bottomright:0;-khtml-border-bottom-right-radius:0;border-bottom-right-radius:0;-webkit-border-bottom-left-radius:0;-moz-border-radius-bottomleft:0;-khtml-border-bottom-left-radius:0;border-bottom-left-radius:0}.Popup .PopupControl.BottomControl.PopupOpen,.Popup.PopupContainerControl.BottomControl.PopupOpen{-webkit-border-top-left-radius:0;-moz-border-radius-topleft:0;-khtml-border-top-left-radius:0;border-top-left-radius:0;-webkit-border-top-right-radius:0;-moz-border-radius-topright:0;-khtml-border-top-right-radius:0;border-top-right-radius:0;-webkit-border-bottom-left-radius:1px;-moz-border-radius-bottomleft:1px;-khtml-border-bottom-left-radius:1px;border-bottom-left-radius:1px;-webkit-border-bottom-right-radius:1px;-moz-border-radius-bottomright:1px;-khtml-border-bottom-right-radius:1px;border-bottom-right-radius:1px}.Popup .PopupControl.PopupOpen:hover,.Popup.PopupContainerControl.PopupOpen:hover{text-decoration:none}.Menu{font-size:15px;border-width:1px;border-top:2px solid rgb(108, 67, 255);overflow:hidden;min-width:200px;*width:200px;position:absolute;z-index:7500;display:none}.Popup:hover
+.Menu{display:block}.Popup:hover
+.Menu.JsOnly{display:none}.Menu.BottomControl{border-top-width:1px;border-bottom-width:3px;-webkit-box-shadow:0px 0px 0px transparent;-moz-box-shadow:0px 0px 0px transparent;-khtml-box-shadow:0px 0px 0px transparent;box-shadow:0px 0px 0px transparent}.Menu > li > a,
+.Menu
+.menuRow{display:block}.Menu
+.menuHeader{overflow:hidden;zoom:1}.Menu .menuHeader
+h3{font-size:15pt}.Menu .menuHeader
+.muted{font-size:11px}.Menu
+.primaryContent{background-color:rgba(45, 45, 45, 0.96)}.Menu
+.secondaryContent{background-color:rgba(45, 45, 45, 0.96)}.Menu
+.sectionFooter{background-color:rgba(65, 65, 65, 0.9)}.Menu
+.blockLinksList{max-height:400px;overflow:auto}.formPopup{width:250px;background-color:rgb(47, 44, 54)}.formPopup form,
+.formPopup
+.ctrlUnit{margin:5px
+auto}.formPopup
+.ctrlUnit{}.formPopup .textCtrl,
+.formPopup
+.button{width:232px}.formPopup .ctrlUnit > dt
+label{display:block;margin-bottom:2px}.formPopup .submitUnit
+dd{text-align:center}.formPopup .ctrlUnit > dd
+.explain{margin:2px
+0 0}.formPopup
+.primaryControls{zoom:1;white-space:nowrap;word-wrap:normal;padding:0
+5px}.formPopup .primaryControls
+input.textCtrl{margin-bottom:0}.formPopup
+.secondaryControls{padding:0
+5px}.formPopup
+.controlsWrapper{background:rgb(31, 26, 43) url('../../../../styles/uix/xenforo/gradients/category-23px-light.png') repeat-x top;-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;padding:5px;margin:5px
+0;font-size:11px}.formPopup .controlsWrapper
+.textCtrl{width:222px}.formPopup
+.advSearchLink{display:block;text-align:center;padding:5px;font-size:11px;-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;border:1px
+solid rgb(31, 26, 43);background:rgb(45, 45, 45) url('../../../../styles/uix/xenforo/gradients/category-23px-light.png') repeat-x top}.formPopup .advSearchLink:hover{background-color:rgb(31,26,43);text-decoration:none}.xenOverlay{display:none;z-index:10000;width:90%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;max-width:690px}.xenOverlay
+.overlayScroll{max-height:400px;overflow:auto}.xenOverlay
+.overlayScroll.ltr{direction:ltr}.xenOverlay .overlayScroll .sortable-placeholder{background-color:rgb(65,65,65)}.overlayOnly{display:none !important}.xenOverlay
+.overlayOnly{display:block !important}.xenOverlay input.overlayOnly,
+.xenOverlay button.overlayOnly,
+.xenOverlay
+a.overlayOnly{display:inline !important}.xenOverlay
+a.close{color:#FFF;-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px;position:absolute;right:8px;top:8px;cursor:pointer;text-align:center;width:32px;height:32px}.xenOverlay
+.nonOverlayOnly{display:none !important}.xenOverlay
+.formOverlay{color:rgb(222, 222, 222);background-color:rgb(31, 31, 31);padding:8px;border:1px
+solid rgb(65, 65, 65);-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;_zoom:1;margin:0}.Touch .xenOverlay
+.formOverlay{background:rgb(31, 31, 31);-webkit-box-shadow:none;-moz-box-shadow:none;-khtml-box-shadow:none;box-shadow:none}.xenOverlay .formOverlay a.muted,
+.xenOverlay .formOverlay .muted
+a{color:rgb(159, 159, 159)}.xenOverlay .formOverlay
+.heading{font-weight:bold;font-size:12pt;color:rgb(45, 45, 45);background-color:rgb(203, 203, 203);padding:8px;margin-bottom:10px;border-style:none;-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px}.xenOverlay .formOverlay
+.subHeading{-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px}.xenOverlay .formOverlay
+.textHeading{color:rgb(217, 217, 217)}.xenOverlay .formOverlay>p{padding-left:8px;padding-right:8px}.xenOverlay .formOverlay
+.textCtrl{color:rgb(222, 222, 222);background-color:rgb(48, 48, 48);border:1px
+solid rgb(62, 62, 62)}.xenOverlay .formOverlay .textCtrl
+option{background-color:rgb(48, 48, 48)}.xenOverlay .formOverlay .textCtrl:focus,
+.xenOverlay .formOverlay
+.textCtrl.Focus{background-image:none;border-color:rgb(108, 67, 255)}.xenOverlay .formOverlay .textCtrl:focus
+option{background-image:none}.xenOverlay .formOverlay
+.textCtrl.disabled{background:url(https://smashboards.com/rgba.php?r=0&amp;g=0&amp;b=0&amp;a=63);background:rgba(0,0,0, 0.25);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3F000000,endColorstr=#3F000000)}.xenOverlay .formOverlay .textCtrl.disabled
+option{background:url(https://smashboards.com/rgba.php?r=0&amp;g=0&amp;b=0&amp;a=63);background:rgba(0,0,0, 0.25);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3F000000,endColorstr=#3F000000)}.xenOverlay .formOverlay
+.textCtrl.prompt{color:rgb(160,160,160)}.xenOverlay .formOverlay .ctrlUnit > dt dfn,
+.xenOverlay .formOverlay .ctrlUnit > dd li .hint,
+.xenOverlay .formOverlay .ctrlUnit > dd
+.explain{color:#bbb}.xenOverlay .formOverlay
+a{color:rgb(203, 203, 203)}.xenOverlay .formOverlay
+a.button{}.xenOverlay .formOverlay .avatar img,
+.xenOverlay .formOverlay .avatar .img,
+.xenOverlay .formOverlay
+.avatarCropper{background-color:transparent}.xenOverlay .formOverlay
+.tabs{background:transparent none;border-color:rgb(65, 65, 65)}.xenOverlay .formOverlay .tabs
+a{background:transparent none;border-color:rgb(65, 65, 65)}.xenOverlay .formOverlay .tabs a:hover{background:url(https://smashboards.com/rgba.php?r=255&amp;g=255&amp;b=255&amp;a=63);background:rgba(255,255,255, 0.25);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FFFFFFF,endColorstr=#3FFFFFFF)}.xenOverlay .formOverlay .tabs .active
+a{background-color:black}.xenOverlay .formOverlay
+.tabPanel{background:transparent url('../../../../styles/uix/xenforo/color-picker/panel.png') repeat-x top;border:1px
+solid rgb(65, 65, 65)}.xenOverlay .section,
+.xenOverlay
+.sectionMain{padding:0px;border:1px
+solid rgb(65, 65, 65);-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;border-color:rgb(65, 65, 65);border-color:rgba(65, 65, 65, 0.5);_border-color:rgb(65, 65, 65)}.Touch .xenOverlay .section,
+.Touch .xenOverlay
+.sectionMain{border-color:rgb(65,65,65);-webkit-box-shadow:none;-moz-box-shadow:none;-khtml-box-shadow:none;box-shadow:none}.xenOverlay>.section,.xenOverlay>.sectionMain{background:none;margin:0}.xenOverlay .section .heading,
+.xenOverlay .sectionMain
+.heading{-webkit-border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;border-radius:0;margin-bottom:0}.xenOverlay .section .subHeading,
+.xenOverlay .sectionMain
+.subHeading{margin-top:0}.xenOverlay .section .sectionFooter,
+.xenOverlay .sectionMain
+.sectionFooter{overflow:hidden;zoom:1}.xenOverlay .sectionFooter
+.buttonContainer{line-height:31px}.xenOverlay .sectionFooter .button,
+.xenOverlay .sectionFooter
+.buttonContainer{min-width:75px;*min-width:0;float:right;margin-left:5px}.xenOverlay .sectionFooter .buttonContainer
+.button{float:none;margin-left:0}#AjaxProgress.xenOverlay{width:100%;max-width:none;overflow:hidden;zoom:1}#AjaxProgress.xenOverlay
+.content{margin:10em
+auto 6em;font-size:10px;position:relative;text-indent: -9999em;border-top:1.1em solid rgb(255, 255, 255);border-top:1.1em solid rgba(255, 255, 255, 0.2);_border-top:1.1em solid rgb(255, 255, 255);border-right:1.1em solid rgb(255, 255, 255);border-right:1.1em solid rgba(255, 255, 255, 0.2);_border-right:1.1em solid rgb(255, 255, 255);border-bottom:1.1em solid rgb(255, 255, 255);border-bottom:1.1em solid rgba(255, 255, 255, 0.2);_border-bottom:1.1em solid rgb(255, 255, 255);border-left:1.1em solid #fff;-webkit-animation:load8 1.1s infinite linear;animation:load8 1.1s infinite linear}#AjaxProgress.xenOverlay .content,
+#AjaxProgress.xenOverlay .content:after{-webkit-border-radius:50%;-moz-border-radius:50%;-khtml-border-radius:50%;border-radius:50%;width:10em;height:10em}#AjaxProgress.xenOverlay .content:before{background:url('../../../../styles/default/xenforo/load_iconc81e.png?2') no-repeat;display:block;width:100px;height:100px;content:'';-webkit-animation:reverseSpin 1.05s infinite linear;animation:reverseSpin 1.05s infinite linear}@-webkit-keyframes
+load8{0%{-webkit-transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes
+load8{0%{-webkit-transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes
+reverseSpin{0%{-webkit-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}100%{-webkit-transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes
+reverseSpin{0%{-webkit-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}100%{-webkit-transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}}.xenOverlay.timedMessage{color:rgb(217, 217, 217);background-color:rgb(47, 44, 54);margin: .5%;border:2px
+solid rgb(108, 67, 255);max-width:100%;-webkit-box-shadow:0px 2px 10px rgba(0, 0, 0, .35);-moz-box-shadow:0px 2px 10px rgba(0, 0, 0, .35);-khtml-box-shadow:0px 2px 10px rgba(0, 0, 0, .35);box-shadow:0px 2px 10px rgba(0, 0, 0, .35);width:99%}.xenOverlay.timedMessage
+.content{font-size:18pt;padding:32px;text-align:center}#StackAlerts{position:fixed;bottom:70px;left:35px;z-index:9999}#StackAlerts
+.stackAlert{position:relative;width:270px;border:1px
+solid rgb(70, 70, 70);-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;-webkit-box-shadow:2px 2px 5px 0 rgba(0,0,0, 0.4);-moz-box-shadow:2px 2px 5px 0 rgba(0,0,0, 0.4);-khtml-box-shadow:2px 2px 5px 0 rgba(0,0,0, 0.4);box-shadow:2px 2px 5px 0 rgba(0,0,0, 0.4);margin-top:5px}#StackAlerts
+.stackAlertContent{padding:10px;padding-right:30px;-webkit-border-radius:4px;-moz-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;border:solid 2px rgb(31, 26, 43);background:url(https://smashboards.com/rgba.php?r=45&amp;g=45&amp;b=45&amp;a=229);background:rgba(45, 45, 45, 0.9);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E52D2D2D,endColorstr=#E52D2D2D);font-size:11px;font-weight:bold}.xenOverlay .section
+.messageContainer{padding:0}.xenOverlay .section .messageContainer
+.mceLayout{border:none}.xenOverlay .section .messageContainer tr.mceFirst
+td.mceFirst{border-top:none}.xenOverlay .section .messageContainer tr.mceLast td.mceLast,
+.xenOverlay .section .messageContaner tr.mceLast
+td.mceIframeContainer{border-bottom:none}.xenOverlay .section .textCtrl.MessageEditor,
+.xenOverlay .section .mceLayout,
+.xenOverlay .section .bbCodeEditorContainer
+textarea{width:100% !important;min-height:260px;_height:260px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}@media (max-width:610px){.Responsive
+.xenOverlay{width:100%}.Responsive .xenOverlay .formOverlay,
+.Responsive .xenOverlay .section,
+.Responsive .xenOverlay
+.sectionMain{-webkit-border-radius:10px;-moz-border-radius:10px;-khtml-border-radius:10px;border-radius:10px;border-width:10px}.Responsive .xenOverlay
+a.close{top:0;right:0;width:28px;height:28px;background-size:100% 100%}}.alerts
+.alertGroup{margin-bottom:20px}.alerts
+.primaryContent{overflow:hidden;zoom:1;padding:5px}.alerts
+.avatar{float:left}.alerts .avatar
+img{width:32px;height:32px}.alerts
+.alertText{margin-left:32px;padding:0
+5px}.alerts
+h3{display:inline}.alerts h3
+.subject{font-weight:bold}.alerts
+.timeRow{font-size:11px;margin-top:5px}.alerts .newIcon,
+.alertsPopup
+.newIcon{display:inline-block;vertical-align:baseline;margin-left:2px;width:11px;height:11px;background:url('../../../../styles/uix/xenforo/xenforo-ui-sprite.png') no-repeat -144px -40px}table.dataTable{width:100%;_width:99.5%;margin:10px
+0}.dataTable
+caption{font-weight:bold;font-size:16px;color:rgb(45, 45, 45);background-color:rgb(108, 67, 255);padding:8px;margin-bottom:3px;-webkit-border-top-left-radius:2px;-moz-border-radius-topleft:2px;-khtml-border-top-left-radius:2px;border-top-left-radius:2px;-webkit-border-top-right-radius:2px;-moz-border-radius-topright:2px;-khtml-border-top-right-radius:2px;border-top-right-radius:2px}.dataTable tr.dataRow
+td{border-bottom:1px solid rgb(31, 26, 43);padding:5px
+10px;word-wrap:break-word}.dataTable tr.dataRow
+td.secondary{background:rgb(45, 45, 45) url("../../../../styles/uix/xenforo/gradients/category-23px-light.png") repeat-x top}.dataTable tr.dataRow
+th{background:rgb(48, 48, 48) url("../../../../styles/uix/xenforo/gradients/category-23px-light.png") repeat-x top;border-bottom:1px solid rgb(62, 62, 62);border-top:1px solid rgb(48, 48, 48);color:rgb(222, 222, 222);font-size:11px;padding:5px
+10px}.dataTable tr.dataRow th
+a{color:inherit;text-decoration:underline}.dataTable .dataRow
+.dataOptions{text-align:right;white-space:nowrap;word-wrap:normal;padding:0}.dataTable .dataRow .important,
+.dataTable
+.dataRow.important{font-weight:bold}.dataTable .dataRow .dataOptions
+a.secondaryContent{display:inline-block;border-left:1px solid rgb(31, 26, 43);border-bottom:none;padding:7px
+10px 6px;font-size:11px}.dataTable .dataRow .dataOptions a.secondaryContent:hover{background-color:rgb(31, 26, 43);text-decoration:none}.dataTable .dataRow
+.delete{padding:0px;width:26px;border-left:1px solid rgb(31, 26, 43);background-color:rgb(45, 45, 45)}.dataTable .dataRow .delete
+a{display:block;background:transparent url('../../../../styles/uix/xenforo/permissions/deny.png') no-repeat center center;cursor:pointer;padding:5px;width:16px;height:16px;overflow:hidden;white-space:nowrap;text-indent: -1000px}.memberListItem{overflow:hidden;zoom:1;border-bottom:solid 1px rgb(65, 65, 65);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;padding:8px}.memberListItem .avatar,
+.memberListItem
+.icon{float:left}.memberListItem
+.extra{font-size:13px;float:right;margin-right:8px}.memberListItem .extra
+.DateTime{display:block}.memberListItem .extra
+.bigNumber{font-size:250%;color:rgb(159, 159, 159)}.memberListItem
+.member{margin-left:58px}.memberListItem
+h3.username{font-weight:bold;font-size:13pt;margin-bottom:3px}.memberListItem
+.username.guest{font-style:italic;font-weight:normal}.memberListItem
+.userInfo{font-size:13px;margin-bottom:3px}.memberListItem
+.userBlurb{}.memberListItem .userBlurb
+.userTitle{font-weight:bold}.memberListItem .userStats dt,
+.memberListItem .userStats
+dd{white-space:nowrap}.memberListItem .member
+.contentInfo{margin-top:5px}.memberListItem.extended
+.extra{width:200px}.memberListItem.extended
+.member{margin-right:210px}.DismissParent
+.DismissCtrl{position:absolute;top:12px;right:5px;display:block;background:transparent url('../../../../styles/uix/xenforo/xenforo-ui-sprite.png') no-repeat -80px 0;color:white;width:15px;height:15px;line-height:15px;text-align:center;opacity: .4;-webkit-transition:opacity 0.3s ease-in-out;-moz-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out;font-size:10px;overflow:hidden;white-space:nowrap;text-indent:20000em;cursor:pointer}.DismissParent:hover .DismissCtrl,
+.Touch .DismissParent
+.DismissCtrl{opacity:1}.DismissParent:hover .DismissCtrl:hover{background-position: -96px 0}.DismissParent:hover .DismissCtrl:active{background-position: -112px 0}.baseHtml
+h1{font-size:138.5%}.baseHtml
+h2{font-size:123.1%}.baseHtml
+h3{font-size:108%}.baseHtml h1, .baseHtml h2, .baseHtml
+h3{margin:1em
+0}.baseHtml h1, .baseHtml h2, .baseHtml h3, .baseHtml h4, .baseHtml h5, .baseHtml h6, .baseHtml
+strong{font-weight:bold}.baseHtml abbr, .baseHtml
+acronym{border-bottom:1px dotted #000;cursor:help}.baseHtml
+em{font-style:italic}.baseHtml blockquote, .baseHtml ul, .baseHtml ol, .baseHtml
+dl{margin:1em}.baseHtml ol, .baseHtml ul, .baseHtml
+dl{margin-left:3em;margin-right:0}.baseHtml ul ul, .baseHtml ul ol, .baseHtml ul dl, .baseHtml ol ul, .baseHtml ol ol, .baseHtml ol dl, .baseHtml dl ul, .baseHtml dl ol, .baseHtml dl
+dl{margin-top:0;margin-bottom:0}.baseHtml ol
+li{list-style:decimal outside}.baseHtml ul
+li{list-style:disc outside}.baseHtml ol ul li, .baseHtml ul ul
+li{list-style-type:circle}.baseHtml ol ol ul li, .baseHtml ol ul ul li, .baseHtml ul ol ul li, .baseHtml ul ul ul
+li{list-style-type:square}.baseHtml ul ol li, .baseHtml ul ol ol li, .baseHtml ol ul ol
+li{list-style:decimal outside}.baseHtml dl
+dd{margin-left:1em}.baseHtml th, .baseHtml
+td{border:1px
+solid #000;padding:.5em}.baseHtml
+th{font-weight:bold;text-align:center}.baseHtml
+caption{margin-bottom:.5em;text-align:center}.baseHtml p, .baseHtml pre, .baseHtml fieldset, .baseHtml
+table{margin-bottom:1em}.PageNav{font-size:13px;padding:2px
+0;overflow:hidden;zoom:1;line-height:18px;word-wrap:normal;min-width:150px;white-space:nowrap}.PageNav
+.hidden{display:none}.PageNav .pageNavHeader,
+.PageNav a,
+.PageNav
+.scrollable{display:block;float:left;margin-right:3px}.PageNav
+.pageNavHeader{padding:1px
+0}.PageNav
+a{color:rgb(203, 203, 203);text-decoration:none;background-color:rgb(31, 31, 31);border:1px
+solid rgb(62, 62, 62);-webkit-border-radius:1px !important;-moz-border-radius:1px !important;-khtml-border-radius:1px !important;border-radius:1px !important;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;width:24px}.PageNav a[rel=start]{width:24px !important}.PageNav
+a.text{width:auto !important;padding:0
+4px}.PageNav
+a{}.PageNav
+a.currentPage{color:#FFF;background-color:rgb(133,133,133);border-color:rgb(133,133,133);position:relative}a.PageNavPrev,a.PageNavNext{color:rgb(201, 201, 201);background-color:transparent;padding:1px;border:1px
+none rgb(65, 65, 65);cursor:pointer;width:24px !important}.PageNav a:hover,
+.PageNav a:focus{color:rgb(108, 67, 255);text-decoration:none;background-color:rgb(48, 48, 48);border-color:rgb(228, 228, 228)}.PageNav
+a.distinct{margin-left:3px}.PageNav
+.scrollable{position:relative;overflow:hidden;width:142px;height:18px}.PageNav .scrollable
+.items{display:block;width:20000em;position:absolute;display:block}.PageNav
+.gt999{font-size:9px;letter-spacing: -0.05em}.PageNav.pn5
+a{width:29px}.PageNav.pn5
+.scrollable{width:167px}.PageNav.pn6
+a{width:33px}.PageNav.pn6
+.scrollable{width:187px}.PageNav.pn7
+a{width:37px}.PageNav.pn7
+.scrollable{width:207px}@media (max-width:610px){.Responsive .PageNav
+.pageNavHeader{display:none}}@media (max-width:480px){.Responsive .PageNav
+.unreadLink{display:none}}.pairs dt,
+.pairsInline dt,
+.pairsRows dt,
+.pairsColumns dt,
+.pairsJustified
+dt{color:rgb(159,159,159)}.pairsRows,.pairsColumns,.pairsJustified{line-height:1.5}.pairsInline dl,
+.pairsInline dt,
+.pairsInline
+dd{display:inline}.pairsRows dt,
+.pairsRows
+dd{display:inline-block;vertical-align:top;*display:inline;*margin-right:1ex;*zoom:1}dl.pairsColumns,
+dl.pairsJustified,
+.pairsColumns dl,
+.pairsJustified
+dl{overflow:hidden;zoom:1}.pairsColumns dt,
+.pairsColumns
+dd{float:left;width:48%}.pairsJustified
+dt{float:left;max-width:100%;margin-right:5px}.pairsJustified
+dd{float:right;text-align:right;max-width:100%}.listInline ul,
+.listInline ol,
+.listInline li,
+.listInline dl,
+.listInline dt,
+.listInline
+dd{display:inline}.commaImplode li:after,.commaElements>*:after{content:', '}.commaImplode li:last-child:after,.commaElements>*:last-child:after{content:''}.bulletImplode li:before{content:'\2022\a0'}.bulletImplode li:first-child:before{content:''}.threeColumnList{overflow:hidden;zoom:1}.threeColumnList
+li{float:left;width:32%;margin:2px
+1% 2px 0}.previewTooltip{}.previewTooltip
+.avatar{float:left}.previewTooltip
+.text{margin-left:64px}.previewTooltip
+blockquote{font-size:10pt;font-family:Roboto,Helvetica,Arial,sans-serif;line-height:1.4;font-size:10pt;max-height:150px;overflow:hidden}.previewTooltip
+.posterDate{font-size:11px;padding-top:5px;border-top:1px solid rgb(31,26,43);margin-top:5px}.blockLinksList{font-size:13px;padding:2px}.blockLinksList a,
+.blockLinksList
+label{color:rgb(108, 67, 255);padding:5px
+10px;-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px;display:block;outline:0
+none}.blockLinksList a:hover,
+.blockLinksList a:focus,
+.blockLinksList li.kbSelect a,
+.blockLinksList label:hover,
+.blockLinksList label:focus,
+.blockLinksList li.kbSelect
+label{text-decoration:none;background-color:rgb(31, 26, 43)}.blockLinksList a:active,
+.blockLinksList a.selected,
+.blockLinksList label:active,
+.blockLinksList
+label.selected{color:rgb(233, 233, 233);background-color:rgb(65, 65, 65)}.blockLinksList a.selected,
+.blockLinksList
+label.selected{font-weight:bold;display:block}.blockLinksList
+span.depthPad{display:block}.blockLinksList
+.itemCount{font-weight:bold;font-size:9px;color:white;background-color:rgb(133, 133, 133);padding:0
+2px;-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;position:absolute;right:2px;top: -12px;line-height:16px;min-width:16px;_width:16px;text-align:center;text-shadow:none;white-space:nowrap;word-wrap:normal;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;height:16px;float:right;position:relative;right:0;top: -1px}.blockLinksList
+.itemCount.Zero{display:none}.indentList ul,
+.indentList
+ol{margin-left:2em}.InProgress{background:transparent url('../../../../styles/uix/xenforo/widgets/ajaxload.info_B4B4DC_facebook.gif') no-repeat right center}.hiddenIframe{display:block;width:500px;height:300px}.traceHtml{font-size:11px;font-family:calibri,verdana,arial,sans-serif}.traceHtml
+.function{color:rgb(180,80,80);font-weight:normal}.traceHtml
+.file{font-weight:normal}.traceHtml
+.shade{color:rgb(128,128,128)}.traceHtml
+.link{font-weight:bold}._depth0{padding-left:0em}._depth1{padding-left:2em}._depth2{padding-left:4em}._depth3{padding-left:6em}._depth4{padding-left:8em}._depth5{padding-left:10em}._depth6{padding-left:12em}._depth7{padding-left:14em}._depth8{padding-left:16em}._depth9{padding-left:18em}.xenOverlay
+.errorOverlay{color:white;padding:25px;-webkit-border-radius:20px;-moz-border-radius:20px;-khtml-border-radius:20px;border-radius:20px;border:20px
+solid rgb(0,0,0);border:20px
+solid rgba(0,0,0, 0.25);_border:20px
+solid rgb(0,0,0);background:url(https://smashboards.com/rgba.php?r=0&amp;g=0&amp;b=0&amp;a=191);background:rgba(0,0,0, 0.75);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000,endColorstr=#BF000000)}.xenOverlay .errorOverlay
+.heading{padding:5px
+10px;font-weight:bold;font-size:12pt;background:rgb(180,0,0);color:white;margin-bottom:10px;-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;border:1px
+solid rgb(100,0,0)}.xenOverlay .errorOverlay
+li{line-height:2}.xenOverlay .errorOverlay
+.exceptionMessage{color:rgb(159,159,159)}.formValidationInlineError{display:none;position:absolute;z-index:5000;background-color:white;border:1px
+solid rgb(180,0,0);color:rgb(180,0,0);-webkit-box-shadow:2px 2px 10px #999;-moz-box-shadow:2px 2px 10px #999;-khtml-box-shadow:2px 2px 10px #999;box-shadow:2px 2px 10px #999;-webkit-border-radius:3px;-moz-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;padding:2px
+5px;font-size:11px;width:175px;min-height:2.5em;_height:2.5em;word-wrap:break-word}.formValidationInlineError.inlineError{position:static;width:auto;min-height:0}.errorPanel{margin:10px
+0 20px;color:rgb(180,0,0);background:rgb(255, 235, 235);-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;border:1px
+solid rgb(180,0,0)}.errorPanel
+.errorHeading{margin: .75em;font-weight:bold;font-size:12pt}.errorPanel
+.errors{margin: .75em 2em;display:block;line-height:1.5}@media (max-width:800px){.Responsive
+.formValidationInlineError{position:static;width:auto;min-height:auto}}input[type=search]{-webkit-appearance:textfield;-webkit-box-sizing:content-box}.ignored{display:none !important}.floatLeft{float:left}.floatRight{float:right}.ltr{direction:ltr}.SquareThumb{position:relative;display:block;overflow:hidden;padding:0;direction:ltr;width:48px;height:48px}.SquareThumb
+img{position:relative;display:block}.bbCodeImage{max-width:100%}.bbCodeImageFullSize{position:absolute;z-index:50000;background-color:rgb(45,45,45)}.bbCodeStrike{text-decoration:line-through}img.mceSmilie,img.mceSmilieSprite{vertical-align:text-bottom;margin:0
+1px}img.mceSmilieSprite.mceSmilie260{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -96px}img.mceSmilieSprite.mceSmilie216{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px 0px}img.mceSmilieSprite.mceSmilie217{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -32px 0px}img.mceSmilieSprite.mceSmilie175{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -64px 0px}img.mceSmilieSprite.mceSmilie218{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -96px 0px}img.mceSmilieSprite.mceSmilie219{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -128px 0px}img.mceSmilieSprite.mceSmilie176{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -160px 0px}img.mceSmilieSprite.mceSmilie220{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -192px 0px}img.mceSmilieSprite.mceSmilie221{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -224px 0px}img.mceSmilieSprite.mceSmilie177{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -256px 0px}img.mceSmilieSprite.mceSmilie285{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -288px 0px}img.mceSmilieSprite.mceSmilie286{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -320px 0px}img.mceSmilieSprite.mceSmilie287{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -352px 0px}img.mceSmilieSprite.mceSmilie288{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -384px 0px}img.mceSmilieSprite.mceSmilie289{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -416px 0px}img.mceSmilieSprite.mceSmilie290{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -448px 0px}img.mceSmilieSprite.mceSmilie291{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px 0px}img.mceSmilieSprite.mceSmilie170{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -512px 0px}img.mceSmilieSprite.mceSmilie116{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -544px 0px}img.mceSmilieSprite.mceSmilie292{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -576px 0px}img.mceSmilieSprite.mceSmilie293{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -608px 0px}img.mceSmilieSprite.mceSmilie294{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -640px 0px}img.mceSmilieSprite.mceSmilie295{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -672px 0px}img.mceSmilieSprite.mceSmilie296{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -704px 0px}img.mceSmilieSprite.mceSmilie297{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -736px 0px}img.mceSmilieSprite.mceSmilie232{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -768px 0px}img.mceSmilieSprite.mceSmilie230{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -800px 0px}img.mceSmilieSprite.mceSmilie298{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -832px 0px}img.mceSmilieSprite.mceSmilie299{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px 0px}img.mceSmilieSprite.mceSmilie300{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px 0px}img.mceSmilieSprite.mceSmilie301{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px 0px}img.mceSmilieSprite.mceSmilie302{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -960px 0px}img.mceSmilieSprite.mceSmilie303{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -992px 0px}img.mceSmilieSprite.mceSmilie304{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px 0px}img.mceSmilieSprite.mceSmilie119{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px 0px}img.mceSmilieSprite.mceSmilie305{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px 0px}img.mceSmilieSprite.mceSmilie306{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px 0px}img.mceSmilieSprite.mceSmilie307{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px 0px}img.mceSmilieSprite.mceSmilie308{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px 0px}img.mceSmilieSprite.mceSmilie234{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -32px}img.mceSmilieSprite.mceSmilie309{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -32px -32px}img.mceSmilieSprite.mceSmilie310{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -64px -32px}img.mceSmilieSprite.mceSmilie311{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -96px -32px}img.mceSmilieSprite.mceSmilie312{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -128px -32px}img.mceSmilieSprite.mceSmilie313{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -160px -32px}img.mceSmilieSprite.mceSmilie314{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -192px -32px}img.mceSmilieSprite.mceSmilie315{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -224px -32px}img.mceSmilieSprite.mceSmilie316{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -256px -32px}img.mceSmilieSprite.mceSmilie317{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -288px -32px}img.mceSmilieSprite.mceSmilie318{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -320px -32px}img.mceSmilieSprite.mceSmilie319{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -352px -32px}img.mceSmilieSprite.mceSmilie320{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -384px -32px}img.mceSmilieSprite.mceSmilie321{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -416px -32px}img.mceSmilieSprite.mceSmilie322{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -448px -32px}img.mceSmilieSprite.mceSmilie323{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -32px}img.mceSmilieSprite.mceSmilie324{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -512px -32px}img.mceSmilieSprite.mceSmilie325{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -544px -32px}img.mceSmilieSprite.mceSmilie326{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -576px -32px}img.mceSmilieSprite.mceSmilie327{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -608px -32px}img.mceSmilieSprite.mceSmilie113{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -640px -32px}img.mceSmilieSprite.mceSmilie328{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -672px -32px}img.mceSmilieSprite.mceSmilie329{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -704px -32px}img.mceSmilieSprite.mceSmilie330{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -736px -32px}img.mceSmilieSprite.mceSmilie331{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -768px -32px}img.mceSmilieSprite.mceSmilie332{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -800px -32px}img.mceSmilieSprite.mceSmilie167{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -832px -32px}img.mceSmilieSprite.mceSmilie333{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -32px}img.mceSmilieSprite.mceSmilie334{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px -32px}img.mceSmilieSprite.mceSmilie335{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px -32px}img.mceSmilieSprite.mceSmilie336{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -960px -32px}img.mceSmilieSprite.mceSmilie337{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -992px -32px}img.mceSmilieSprite.mceSmilie338{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px -32px}img.mceSmilieSprite.mceSmilie339{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px -32px}img.mceSmilieSprite.mceSmilie340{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -32px}img.mceSmilieSprite.mceSmilie341{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -32px}img.mceSmilieSprite.mceSmilie342{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1153px -32px}img.mceSmilieSprite.mceSmilie343{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -32px}img.mceSmilieSprite.mceSmilie344{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -64px}img.mceSmilieSprite.mceSmilie345{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -32px -64px}img.mceSmilieSprite.mceSmilie346{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -64px -64px}img.mceSmilieSprite.mceSmilie347{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -96px -64px}img.mceSmilieSprite.mceSmilie348{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -128px -64px}img.mceSmilieSprite.mceSmilie349{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -160px -64px}img.mceSmilieSprite.mceSmilie350{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -192px -64px}img.mceSmilieSprite.mceSmilie351{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -224px -64px}img.mceSmilieSprite.mceSmilie352{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -256px -64px}img.mceSmilieSprite.mceSmilie353{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -288px -64px}img.mceSmilieSprite.mceSmilie354{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -320px -64px}img.mceSmilieSprite.mceSmilie115{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -352px -64px}img.mceSmilieSprite.mceSmilie355{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -384px -64px}img.mceSmilieSprite.mceSmilie356{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -416px -64px}img.mceSmilieSprite.mceSmilie357{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -448px -64px}img.mceSmilieSprite.mceSmilie358{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -64px}img.mceSmilieSprite.mceSmilie171{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -512px -64px}img.mceSmilieSprite.mceSmilie359{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -544px -64px}img.mceSmilieSprite.mceSmilie360{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -576px -64px}img.mceSmilieSprite.mceSmilie361{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -608px -64px}img.mceSmilieSprite.mceSmilie362{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -640px -64px}img.mceSmilieSprite.mceSmilie363{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -672px -64px}img.mceSmilieSprite.mceSmilie364{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -704px -64px}img.mceSmilieSprite.mceSmilie365{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -736px -64px}img.mceSmilieSprite.mceSmilie366{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -768px -64px}img.mceSmilieSprite.mceSmilie367{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -800px -64px}img.mceSmilieSprite.mceSmilie368{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -832px -64px}img.mceSmilieSprite.mceSmilie369{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -64px}img.mceSmilieSprite.mceSmilie370{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px -64px}img.mceSmilieSprite.mceSmilie371{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px -64px}img.mceSmilieSprite.mceSmilie372{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -960px -64px}img.mceSmilieSprite.mceSmilie373{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -992px -64px}img.mceSmilieSprite.mceSmilie374{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px -64px}img.mceSmilieSprite.mceSmilie375{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px -64px}img.mceSmilieSprite.mceSmilie376{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -64px}img.mceSmilieSprite.mceSmilie377{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -64px}img.mceSmilieSprite.mceSmilie378{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -64px}img.mceSmilieSprite.mceSmilie379{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -64px}img.mceSmilieSprite.mceSmilie380{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -96px}img.mceSmilieSprite.mceSmilie381{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -32px -96px}img.mceSmilieSprite.mceSmilie382{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -64px -96px}img.mceSmilieSprite.mceSmilie383{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -96px -96px}img.mceSmilieSprite.mceSmilie384{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -128px -96px}img.mceSmilieSprite.mceSmilie385{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -160px -96px}img.mceSmilieSprite.mceSmilie386{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -192px -96px}img.mceSmilieSprite.mceSmilie387{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -224px -96px}img.mceSmilieSprite.mceSmilie388{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -256px -96px}img.mceSmilieSprite.mceSmilie389{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -288px -96px}img.mceSmilieSprite.mceSmilie390{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -320px -96px}img.mceSmilieSprite.mceSmilie391{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -352px -96px}img.mceSmilieSprite.mceSmilie392{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -384px -96px}img.mceSmilieSprite.mceSmilie393{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -416px -96px}img.mceSmilieSprite.mceSmilie394{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -448px -96px}img.mceSmilieSprite.mceSmilie395{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -96px}img.mceSmilieSprite.mceSmilie396{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -512px -96px}img.mceSmilieSprite.mceSmilie397{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -544px -96px}img.mceSmilieSprite.mceSmilie398{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -576px -96px}img.mceSmilieSprite.mceSmilie399{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -608px -96px}img.mceSmilieSprite.mceSmilie400{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -640px -96px}img.mceSmilieSprite.mceSmilie401{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -672px -96px}img.mceSmilieSprite.mceSmilie402{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -704px -96px}img.mceSmilieSprite.mceSmilie403{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -736px -96px}img.mceSmilieSprite.mceSmilie404{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -768px -96px}img.mceSmilieSprite.mceSmilie405{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -800px -96px}img.mceSmilieSprite.mceSmilie406{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -832px -96px}img.mceSmilieSprite.mceSmilie407{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -96px}img.mceSmilieSprite.mceSmilie408{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px -96px}img.mceSmilieSprite.mceSmilie409{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px -96px}img.mceSmilieSprite.mceSmilie410{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -960px -96px}img.mceSmilieSprite.mceSmilie411{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -992px -96px}img.mceSmilieSprite.mceSmilie412{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px -96px}img.mceSmilieSprite.mceSmilie413{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px -96px}img.mceSmilieSprite.mceSmilie414{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -96px}img.mceSmilieSprite.mceSmilie120{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -96px}img.mceSmilieSprite.mceSmilie168{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -96px}img.mceSmilieSprite.mceSmilie98{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -961px -352px}img.mceSmilieSprite.mceSmilie99{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -816px -352px}img.mceSmilieSprite.mceSmilie103{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -352px}img.mceSmilieSprite.mceSmilie104{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -832px -352px}img.mceSmilieSprite.mceSmilie105{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -912px -352px}img.mceSmilieSprite.mceSmilie106{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -880px -352px}img.mceSmilieSprite.mceSmilie107{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -800px -352px}img.mceSmilieSprite.mceSmilie108{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px -352px}img.mceSmilieSprite.mceSmilie109{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -848px -352px}img.mceSmilieSprite.mceSmilie237{width:17px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -944px -352px}img.mceSmilieSprite.mceSmilie238{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px -352px}img.mceSmilieSprite.mceSmilie239{width:16px;height:17px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -977px -352px}img.mceSmilieSprite.mceSmilie100{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -264px -352px}img.mceSmilieSprite.mceSmilie111{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -96px -352px}img.mceSmilieSprite.mceSmilie112{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -24px -352px}img.mceSmilieSprite.mceSmilie210{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -72px -352px}img.mceSmilieSprite.mceSmilie211{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -336px -352px}img.mceSmilieSprite.mceSmilie212{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -528px -352px}img.mceSmilieSprite.mceSmilie214{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -504px -352px}img.mceSmilieSprite.mceSmilie215{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -312px -352px}img.mceSmilieSprite.mceSmilie222{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -600px -352px}img.mceSmilieSprite.mceSmilie223{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -352px}img.mceSmilieSprite.mceSmilie224{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -432px -352px}img.mceSmilieSprite.mceSmilie225{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -552px -352px}img.mceSmilieSprite.mceSmilie227{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -384px -352px}img.mceSmilieSprite.mceSmilie228{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -288px -352px}img.mceSmilieSprite.mceSmilie229{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -360px -352px}img.mceSmilieSprite.mceSmilie241{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -120px -352px}img.mceSmilieSprite.mceSmilie242{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -144px -352px}img.mceSmilieSprite.mceSmilie243{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -168px -352px}img.mceSmilieSprite.mceSmilie244{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -192px -352px}img.mceSmilieSprite.mceSmilie245{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -216px -352px}img.mceSmilieSprite.mceSmilie246{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -240px -352px}img.mceSmilieSprite.mceSmilie247{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -408px -352px}img.mceSmilieSprite.mceSmilie248{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -456px -352px}img.mceSmilieSprite.mceSmilie249{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -352px}img.mceSmilieSprite.mceSmilie250{width:24px;height:24px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -576px -352px}img.mceSmilieSprite.mceSmilie110{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -448px -256px}img.mceSmilieSprite.mceSmilie122{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -800px -256px}img.mceSmilieSprite.mceSmilie123{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px -256px}img.mceSmilieSprite.mceSmilie125{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -288px}img.mceSmilieSprite.mceSmilie126{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -256px}img.mceSmilieSprite.mceSmilie127{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -640px -256px}img.mceSmilieSprite.mceSmilie128{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -256px}img.mceSmilieSprite.mceSmilie129{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -288px}img.mceSmilieSprite.mceSmilie130{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -544px -256px}img.mceSmilieSprite.mceSmilie131{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -256px}img.mceSmilieSprite.mceSmilie132{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -672px -256px}img.mceSmilieSprite.mceSmilie133{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -960px -256px}img.mceSmilieSprite.mceSmilie134{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -256px}img.mceSmilieSprite.mceSmilie135{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px -256px}img.mceSmilieSprite.mceSmilie136{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -576px -256px}img.mceSmilieSprite.mceSmilie140{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -352px -256px}img.mceSmilieSprite.mceSmilie141{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -32px -256px}img.mceSmilieSprite.mceSmilie142{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -608px -256px}img.mceSmilieSprite.mceSmilie143{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -736px -256px}img.mceSmilieSprite.mceSmilie144{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -288px}img.mceSmilieSprite.mceSmilie146{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -128px -256px}img.mceSmilieSprite.mceSmilie147{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -768px -256px}img.mceSmilieSprite.mceSmilie150{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -160px -256px}img.mceSmilieSprite.mceSmilie152{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -416px -256px}img.mceSmilieSprite.mceSmilie153{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -64px -256px}img.mceSmilieSprite.mceSmilie156{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px -256px}img.mceSmilieSprite.mceSmilie157{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -992px -256px}img.mceSmilieSprite.mceSmilie158{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -96px -256px}img.mceSmilieSprite.mceSmilie159{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -320px -256px}img.mceSmilieSprite.mceSmilie160{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -832px -256px}img.mceSmilieSprite.mceSmilie161{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px -256px}img.mceSmilieSprite.mceSmilie162{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -384px -256px}img.mceSmilieSprite.mceSmilie172{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -704px -256px}img.mceSmilieSprite.mceSmilie173{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -256px}img.mceSmilieSprite.mceSmilie174{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -256px}img.mceSmilieSprite.mceSmilie251{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -224px -256px}img.mceSmilieSprite.mceSmilie252{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -256px}img.mceSmilieSprite.mceSmilie253{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -192px -256px}img.mceSmilieSprite.mceSmilie254{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -256px -256px}img.mceSmilieSprite.mceSmilie255{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -288px -256px}img.mceSmilieSprite.mceSmilie256{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -288px}img.mceSmilieSprite.mceSmilie179{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -384px}img.mceSmilieSprite.mceSmilie180{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -180px -384px}img.mceSmilieSprite.mceSmilie181{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -240px -384px}img.mceSmilieSprite.mceSmilie182{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -360px -384px}img.mceSmilieSprite.mceSmilie183{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -660px -384px}img.mceSmilieSprite.mceSmilie184{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -436px}img.mceSmilieSprite.mceSmilie185{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -60px -436px}img.mceSmilieSprite.mceSmilie186{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -180px -436px}img.mceSmilieSprite.mceSmilie187{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -300px -436px}img.mceSmilieSprite.mceSmilie188{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -360px -436px}img.mceSmilieSprite.mceSmilie189{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -436px}img.mceSmilieSprite.mceSmilie190{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -600px -436px}img.mceSmilieSprite.mceSmilie191{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -780px -436px}img.mceSmilieSprite.mceSmilie192{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -60px -384px}img.mceSmilieSprite.mceSmilie193{width:60px;height:50px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -120px -384px}img.mceSmilieSprite.mceSmilie194{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -300px -384px}img.mceSmilieSprite.mceSmilie195{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -384px}img.mceSmilieSprite.mceSmilie196{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -600px -384px}img.mceSmilieSprite.mceSmilie197{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -780px -384px}img.mceSmilieSprite.mceSmilie198{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -120px -436px}img.mceSmilieSprite.mceSmilie199{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -240px -436px}img.mceSmilieSprite.mceSmilie200{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -420px -436px}img.mceSmilieSprite.mceSmilie201{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -540px -436px}img.mceSmilieSprite.mceSmilie202{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -660px -436px}img.mceSmilieSprite.mceSmilie203{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -540px -384px}img.mceSmilieSprite.mceSmilie204{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -720px -436px}img.mceSmilieSprite.mceSmilie205{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -420px -384px}img.mceSmilieSprite.mceSmilie206{width:60px;height:52px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -720px -384px}img.mceSmilieSprite.mceSmilie258{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -320px}img.mceSmilieSprite.mceSmilie259{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -320px}img.mceSmilieSprite.mceSmilie614{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -640px -352px}img.mceSmilieSprite.mceSmilie617{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1216px -352px}img.mceSmilieSprite.mceSmilie543{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -288px}img.mceSmilieSprite.mceSmilie582{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -320px}img.mceSmilieSprite.mceSmilie576{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px -288px}img.mceSmilieSprite.mceSmilie544{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -32px -288px}img.mceSmilieSprite.mceSmilie613{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -704px -352px}img.mceSmilieSprite.mceSmilie618{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1216px -384px}img.mceSmilieSprite.mceSmilie615{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -672px -352px}img.mceSmilieSprite.mceSmilie616{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -224px}img.mceSmilieSprite.mceSmilie545{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -64px -288px}img.mceSmilieSprite.mceSmilie583{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -320px}img.mceSmilieSprite.mceSmilie546{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -96px -288px}img.mceSmilieSprite.mceSmilie547{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -128px -288px}img.mceSmilieSprite.mceSmilie584{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px -352px}img.mceSmilieSprite.mceSmilie585{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px -352px}img.mceSmilieSprite.mceSmilie586{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -352px}img.mceSmilieSprite.mceSmilie548{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -160px -288px}img.mceSmilieSprite.mceSmilie587{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -352px}img.mceSmilieSprite.mceSmilie549{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -192px -288px}img.mceSmilieSprite.mceSmilie572{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px -288px}img.mceSmilieSprite.mceSmilie589{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -352px}img.mceSmilieSprite.mceSmilie550{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -224px -288px}img.mceSmilieSprite.mceSmilie551{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -256px -288px}img.mceSmilieSprite.mceSmilie552{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -288px -288px}img.mceSmilieSprite.mceSmilie553{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -320px -288px}img.mceSmilieSprite.mceSmilie610{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -224px}img.mceSmilieSprite.mceSmilie577{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px -320px}img.mceSmilieSprite.mceSmilie554{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -352px -288px}img.mceSmilieSprite.mceSmilie555{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -384px -288px}img.mceSmilieSprite.mceSmilie556{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -416px -288px}img.mceSmilieSprite.mceSmilie557{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -448px -288px}img.mceSmilieSprite.mceSmilie580{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -992px -320px}img.mceSmilieSprite.mceSmilie609{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -224px}img.mceSmilieSprite.mceSmilie590{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -384px}img.mceSmilieSprite.mceSmilie574{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -992px -288px}img.mceSmilieSprite.mceSmilie588{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -352px}img.mceSmilieSprite.mceSmilie594{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -384px}img.mceSmilieSprite.mceSmilie558{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -288px}img.mceSmilieSprite.mceSmilie575{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px -288px}img.mceSmilieSprite.mceSmilie573{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -960px -288px}img.mceSmilieSprite.mceSmilie559{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -512px -288px}img.mceSmilieSprite.mceSmilie560{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -544px -288px}img.mceSmilieSprite.mceSmilie561{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -576px -288px}img.mceSmilieSprite.mceSmilie595{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -384px}img.mceSmilieSprite.mceSmilie578{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px -320px}img.mceSmilieSprite.mceSmilie579{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -960px -320px}img.mceSmilieSprite.mceSmilie207{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -608px -288px}img.mceSmilieSprite.mceSmilie611{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -768px -352px}img.mceSmilieSprite.mceSmilie612{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -736px -352px}img.mceSmilieSprite.mceSmilie562{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -640px -288px}img.mceSmilieSprite.mceSmilie563{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -672px -288px}img.mceSmilieSprite.mceSmilie581{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px -320px}img.mceSmilieSprite.mceSmilie564{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -704px -288px}img.mceSmilieSprite.mceSmilie565{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -736px -288px}img.mceSmilieSprite.mceSmilie596{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -448px}img.mceSmilieSprite.mceSmilie566{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -768px -288px}img.mceSmilieSprite.mceSmilie598{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -448px}img.mceSmilieSprite.mceSmilie567{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -800px -288px}img.mceSmilieSprite.mceSmilie597{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -448px}img.mceSmilieSprite.mceSmilie568{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -832px -288px}img.mceSmilieSprite.mceSmilie569{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -288px}img.mceSmilieSprite.mceSmilie570{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px -288px}img.mceSmilieSprite.mceSmilie571{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -320px}img.mceSmilieSprite.mceSmilie608{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px -320px}img.mceSmilieSprite.mceSmilie599{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -448px}img.mceSmilieSprite.mceSmilie600{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -416px}img.mceSmilieSprite.mceSmilie591{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1120px -416px}img.mceSmilieSprite.mceSmilie592{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1152px -416px}img.mceSmilieSprite.mceSmilie593{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1184px -416px}img.mceSmilieSprite.mceSmilie601{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -896px -448px}img.mceSmilieSprite.mceSmilie602{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -928px -448px}img.mceSmilieSprite.mceSmilie603{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -960px -448px}img.mceSmilieSprite.mceSmilie604{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -992px -448px}img.mceSmilieSprite.mceSmilie605{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1024px -448px}img.mceSmilieSprite.mceSmilie606{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1056px -448px}img.mceSmilieSprite.mceSmilie607{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1088px -448px}img.mceSmilieSprite.mceSmilie514{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat 0px -320px}img.mceSmilieSprite.mceSmilie515{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -32px -320px}img.mceSmilieSprite.mceSmilie516{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -736px -320px}img.mceSmilieSprite.mceSmilie517{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -768px -320px}img.mceSmilieSprite.mceSmilie518{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -704px -320px}img.mceSmilieSprite.mceSmilie519{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -800px -320px}img.mceSmilieSprite.mceSmilie520{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -576px -320px}img.mceSmilieSprite.mceSmilie521{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -672px -320px}img.mceSmilieSprite.mceSmilie522{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -608px -320px}img.mceSmilieSprite.mceSmilie523{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -832px -320px}img.mceSmilieSprite.mceSmilie524{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -640px -320px}img.mceSmilieSprite.mceSmilie525{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -448px -320px}img.mceSmilieSprite.mceSmilie526{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -480px -320px}img.mceSmilieSprite.mceSmilie527{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -416px -320px}img.mceSmilieSprite.mceSmilie528{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -224px -320px}img.mceSmilieSprite.mceSmilie529{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -512px -320px}img.mceSmilieSprite.mceSmilie530{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -128px -320px}img.mceSmilieSprite.mceSmilie531{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -288px -320px}img.mceSmilieSprite.mceSmilie532{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -384px -320px}img.mceSmilieSprite.mceSmilie533{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -160px -320px}img.mceSmilieSprite.mceSmilie534{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -256px -320px}img.mceSmilieSprite.mceSmilie535{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -320px -320px}img.mceSmilieSprite.mceSmilie536{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -544px -320px}img.mceSmilieSprite.mceSmilie537{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -352px -320px}img.mceSmilieSprite.mceSmilie538{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -64px -320px}img.mceSmilieSprite.mceSmilie539{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -96px -320px}img.mceSmilieSprite.mceSmilie540{width:32px;height:32px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -192px -320px}img.mceSmilieSprite.mceSmilie1{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -924px -416px}img.mceSmilieSprite.mceSmilie2{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1014px -416px}img.mceSmilieSprite.mceSmilie3{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -984px -384px}img.mceSmilieSprite.mceSmilie4{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1044px -384px}img.mceSmilieSprite.mceSmilie5{width:15px;height:22px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1060px -416px}img.mceSmilieSprite.mceSmilie14{width:16px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1044px -416px}img.mceSmilieSprite.mceSmilie15{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1104px -384px}img.mceSmilieSprite.mceSmilie18{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -999px -416px}img.mceSmilieSprite.mceSmilie19{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -879px -384px}img.mceSmilieSprite.mceSmilie20{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -894px -384px}img.mceSmilieSprite.mceSmilie21{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -999px -384px}img.mceSmilieSprite.mceSmilie22{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -384px}img.mceSmilieSprite.mceSmilie23{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -954px -384px}img.mceSmilieSprite.mceSmilie24{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -939px -416px}img.mceSmilieSprite.mceSmilie25{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -864px -416px}img.mceSmilieSprite.mceSmilie26{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1029px -416px}img.mceSmilieSprite.mceSmilie28{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -894px -416px}img.mceSmilieSprite.mceSmilie29{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1089px -384px}img.mceSmilieSprite.mceSmilie30{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -879px -416px}img.mceSmilieSprite.mceSmilie31{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1059px -384px}img.mceSmilieSprite.mceSmilie33{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1089px -384px}img.mceSmilieSprite.mceSmilie34{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1074px -384px}img.mceSmilieSprite.mceSmilie35{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -924px -384px}img.mceSmilieSprite.mceSmilie37{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -969px -416px}img.mceSmilieSprite.mceSmilie38{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -984px -416px}img.mceSmilieSprite.mceSmilie40{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1014px -384px}img.mceSmilieSprite.mceSmilie68{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -954px -416px}img.mceSmilieSprite.mceSmilie69{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -969px -384px}img.mceSmilieSprite.mceSmilie70{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -1029px -384px}img.mceSmilieSprite.mceSmilie71{width:15px;height:15px;background:url('../../../../styles/default/xenforo/smilies/new/spritesheet.png') no-repeat -909px -416px}.visibleResponsiveFull{display:inherit !important}.visibleResponsiveWide,.visibleResponsiveMedium,.visibleResponsiveNarrow{display:none !important}.hiddenResponsiveFull{display:none !important}.hiddenResponsiveWide,.hiddenResponsiveMedium,.hiddenResponsiveNarrow{display:inherit !important}@media (max-width:800px){.Responsive
+.visibleResponsiveFull{display:none !important}.Responsive
+.hiddenResponsiveFull{display:inherit !important}}@media (min-width:611px) AND (max-width:800px){.Responsive
+.visibleResponsiveWide{display:inherit !important}.Responsive
+.hiddenResponsiveWide{display:none !important}}@media (min-width:481px) AND (max-width:610px){.Responsive
+.visibleResponsiveMedium{display:inherit !important}.Responsive
+.hiddenResponsiveMedium{display:none !important}}@media (max-width:480px){.Responsive
+.visibleResponsiveNarrow{display:inherit !important}.Responsive
+.hiddenResponsiveNarrow{display:none !important}}@media (max-width:480px){.Responsive
+.xenTooltip.statusTip{width:auto}.Responsive
+.xenPreviewTooltip{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;width:auto;max-width:100%}.Responsive .xenPreviewTooltip
+.arrow{display:none}.Responsive .previewTooltip
+.avatar{display:none}.Responsive .previewTooltip
+.text{margin-left:0}}.xenForm{margin:10px
+auto;max-width:800px}.xenOverlay
+.xenForm{max-width:600px}.xenForm .ctrlUnit>dd{width:68%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;padding-right:30px}.xenForm .ctrlUnit > dd
+.textCtrl{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;width:100%}.xenForm .ctrlUnit > dd .textCtrl[size],
+.xenForm .ctrlUnit > dd
+.textCtrl.autoSize{width:auto !important;min-width:0}.xenForm .ctrlUnit > dd
+.textCtrl.number{width:150px}.xenForm>.sectionHeader:first-child,.xenForm>fieldset>.sectionHeader:first-child{margin-top:0}.xenForm fieldset,
+.xenForm
+.formGroup{border-top:1px solid rgb(31, 26, 43);margin:20px
+auto}.xenForm>fieldset:first-child,.xenForm>.formGroup:first-child{border-top:none;margin:auto}.xenForm .PreviewContainer + fieldset,
+.xenForm .PreviewContainer+.formGroup{border-top:none}.xenForm fieldset + .ctrlUnit,
+.xenForm .formGroup + .ctrlUnit,
+.xenForm
+.submitUnit{border-top:1px solid rgb(31, 26, 43)}.xenForm fieldset + .ctrlUnit,
+.xenForm .formGroup+.ctrlUnit{padding-top:10px}.xenForm .primaryContent + .submitUnit,
+.xenForm .secondaryContent+.submitUnit{margin-top:0;border-top:none}.xenForm .ctrlUnit.submitUnit
+dd{line-height:31px;padding-top:0}.ctrlUnit.submitUnit dd .explain,
+.ctrlUnit.submitUnit dd .text,
+.ctrlUnit.submitUnit dd
+label{line-height:1.28}.xenOverlay .ctrlUnit.submitUnit dd,
+.Menu .ctrlUnit.submitUnit dd,
+#QuickSearch .ctrlUnit.submitUnit
+dd{border:none;background:none}.xenForm
+.ctrlUnit{}.xenForm
+.ctrlUnit.limited{display:none}.xenForm .sectionHeader + fieldset,
+.xenForm .heading + fieldset,
+.xenForm .subHeading + fieldset,
+.xenForm .sectionHeader + .formGroup,
+.xenForm .heading + .formGroup,
+.xenForm .subHeading+.formGroup{border-top:none;margin-top:0}.xenForm
+.formHiderHeader{margin:10px;font-size:15px;font-weight:bold}.textCtrl{font-size:15px;font-family:Lato,Helvetica,Arial,sans-serif;color:rgb(216, 216, 216);background-color:rgb(24, 24, 24);padding:5px
+3px;margin-bottom:2px;border:1px
+solid rgb(65,65,65);-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px;outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;min-height:30px}select.textCtrl{word-wrap:normal;-webkit-appearance:menulist}select[multiple].textCtrl,select[size].textCtrl{-webkit-appearance:listbox}select[size="0"].textCtrl,select[size="1"].textCtrl{-webkit-appearance:menulist}textarea.textCtrl{word-wrap:break-word}.textCtrl:focus,.textCtrl.Focus{border-color:rgb(108,67,255)}textarea.textCtrl:focus{}input.textCtrl.disabled,
+textarea.textCtrl.disabled,
+.disabled
+.textCtrl{font-style:italic;color:rgb(100,100,100);background-color:rgb(245,245,245)}.textCtrl.prompt{color:rgb(187,187,187)}.textCtrl:-moz-placeholder{color:rgb(187,187,187)}.textCtrl::-moz-placeholder{color:rgb(187,187,187)}.textCtrl::-webkit-input-placeholder{color:rgb(187,187,187)}.textCtrl:-ms-input-placeholder{color:rgb(187,187,187)}.textCtrl.autoSize{width:auto !important}.textCtrl.number,
+.textCtrl.number
+input{text-align:right;width:150px}.textCtrl.fillSpace{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;_width:95%}.textCtrl.code,
+.textCtrl.code
+input{font-family:Consolas,"Courier New",Courier,monospace;white-space:pre;word-wrap:normal;direction:ltr}input.textCtrl[type="password"]{font-family:Verdana,Geneva,Arial,Helvetica,sans-serif}input[type="email"],input[type="url"]{direction:ltr}.textCtrl.titleCtrl,
+.textCtrl.titleCtrl
+input{font-size:18pt}textarea.textCtrl.Elastic{max-height:300px}.textCtrlWrap{display:inline-block}.textCtrlWrap
+input.textCtrl{padding:0
+!important;margin:0
+!important;border:none !important;background:transparent !important;-webkit-border-radius:0 !important;-moz-border-radius:0 !important;-khtml-border-radius:0 !important;border-radius:0 !important}.textCtrlWrap.blockInput
+input.textCtrl{border-top:1px solid rgb(65, 65, 65) !important;margin-top:4px !important}.button{font-style:normal;font-weight:bold;font-size:15px;color:rgb(201, 201, 201);background-color:rgb(70, 70, 70);padding:0px
+6px;border-width:0;border-top-color:rgb(255, 255, 255);-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px;text-align:center;outline:none;line-height:30px;display:inline-block;cursor:pointer;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;-webkit-box-shadow:inset 0 -2px 0 rgba(0,0,0,.1);-moz-box-shadow:inset 0 -2px 0 rgba(0,0,0,.1);-khtml-box-shadow:inset 0 -2px 0 rgba(0,0,0,.1);box-shadow:inset 0 -2px 0 rgba(0,0,0,.1);-webkit-appearance:none;height:30px}.button.smallButton{font-size:11px;padding:0px
+4px;line-height:21px;height:21px;-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px}.button.primary{color:#FFF;background-color:rgb(108, 67, 255)}input.button.disabled,
+a.button.disabled,
+input.button.primary.disabled,
+a.button.primary.disabled,
+html .buttonProxy
+.button.disabled{color:rgb(226, 226, 226);background-color:rgb(154, 154, 154);-webkit-box-shadow:0 0 0 transparent;-moz-box-shadow:0 0 0 transparent;-khtml-box-shadow:0 0 0 transparent;box-shadow:0 0 0 transparent}.button::-moz-focus-inner{border:none}a.button{display:inline-block;color:rgb(201, 201, 201)}.button:hover,
+.button[href]:hover,
+.buttonProxy:hover
+.button{color:#FFF;text-decoration:none;background-color:rgb(34,32,37);border-top-color:white}.button:focus{border-color:rgb(70, 70, 70)}.button:active,
+.button[href]:active,
+.button.ToggleButton.checked,
+.buttonProxy:active
+.button{color:rgb(65, 65, 65);background-color:rgb(216, 216, 216);border-bottom-color:white;-webkit-box-shadow:0px 0px 0px 0px transparent;-moz-box-shadow:0px 0px 0px 0px transparent;-khtml-box-shadow:0px 0px 0px 0px transparent;box-shadow:0px 0px 0px 0px transparent;outline:0}.button.ToggleButton{cursor:default;width:auto;color: }.button.ToggleButton.checked{background-color:rgb(255,150,50)}.button.inputSupplementary{width:25px;position:absolute;top:0px;right:0px}.button.inputSupplementary.add{color:green}.button.inputSupplementary.delete{color:red}.submitUnit
+.button{min-width:100px;*min-width:0}.xenForm
+.ctrlUnit{position:relative;margin:10px
+auto}.xenForm
+.ctrlUnit{zoom:1}.xenForm .ctrlUnit:after{content:'.';display:block;height:0;clear:both;visibility:hidden}.xenForm
+.ctrlUnit.fullWidth{overflow:visible}.xenForm .ctrlUnit>dt{padding-top:4px;padding-right:15px;text-align:right;vertical-align:top;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;width:32%;float:left}.xenForm .ctrlUnit>dt.explain{font-size:11px;text-align:justify}.xenForm .ctrlUnit.fullWidth dt,
+.xenForm .ctrlUnit.submitUnit.fullWidth
+dt{float:none;width:auto;text-align:left;height:auto}.xenForm .ctrlUnit.fullWidth
+dt{margin-bottom:2px}.xenForm .ctrlUnit > dt
+label{margin-left:30px}.xenForm .ctrlUnit.surplusLabel dt
+label{display:none}.ctrlUnit.sectionLink
+dt{text-align:left;font-size:11px}.ctrlUnit.sectionLink dt
+a{margin-left:11px}.ctrlUnit > dt
+dfn{font-style:italic;font-size:10px;color:rgb(159, 159, 159);margin-left:30px;display:block}.ctrlUnit.fullWidth dt
+dfn{display:inline;margin:0}.ctrlUnit > dt dfn b,
+.ctrlUnit > dt dfn
+strong{color:rgb(102, 102, 102)}.ctrlUnit > dt
+.error{font-size:10px;color:red;display:block}.ctrlUnit > dt dfn,
+.ctrlUnit > dt .error,
+.ctrlUnit > dt
+a{font-weight:normal}.xenForm .ctrlUnit.submitUnit
+dt{height:19px;display:block}.ctrlUnit.submitUnit
+dt.InProgress{background:transparent url('../../../../styles/uix/xenforo/widgets/ajaxload.info_B4B4DC_facebook.gif') no-repeat center center}.xenForm .ctrlUnit>dd{float:left}.xenForm .ctrlUnit.fullWidth>dd{float:none;width:auto;padding-left:30px}.ctrlUnit > dd
+.explain{font-size:13px;color:rgb(159, 159, 159);margin-top:2px}.ctrlUnit > dd .explain b,
+.ctrlUnit > dd .explain
+strong{color:rgb(102,102,102)}.ctrlUnit>dd>*>li{margin:4px
+0 8px;padding-left:1px}.ctrlUnit>dd>*>li:first-child>.textCtrl:first-child{margin-top: -3px}.ctrlUnit > dd
+.break{margin-bottom:0.75em;padding-bottom:0.75em}.ctrlUnit > dd
+.rule{border-bottom:1px solid rgb(31, 26, 43)}.ctrlUnit > dd
+.ddText{margin-bottom:2px}.ctrlUnit > dd > * > li
+.hint{font-size:11px;color:rgb(159, 159, 159);margin-left:16px;margin-top:2px}.ctrlUnit > dd > * > li > ul,
+.ctrlUnit .disablerList,
+.ctrlUnit
+.indented{margin-left:16px}.ctrlUnit>dd>*>li>ul>li:first-child{margin-top:6px}.ctrlUnit > dd .disablerList > li,
+.ctrlUnit > dd .checkboxColumns > li,
+.ctrlUnit > dd .choiceList>li{margin-top:6px}.ctrlUnit > dd
+.helpLink{font-size:10px}.ctrlUnit.textValue
+dt{padding-top:0px}.button.spinBoxButton{font-family:Helvetica,Arial,sans-serif;font-size:11pt}.unitPairsJustified
+li{overflow:hidden}.unitPairsJustified li
+.label{float:left}.unitPairsJustified li
+.value{float:right}#calroot{margin-top: -1px;width:198px;padding:2px;background-color:rgb(47, 44, 54);font-size:11px;border:1px
+solid rgb(115, 115, 115);-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 15px #666;-moz-box-shadow:0 0 15px #666;-khtml-box-shadow:0 0 15px #666;box-shadow:0 0 15px #666;z-index:7500}#calhead{padding:2px
+0;height:22px}#caltitle{font-size:11pt;color:rgb(115,115,115);float:left;text-align:center;width:155px;line-height:20px}#calnext,#calprev{display:block;width:20px;height:20px;font-size:11pt;line-height:20px;text-align:center;float:left;cursor:pointer}#calnext{float:right}#calprev.caldisabled,#calnext.caldisabled{visibility:hidden}#caldays{height:14px;border-bottom:1px solid rgb(115, 115, 115)}#caldays
+span{display:block;float:left;width:28px;text-align:center;color:rgb(115,115,115)}#calweeks{margin-top:4px}.calweek{clear:left;height:22px}.calweek
+a{display:block;float:left;width:27px;height:20px;text-decoration:none;font-size:11px;margin-left:1px;text-align:center;line-height:20px;-webkit-border-radius:3px;-moz-border-radius:3px;-khtml-border-radius:3px;border-radius:3px}.calweek a:hover,.calfocus{background-color:rgb(45,45,45)}a.caloff{color:rgb(159,159,159)}a.caloff:hover{background-color:rgb(45,45,45)}a.caldisabled{background-color:#efefef !important;color:#ccc	!important;cursor:default}#caltoday{font-weight:bold}#calcurrent{background-color:rgb(115,115,115);color:rgb(45,45,45)}ul.autoCompleteList{background-color:rgb(45, 45, 45);border:1px
+solid rgb(70, 70, 70);padding:2px;font-size:11px;min-width:180px;_width:180px;z-index:1000}ul.autoCompleteList
+li{padding:3px
+3px;height:24px;line-height:24px}ul.autoCompleteList li:hover,
+ul.autoCompleteList
+li.selected{background-color:rgb(31, 26, 43);-webkit-border-radius:3px;-moz-border-radius:3px;-khtml-border-radius:3px;border-radius:3px}ul.autoCompleteList
+img.autoCompleteAvatar{float:left;margin-right:3px;width:24px;height:24px}ul.autoCompleteList li
+strong{font-weight:bold}.statusEditorCounter{color:green}.statusEditorCounter.warning{color:orange;font-weight:bold}.statusEditorCounter.error{color:red;font-weight:bold}.explain
+.statusHeader{display:inline}.explain
+.CurrentStatus{color:rgb(217, 217, 217);font-style:italic;padding-left:5px}.xenForm .ctrlUnit.fullWidth dd .bbCodeEditorContainer
+textarea{margin-left:0;min-height:200px}.bbCodeEditorContainer
+a{font-size:11px}.xenForm .ctrlUnit>dd{padding-top:4px}.xenForm .ctrlUnit.fullWidth>dd{padding-top:0}.xenForm .ctrlUnit > dd > input,
+.xenForm .ctrlUnit > dd > select,
+.xenForm .ctrlUnit > dd > textarea,
+.xenForm .ctrlUnit>dd>ul{margin-top: -4px}.xenForm .ctrlUnit.fullWidth > dd > input,
+.xenForm .ctrlUnit.submitUnit > dd > input,
+.xenForm .ctrlUnit.fullWidth > dd > select,
+.xenForm .ctrlUnit.submitUnit > dd > select,
+.xenForm .ctrlUnit.fullWidth > dd > textarea,
+.xenForm .ctrlUnit.submitUnit > dd > textarea,
+.xenForm .ctrlUnit.fullWidth > dd > ul,
+.xenForm .ctrlUnit.submitUnit>dd>ul{margin-top:0}.xenForm .checkboxColumns>dd>ul,ul.checkboxColumns{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:8px;-moz-column-gap:8px;column-gap:8px}.xenForm .checkboxColumns > dd > ul li,
+ul.checkboxColumns
+li{-webkit-column-break-inside:avoid;-moz-column-break-inside:avoid;column-break-inside:avoid;break-inside:avoid-column;margin-bottom:4px;padding-left:1px;display:inline-block;width:100%}.xenForm .checkboxColumns.blockLinksList > dd > ul li,
+ul.checkboxColumns.blockLinksList
+li{display:block}.xenForm .checkboxColumns.multiple>dd>ul{-webkit-column-count:1;-moz-column-count:1;column-count:1;-webkit-column-gap:0;-moz-column-gap:0;column-gap:0}.xenForm .checkboxColumns.multiple>dd{-webkit-column-count:2;-moz-column-count:2;column-count:2;-webkit-column-gap:8px;-moz-column-gap:8px;column-gap:8px}.xenForm .checkboxColumns.multiple>dd>ul{margin-bottom:18px}#recaptcha_image{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box;max-width:100%}#recaptcha_image
+img{max-width:100%}#helper_birthday{display:inline-block}#helper_birthday>li{display:inline}html[dir=rtl] #helper_birthday input,
+html[dir=rtl] #helper_birthday
+select{direction:rtl}@media (max-width:480px){.Responsive .xenForm .ctrlUnit>dt{float:none;width:auto;text-align:left;height:auto}.Responsive .xenForm .ctrlUnit > dt
+label{margin-left:0}.Responsive .xenForm .ctrlUnit.submitUnit
+dt{height:auto}.Responsive .xenForm .ctrlUnit > dd,
+.Responsive .xenForm .ctrlUnit.fullWidth
+dd{float:none;width:auto;text-align:left;height:auto;padding-left:0;padding-right:0;overflow:hidden}.Responsive .xenForm .checkboxColumns > dd > ul,
+.Responsive
+ul.checkboxColumns{-webkit-column-count:1;-moz-column-count:1;column-count:1}.Responsive
+#ctrl_upload{max-width:200px}.Responsive .xenForm .ctrlUnit > dd .textCtrl[size],
+.Responsive .xenForm .ctrlUnit > dd
+.textCtrl.autoSize{width:100% !important}.Responsive .xenForm .ctrlUnit > dd > input,
+.Responsive .xenForm .ctrlUnit > dd > select,
+.Responsive .xenForm .ctrlUnit > dd > textarea,
+.Responsive .xenForm .ctrlUnit>dd>ul{margin-top: -0}}@media (max-width:610px){.Responsive .insideSidebar .xenForm .ctrlUnit>dt{float:none;width:auto;text-align:left;height:auto}.Responsive .insideSidebar .xenForm .ctrlUnit > dt
+label{margin-left:0}.Responsive .insideSidebar .xenForm .ctrlUnit.submitUnit
+dt{height:auto}.Responsive .xenForm
+.ctrlUnit{padding:0
+8px}.Responsive .xenForm.formOverlay
+.ctrlUnit{padding:0}.Responsive .ctrlUnit > dt
+dfn{margin-left:0}.Responsive .insideSidebar .xenForm .ctrlUnit > dd,
+.Responsive .insideSidebar .xenForm .ctrlUnit.fullWidth
+dd{float:none;width:auto;text-align:left;height:auto;padding-left:0;overflow:hidden}.Responsive .insideSidebar .xenForm .ctrlUnit > dd .textCtrl[size],
+.Responsive .insideSidebar .xenForm .ctrlUnit > dd
+.textCtrl.autoSize{width:100% !important}.Responsive .insideSidebar .xenForm .ctrlUnit > dd > input,
+.Responsive .insideSidebar .xenForm .ctrlUnit > dd > select,
+.Responsive .insideSidebar .xenForm .ctrlUnit > dd > textarea,
+.Responsive .insideSidebar .xenForm .ctrlUnit>dd>ul{margin-top: -0}}@media (max-device-width:568px){.Responsive
+.textCtrl{font-size:16px}}#header{}#header .pageWidth
+.pageContent{zoom:1}#header .pageWidth .pageContent:after{content:'.';display:block;height:0;clear:both;visibility:hidden}#logo{display:block;float:left;line-height:116px;*line-height:120px;height:120px;width:100%;vertical-align:middle;text-align:left}#logo
+span{*display:inline-block;*height:100%}#logo a:hover{text-decoration:none}#logo
+img{vertical-align:middle;max-width:100%}#visitorInfo{float:right;min-width:250px;_width:250px;overflow:hidden;zoom:1;background:rgb(65, 65, 65);padding:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;margin:10px
+0;border:1px
+solid rgb(233, 233, 233);color:rgb(233, 233, 233)}#visitorInfo
+.avatar{float:left;display:block}#visitorInfo .avatar
+.img{border-color:rgb(115, 115, 115)}#visitorInfo
+.username{font-size:18px;text-shadow:0 0 0 transparent, 1px 1px 10px white;color:rgb(233,233,233);white-space:nowrap;word-wrap:normal}#alerts{zoom:1}#alerts
+#alertMessages{padding-left:5px}#alerts
+li.alertItem{font-size:11px}#alerts
+.label{color:rgb(233, 233, 233)}@media (max-width: 610px){#logo{text-align:center}html{background-image:none}}.footer
+.pageContent{font-size:15px;background-color:rgb(45, 45, 45);padding-right:8px;padding-left:8px;border:1px
+solid rgb(70, 70, 70);-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;zoom:1;line-height:50px;min-height:20px;height:50px}.footer a,
+.footer a:visited{padding-right:8px;padding-left:8px;display:block}.footer a:hover,
+.footer a:active{color:rgb(108, 67, 255)}.footerLinks a:after{display:inline-block;content:"•";position:relative;left:6px;width:0px}.footerLinks li:nth-last-child(2) a:after{display:none}.footerLinks .topLink a:after{display:none}.footer
+.choosers{padding-right:8px;float:left;overflow:hidden;zoom:1;text-align:left}.footer .choosers
+dt{display:none}.footer .choosers
+dd{float:left}.footerLinks{float:right;zoom:1}.footerLinks
+li{float:left}.footerLinks
+a.globalFeed{width:14px;height:14px;display:block;text-indent: -9999px;white-space:nowrap;background:url('../../../../styles/uix/xenforo/xenforo-ui-sprite.png') no-repeat -112px -16px;padding:0;margin:5px}.footerLegal
+.pageContent{font-size:11px;overflow:hidden;zoom:1;padding:5px
+5px 15px;text-align:center}#legal{float:right}#legal
+li{float:left;margin-left:10px}@media (max-width:610px){.Responsive .footerLinks a.globalFeed,
+.Responsive .footerLinks a.topLink,
+.Responsive .footerLinks
+a.homeLink{display:none}.Responsive .footerLegal
+.debugInfo{clear:both}}@media (max-width:480px){.Responsive #copyright
+span{display:none}}.footer
+.pageContent{zoom:1}.footer .pageContent:after{content:'.';display:block;height:0;clear:both;visibility:hidden}#copyright{color:rgb(102,102,102)}#legal{clear:both}ul.uix_socialMediaLinks{clear:both;float:none;margin:15px
+0}footer .uix_socialMediaLinks>li>a{width:48px;height:48px;font-size:28px;padding-top:3px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}footer .footerLegal
+.pageContent{padding:0px;margin:0px;clear:both;background:rgb(31, 31, 31);border-top:4px solid rgb(108,67,255)}.footerBlock{width:100%;padding-right:300px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.footerBlock.premium{padding-right:0px}.footerColumn:first-child{border-right:1px solid rgb(255,255,255);border-right:1px solid rgba(255,255,255, .1);_border-right:1px solid rgb(255,255,255)}.footerColumn:nth-child(2){border-left:1px solid rgb(0,0,0);border-left:1px solid rgba(0,0,0, .1);_border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(255,255,255);border-right:1px solid rgba(255,255,255, .1);_border-right:1px solid rgb(255,255,255)}.footerColumn:last-child{border-left:1px solid rgb(0,0,0);border-left:1px solid rgba(0,0,0, .1);_border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(255,255,255);border-right:1px solid rgba(255,255,255, .1);_border-right:1px solid rgb(255,255,255)}.footerBlock.premium .footerColumn:last-child{border-right:0px}.footerColumn{width:33.33%;float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;padding:20px
+.5%;text-align:center;height:250px}.footerColumn .linkList
+h1{width:100%;padding:8px
+0px;background:#333;font-size:14px;font-weight:bold;font-family:arial,helvetica,clean,sans-serif;background:rgb(108, 67, 255);color:#fff;margin-bottom:3px}.footerColumn .linkList
+li{font-size:12px;background:rgb(70, 70, 70);margin:3px
+0px}.footerColumn .linkList li
+a{padding:3px
+0;display:block}.footerColumn .linkList li a:hover{background:rgb(31,26,43)}#otherFooterBlock{width:300px;height:250px;display:block;position:relative;float:right;background:rgb(45, 45, 45)}@media (max-width: 1070px){.footerColumn{width:100%;height:auto;border:none;padding:20px
+2%}}@media (max-width: 600px){#otherFooterBlock{float:none;margin:0px
+auto}.footerBlock{padding-right:0px}}.debugInfo{position:fixed;bottom:0px;right:0px;background:url(https://smashboards.com/rgba.php?r=26&amp;g=21&amp;b=32&amp;a=165);background:rgba(26, 21, 32, .65);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A51A1520,endColorstr=#A51A1520);padding:4px
+6px;-webkit-border-top-left-radius:4px;-moz-border-radius-topleft:4px;-khtml-border-top-left-radius:4px;border-top-left-radius:4px}.breadBoxTop,.breadBoxBottom{padding:0;margin:16px
+0;overflow:hidden;zoom:1;clear:both;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.breadBoxTop{}.breadBoxTop
+.topCtrl{margin-left:8px;float:right;line-height:30px}.breadcrumb{font-size:15px;color:rgb(115,115,115);background-color:rgb(45,45,45);overflow:hidden;zoom:1;max-width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;height:30px}.breadcrumb.showAll{height:auto}.breadcrumb
+.boardTitle{display:none}.breadcrumb
+.crust{display:block;float:left;position:relative;zoom:1;max-width:50%}.breadcrumb .crust
+a.crumb{cursor:pointer;color:rgb(108, 67, 255);text-decoration:none;background-color:rgb(45, 45, 45);padding:0
+10px 0 18px;margin-bottom: -1px;border-bottom:1px solid rgb(26, 21, 32);outline:0
+none;-moz-outline-style:0 none;display:block;_border-bottom:none;line-height:30px}.breadcrumb .crust a.crumb>span{display:block;text-overflow:ellipsis;word-wrap:normal;white-space:nowrap;overflow:hidden;max-width:100%}.breadcrumb .crust:first-child a.crumb,
+.breadcrumb .crust.firstVisibleCrumb
+a.crumb{padding-left:10px;border-top-left-radius:;border-bottom-left-radius: }.breadcrumb .crust:last-child
+a.crumb{font-weight:bold;color:rgb(108, 67, 255)}.breadcrumb .crust
+.arrow{border:20px
+solid transparent;border-right:1px none black;border-left-width:10px;border-left-color:rgb(26, 21, 32);-moz-border-right-colors:rgb(26, 21, 32);display:block;position:absolute;right: -10px;top:0px;z-index:50;width:0px;height:0px}.breadcrumb .crust .arrow
+span{border:20px
+solid transparent;border-right:1px none black;border-left-width:10px;border-left-color:rgb(45, 45, 45);-moz-border-right-colors:rgb(45, 45, 45);display:block;position:absolute;left: -11px;top: -20px;z-index:51;white-space:nowrap;overflow:hidden;text-indent:9999px;width:0px;height:0px}.breadcrumb .crust:hover
+a.crumb{color:;background-color:rgb(65, 65, 65)}.breadcrumb .crust:hover .arrow
+span{border-left-color:rgb(65, 65, 65)}.breadcrumb .crust
+.arrow{_display:none}.breadcrumb
+.jumpMenuTrigger{font-size:22px;color:rgb(108, 67, 255);background-color:transparent;padding-right:10px;padding-left:10px;display:inline-block;float:right;white-space:nowrap;overflow:hidden}@media (max-width:480px){.Responsive
+.breadBoxTop.withTopCtrl{display:table;table-layout:fixed;width:100%}.Responsive .breadBoxTop.withTopCtrl
+nav{display:table-header-group}.Responsive .breadBoxTop.withTopCtrl
+.topCtrl{display:table-footer-group;margin-top:5px;text-align:right}}#navigation
+.pageContent{height:72px;position:relative}#navigation
+.menuIcon{position:relative;font-size:18px;width:16px;display:inline-block;text-indent: -9999px}#navigation .PopupOpen .menuIcon:before,
+#navigation .navLink .menuIcon:before{zoom:1}#navigation .menuIcon:before{content:"";font-size:18px;position:absolute;top:0.7em;left:0;width:16px;height:2px;border-top:6px double currentColor;border-bottom:2px solid currentColor}.navTabs{font-size:14px;background-color:rgb(34, 32, 37);-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;background-clip:content-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;height:35px}.navTabs
+.navLeft{float:left}.navTabs
+.navRight{float:right}.navTabs
+.navTab{float:left;white-space:nowrap;word-wrap:normal}.navTabs .navLink,
+.navTabs
+.SplitCtrl{font-weight:bold;color:rgb(201, 201, 201);padding-right:7px;padding-left:7px;display:block;float:left;vertical-align:text-bottom;text-align:center;outline:0
+none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;height:33px;line-height:35px}.navTabs .navLink:hover{text-decoration:none}.navTabs
+.navTab.PopupClosed{position:relative}.navTabs .navTab.PopupClosed
+.navLink{color:rgb(65, 65, 65)}.navTabs .navTab.PopupClosed:hover{background-color:rgb(108, 67, 255)}.navTabs .navTab.PopupClosed .navLink:hover{color:rgb(24, 24, 24)}.navTabs .navTab.PopupClosed
+.arrowWidget{background-position: -64px 0}.navTabs .navTab.selected
+.navLink{position:relative;color:rgb(108, 67, 255);background-color:rgb(31, 26, 43);border-top-style:none}.navTabs .navTab.selected
+.arrowWidget{background-position: -32px 0}.navTabs .navTab.selected.PopupOpen
+.arrowWidget{background-position: -16px 0}.navTabs .navTab.PopupOpen
+.navLink{}.navTabs .navTab.selected.PopupOpen
+.navLink{color:#FFF;background-color:rgb(108, 67, 255);background-repeat:repeat-x;background-position:top;-webkit-border-top-left-radius:1px;-moz-border-radius-topleft:1px;-khtml-border-top-left-radius:1px;border-top-left-radius:1px;-webkit-border-top-right-radius:1px;-moz-border-radius-topright:1px;-khtml-border-top-right-radius:1px;border-top-right-radius:1px;-webkit-border-bottom-right-radius:0;-moz-border-radius-bottomright:0;-khtml-border-bottom-right-radius:0;border-bottom-right-radius:0;-webkit-border-bottom-left-radius:0;-moz-border-radius-bottomleft:0;-khtml-border-bottom-left-radius:0;border-bottom-left-radius:0}.navTabs .navTab.selected
+.tabLinks{background-color:rgb(31, 26, 43);width:100%;padding:0;border:none;overflow:hidden;zoom:1;position:absolute;left:0px;top:37px;height:35px;background-position:0px -35px;*clear:expression(style.width = document.getElementById('navigation').offsetWidth + 'px', style.clear = "none", 0)}.navTabs .navTab.selected
+.blockLinksList{background:none;padding:0;border:none}.navTabs .navTab.selected .tabLinks
+.menuHeader{display:none}.navTabs .navTab.selected .tabLinks
+li{float:left;padding:2px
+0}.navTabs .navTab.selected .tabLinks
+a{font-weight:bold;font-size:12px;padding:0
+8px;border-style:none;display:block}.navTabs .navTab.selected .tabLinks .PopupOpen
+a{color:inherit;text-shadow:none}.navTabs .navTab.selected .tabLinks a:hover,
+.navTabs .navTab.selected .tabLinks a:focus{color:rgb(108, 67, 255);text-decoration:none;outline:0}.navTabs .navTab.selected .tabLinks .Popup a:hover,
+.navTabs .navTab.selected .tabLinks .Popup a:focus{color:inherit;border-color:transparent;-webkit-border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;border-radius:0;text-shadow:none}.navTabs .navLink
+.itemCount{font-weight:bold;font-size:9px;color:white;background-color:rgb(133, 133, 133);padding:0
+2px;-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;position:absolute;right:2px;top: -12px;line-height:16px;min-width:16px;_width:16px;text-align:center;text-shadow:none;white-space:nowrap;word-wrap:normal;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;height:16px}.navTabs .navLink .itemCount
+.arrow{border:3px
+solid transparent;border-top-color:rgb(133, 133, 133);border-bottom:1px none black;position:absolute;bottom: -3px;right:4px;line-height:0px;text-shadow:none;_display:none;width:0px;height:0px}.navTabs .navLink
+.itemCount.Zero{display:none}.navTabs .navLink
+.itemCount.ResponsiveOnly{display:none !important}.NoResponsive #VisitorExtraMenu_Counter,
+.NoResponsive #VisitorExtraMenu_ConversationsCounter,
+.NoResponsive
+#VisitorExtraMenu_AlertsCounter{display:none !important}.navTabs .navTab.account
+.navLink{font-weight:bold}.navTabs .navTab.account .navLink
+.accountUsername{display:block;max-width:100px;overflow:hidden;text-overflow:ellipsis}#AccountMenu{width:274px}#AccountMenu
+.menuHeader{position:relative}#AccountMenu .menuHeader
+.avatar{float:left;margin-right:10px}#AccountMenu .menuHeader
+.visibilityForm{margin-top:10px;color:rgb(108, 67, 255)}#AccountMenu .menuHeader .links
+.fl{position:absolute;bottom:10px;left:116px}#AccountMenu .menuHeader .links
+.fr{position:absolute;bottom:10px;right:10px}#AccountMenu
+.menuColumns{overflow:hidden;zoom:1;padding:2px}#AccountMenu .menuColumns
+ul{float:left;padding:0;max-height:none;overflow:hidden}#AccountMenu .menuColumns a,
+#AccountMenu .menuColumns
+label{width:115px}#AccountMenu .statusPoster
+textarea{width:245px;margin:0;resize:vertical;overflow:hidden}#AccountMenu .statusPoster
+.submitUnit{margin-top:5px;text-align:right}#AccountMenu .statusPoster .submitUnit
+.statusEditorCounter{float:left;line-height:23px;height:23px}.navPopup{width:260px}.navPopup a:hover,
+.navPopup .listItemText a:hover{background:none;text-decoration:underline}.navPopup .menuHeader
+.InProgress{float:right;display:block;width:20px;height:20px}.navPopup
+.listPlaceholder{max-height:350px;overflow:auto}.navPopup .listPlaceholder
+ol.secondaryContent{padding:0
+10px}.navPopup .listPlaceholder
+ol.secondaryContent.Unread{background-color:rgb(63, 40, 76)}.navPopup
+.listItem{overflow:hidden;zoom:1;padding:5px
+0;border-bottom:1px solid rgb(31, 26, 43)}.navPopup .listItem:last-child{border-bottom:none}.navPopup .PopupItemLinkActive:hover{margin:0
+-8px;padding:5px
+8px;-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;background-color:rgb(31, 26, 43);cursor:pointer}.navPopup
+.avatar{float:left}.navPopup .avatar
+img{width:32px;height:32px}.navPopup
+.listItemText{margin-left:37px}.navPopup .listItemText
+.muted{font-size:9px}.navPopup .unread .listItemText .title,
+.navPopup .listItemText
+.subject{font-weight:bold}.navPopup .sectionFooter
+.floatLink{float:right}.itemCount.Zero+.fa-envelope,.itemCount.Zero+.fa-flag{color:rgb(65,65,65)}.itemCount+.fa-envelope,.itemCount+.fa-flag{color:rgb(108, 67, 255)}@media (max-width:610px){.Responsive
+.navTabs{padding-left:10px;padding-right:10px}}@media (max-width:480px){.Responsive.hasJs .navTabs:not(.showAll) .publicTabs .navTab:not(.selected):not(.navigationHiddenTabs){display:none}}#searchBar{position:relative;zoom:1;z-index:52}#QuickSearchPlaceholder{position:absolute;right:20px;top: -25.5px;display:none;-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;cursor:pointer;font-size:11px;height:16px;width:16px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;text-indent: -9999px;background:transparent url('../../../../styles/uix/xenforo/xenforo-ui-sprite.png') no-repeat -144px 0px;overflow:hidden}#QuickSearch{display:block;position:absolute;right:20px;top: -18px;margin:0;background-color:rgb(26, 21, 32);-webkit-border-radius:5px;-moz-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;padding-top:5px;_padding-top:3px;z-index:7500}#QuickSearch
+.secondaryControls{display:none}#QuickSearch.active{-webkit-box-shadow:5px 5px 25px rgba(0,0,0, 0.5);-moz-box-shadow:5px 5px 25px rgba(0,0,0, 0.5);-khtml-box-shadow:5px 5px 25px rgba(0,0,0, 0.5);box-shadow:5px 5px 25px rgba(0,0,0, 0.5);padding-bottom:5px}#QuickSearch .submitUnit
+.button{min-width:0}#QuickSearch
+input.button.primary{float:left;width:110px}#QuickSearch
+#commonSearches{float:right}#QuickSearch #commonSearches
+.button{width:23px;padding:0}#QuickSearch #commonSearches
+.arrowWidget{margin:0;float:left;margin-left:4px;margin-top:4px}#QuickSearch
+.moreOptions{display:block;margin:0
+24px 0 110px;width:auto}#headerMover{zoom:1}#headerMover
+#headerProxy{height:192px}#headerMover
+#header{width:100%;position:absolute;top:0px;left:0px}.pageWidth{margin-right:auto;margin-left:auto;_width:976px;_margin:0
+auto;max-width:1000px}.NoResponsive
+body{min-width:1000px}#content
+.pageContent{background-color:rgb(26, 21, 32);padding:16px;margin-bottom:16px;-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px}#content
+.pageContent{zoom:1}#content .pageContent:after{content:'.';display:block;height:0;clear:both;visibility:hidden}.mainContainer{float:left;margin-right: -326px;width:100%}.mainContent{margin-right:326px}.mainContent.withTransition{-ms-transition:margin 0.4s ease-out;-o-transition:margin 0.4s ease-out;-moz-transition:margin 0.4s ease-out;-webkit-transition:margin 0.4s ease-out;transition:margin 0.4s ease-out}.sidebar{float:right;font-size:15px;background-position:relative;margin-bottom:16px;width:316px}.sidebar
+.visitorPanel{overflow:hidden;zoom:1}.sidebar .visitorPanel h2
+.muted{display:none}.sidebar .visitorPanel
+.avatar{margin-right:8px;display:inline-block;vertical-align:top;width:auto;height:auto}.sidebar .visitorPanel .avatar
+img{width:;height: }.sidebar .visitorPanel
+.username{font-weight:bold;font-size:11pt;color:rgb(108, 67, 255)}.sidebar .visitorPanel
+.stats{margin-top:2px}.sidebar .visitorPanel .stats
+.pairsJustified{line-height:normal}.sidebar .section .primaryContent   h3,
+.sidebar .section .secondaryContent h3,
+.profilePage .mast .section.infoBlock
+h3{font-weight:bold;font-size:16px;font-family:Lato,Helvetica,Arial,sans-serif;color:rgb(201, 201, 201);background-color:rgb(31, 26, 43);padding:8px;margin-bottom:8px;border:1px
+solid rgb(65, 65, 65);-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px;text-transform:uppercase}.sidebar .section .secondaryContent
+h3{background:rgb(65, 65, 65);border:none;margin:0px
+-8px 8px;width:100%}.sidebar .section .primaryContent   h3 a,
+.sidebar .section .secondaryContent h3
+a{font-weight:bold;font-size:16px;font-family:Lato,Helvetica,Arial,sans-serif;color:rgb(201, 201, 201)}.sidebar .section .secondaryContent .footnote,
+.sidebar .section .secondaryContent
+.minorHeading{color:rgb(159, 159, 159);margin-top:5px}.sidebar .section .secondaryContent .minorHeading
+a{color:rgb(159, 159, 159)}.sidebar .avatarList
+li{margin:5px
+0;overflow:hidden;zoom:1}.sidebar .avatarList
+.avatar{margin-right:5px;float:left;width:32px;height:32px;width:auto;height:auto}.sidebar .avatarList .avatar
+img{width:32px;height:32px}.sidebar .avatarList
+.username{font-size:11pt;margin-top:2px;display:block}.sidebar .avatarList
+.userTitle{color:rgb(159, 159, 159)}.sidebar
+.userList{}.sidebar .userList
+.username{font-size:11px}.sidebar .userList
+.username.invisible{color:rgb(115, 115, 115)}.sidebar .userList
+.username.followed{}.sidebar .userList
+.moreLink{display:block}.followedOnline{margin-top:3px;margin-bottom: -5px;overflow:hidden;zoom:1}.followedOnline
+li{margin-right:5px;margin-bottom:5px;float:left}.followedOnline
+.avatar{width:32px;height:32px;width:auto;height:auto}.followedOnline .avatar
+img{width:32px;height:32px}#SignupButton{text-align:center;line-height:40px;display:block;cursor:pointer;height:40px}#SignupButton
+.inner{font-weight:bold;font-size:16px;color:#FFF;background-color:rgb(133, 133, 133);-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;display:block}#SignupButton:hover
+.inner{text-decoration:none;background-color:rgb(34,32,37)}#SignupButton:active{-webkit-box-shadow:0 0 3px rgba(0,0,0, 0.2);-moz-box-shadow:0 0 3px rgba(0,0,0, 0.2);-khtml-box-shadow:0 0 3px rgba(0,0,0, 0.2);box-shadow:0 0 3px rgba(0,0,0, 0.2)}@media (max-width:800px){.Responsive
+.mainContainer{float:none;margin-right:0;width:auto}.Responsive
+.mainContent{margin-right:0}.Responsive
+.sidebar{float:none;margin:0
+auto;width:auto}.Responsive .sidebar
+.visitorPanel{display:none}}@media (max-width:340px){.Responsive
+.sidebar{width:100%}}.messageText{font-size:10pt;font-family:Roboto,Helvetica,Arial,sans-serif;line-height:1.4}.messageText img,
+.messageText iframe,
+.messageText object,
+.messageText
+embed{max-width:100%}.pageNavLinkGroup{display:table;*zoom:1;table-layout:fixed;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;font-size:13px;margin:8px
+0;line-height:18px}opera:-o-prefocus,.pageNavLinkGroup{display:block;overflow:hidden}.pageNavLinkGroup:after{content:". .";display:block;word-spacing:99in;overflow:hidden;height:0;font-size:0.13em;line-height:0}.pageNavLinkGroup
+.linkGroup{float:right}.linkGroup{}.linkGroup
+a{padding:3px
+0}.linkGroup
+a.inline{padding:0}.linkGroup a,
+.linkGroup .Popup,
+.linkGroup
+.element{margin-left:10px;display:block;float:left}.linkGroup .Popup
+a{margin-left: -2px;margin-right: -5px;*margin-left:10px;padding:3px
+5px}.linkGroup
+.element{padding:3px
+0}a.callToAction{display:inline-block;line-height:42px;outline:0
+none;height:42px}a.callToAction
+span{font-weight:bold;font-size:15px;color:#FFF;text-decoration:none;background-color:rgb(108, 67, 255);padding:0
+16px;-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;display:block}a.callToAction:hover{text-decoration:none}a.callToAction:hover
+span{background-color:rgb(133,133,133)}a.callToAction:active{}a.callToAction:active
+span{background-color:rgb(108,67,255)}.avatarHeap{overflow:hidden;zoom:1}.avatarHeap
+ol{margin-right: -4px;margin-top: -4px}.avatarHeap
+li{float:left;margin-right:4px;margin-top:4px}.avatarHeap li
+.avatar{display:block}.fbWidgetBlock .fb_iframe_widget,
+.fbWidgetBlock .fb_iframe_widget > span,
+.fbWidgetBlock .fb_iframe_widget
+iframe{width:100% !important}.username
+.banned{text-decoration:line-through}.prefix{background-color:transparent;padding:0px
+6px;margin: -1px 0;border:1px
+solid transparent;-webkit-border-radius:1px;-moz-border-radius:1px;-khtml-border-radius:1px;border-radius:1px;display:inline-block}a.prefixLink:hover{text-decoration:none}a.prefixLink:hover
+.prefix{color:rgb(108, 67, 255);text-decoration:none;background-color:rgb(45, 45, 45);padding:0
+6px;border:1px
+solid rgb(65, 65, 65)}.prefix
+a{color:inherit}.prefix.prefixPrimary{color:rgb(108,67,255);background-color:rgb(31,26,43);border-color:rgb(31,26,43)}.prefix.prefixSecondary{color:rgb(203,203,203);background-color:rgb(48,48,48);border-color:rgb(48,48,48)}.prefix.prefixRed{color:white;background-color:red;border-color:#F88}.prefix.prefixGreen{color:white;background-color:green;border-color:green}.prefix.prefixOlive{color:black;background-color:olive;border-color:olive}.prefix.prefixLightGreen{color:black;background-color:lightgreen;border-color:lightgreen}.prefix.prefixBlue{color:white;background-color:blue;border-color:#88F}.prefix.prefixRoyalBlue{color:white;background-color:royalblue;border-color:#81A9E1}.prefix.prefixSkyBlue{color:black;background-color:skyblue;border-color:skyblue}.prefix.prefixGray{color:black;background-color:gray;border-color:#AAA}.prefix.prefixSilver{color:black;background-color:silver;border-color:silver}.prefix.prefixYellow{color:black;background-color:yellow;border-color:#E0E000}.prefix.prefixOrange{color:black;background-color:orange;border-color:#FFC520}.discussionListItem .prefix,
+.searchResult
+.prefix{font-size:80%;margin:0;line-height:16px;font-weight:normal}h1
+.prefix{font-size:80%;margin:0;line-height:16px;line-height:normal}.breadcrumb span.prefix,
+.heading
+span.prefix{font-style:italic;font-weight:bold;padding:0;margin:0;border:0
+none black;-webkit-border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;border-radius:0;display:inline;color:inherit}.userBanner{font-size:11px;background:transparent url('../../../../styles/uix/xenforo/gradients/form-button-white-25px.png') repeat-x top;padding:1px
+5px;border:1px
+solid transparent;-webkit-border-radius:3px;-moz-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;-webkit-box-shadow:1px 1px 3px rgba(0,0,0, 0.25);-moz-box-shadow:1px 1px 3px rgba(0,0,0, 0.25);-khtml-box-shadow:1px 1px 3px rgba(0,0,0, 0.25);box-shadow:1px 1px 3px rgba(0,0,0,0.25);text-align:center}.userBanner.wrapped{-webkit-border-top-right-radius:0;-moz-border-radius-topright:0;-khtml-border-top-right-radius:0;border-top-right-radius:0;-webkit-border-top-left-radius:0;-moz-border-radius-topleft:0;-khtml-border-top-left-radius:0;border-top-left-radius:0;position:relative}.userBanner.wrapped
+span{position:absolute;top: -4px;width:5px;height:4px;background-color:inherit}.userBanner.wrapped
+span.before{-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;-khtml-border-top-left-radius:3px;border-top-left-radius:3px;left: -1px}.userBanner.wrapped
+span.after{-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;-khtml-border-top-right-radius:3px;border-top-right-radius:3px;right: -1px}.userBanner.bannerHidden{background:none;-webkit-box-shadow:none;-moz-box-shadow:none;-khtml-box-shadow:none;box-shadow:none;border:none}.userBanner.bannerHidden.wrapped{margin-left:0;margin-right:0}.userBanner.bannerHidden.wrapped
+span{display:none}.userBanner.bannerStaff{color:rgb(108, 67, 255);background-color:rgb(31, 26, 43);border-color:rgb(65, 65, 65)}.userBanner.bannerStaff.wrapped
+span{background-color:rgb(65,65,65)}.userBanner.bannerPrimary{color:rgb(108, 67, 255);background-color:rgb(31, 26, 43);border-color:rgb(65, 65, 65)}.userBanner.bannerPrimary.wrapped
+span{background-color:rgb(65,65,65)}.userBanner.bannerSecondary{color:rgb(203, 203, 203);background-color:rgb(48, 48, 48);border-color:rgb(48, 48, 48)}.userBanner.bannerSecondary.wrapped
+span{background-color:rgb(48,48,48)}.userBanner.bannerRed{color:white;background-color:red;border-color:#F88}.userBanner.bannerRed.wrapped
+span{background-color:#F88}.userBanner.bannerGreen{color:white;background-color:green;border-color:green}.userBanner.bannerGreen.wrapped
+span{background-color:green}.userBanner.bannerOlive{color:black;background-color:olive;border-color:olive}.userBanner.bannerOlive.wrapped
+span{background-color:olive}.userBanner.bannerLightGreen{color:black;background-color:lightgreen;border-color:lightgreen}.userBanner.bannerLightGreen.wrapped
+span{background-color:lightgreen}.userBanner.bannerBlue{color:white;background-color:blue;border-color:#88F}.userBanner.bannerBlue.wrapped
+span{background-color:#88F}.userBanner.bannerRoyalBlue{color:white;background-color:royalblue;border-color:#81A9E1}.userBanner.bannerRoyalBlue.wrapped
+span{background-color:#81A9E1}.userBanner.bannerSkyBlue{color:black;background-color:skyblue;border-color:skyblue}.userBanner.bannerSkyBlue.wrapped
+span{background-color:skyblue}.userBanner.bannerGray{color:black;background-color:gray;border-color:#AAA}.userBanner.bannerGray.wrapped
+span{background-color:#AAA}.userBanner.bannerSilver{color:black;background-color:silver;border-color:silver}.userBanner.bannerSilver.wrapped
+span{background-color:silver}.userBanner.bannerYellow{color:black;background-color:yellow;border-color:#E0E000}.userBanner.bannerYellow.wrapped
+span{background-color:#E0E000}.userBanner.bannerOrange{color:black;background-color:orange;border-color:#FFC520}.userBanner.bannerOrange.wrapped
+span{background-color:#FFC520}@media (max-width:800px){.Responsive
+.pageWidth{margin-right:8px;margin-left:8px}.Responsive #content
+.pageContent{padding-left:2px;padding-right:2px}}@media (max-width:610px){.Responsive
+.pageWidth{}.Responsive .forum_view #pageDescription,
+.Responsive .thread_view
+#pageDescription{display:none}}@media (max-width:480px){.Responsive
+.pageWidth{margin-right:0;margin-left:0}.Responsive .pageNavLinkGroup .PageNav,
+.Responsive .pageNavLinkGroup
+.linkGroup{clear:right}}#content .pageContent,
+#navigation
+.tabLinks{opacity:1;animation:loadFade .5s 1;-moz-animation:loadFade .5s 1;-webkit-animation:loadFade .5s 1}@keyframes
+loadFade{from{opacity: .25}to{opacity:1}}@-moz-keyframes
+loadFade{from{opacity: .25}to{opacity:1}}@-webkit-keyframes
+loadFade{from{opacity: .25}to{opacity:1}}/* CSS saved with [bd] Cache (https://smashboards.com/css.php?css=xenforo,form,public&style=57&dir=LTR&d=1522555747) */

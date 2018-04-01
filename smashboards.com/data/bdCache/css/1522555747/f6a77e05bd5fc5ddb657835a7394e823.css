@@ -1,0 +1,145 @@
+@charset "UTF-8";body:before{content:"" !important;display:none !important}.w7debug{display:none}.qrl{position:absolute;left:116px;bottom:28px}#uix_offCanvasVisitorMenu
+.qrl{left:0px;top:0px}@keyframes
+stickyNavAppear{from{top: -50px}to{top:0px}}@-webkit-keyframes
+stickyNavAppear{from{top: -50px}to{top:0px}}.activeSticky .navTabs
+.navTab{animation-name:stickyNavAppear;animation-duration: .3s;-webkit-animation-name:stickyNavAppear;-webkit-animation-duration: .3s}.tabs a[href="search/?type=wiki"]{display:none !important}.navTab.wiki{display:none !important}.navTab.wiki.selected{display:list-item !important}a.navLink[href~="http://smashboards.com/wiki/"]{display:none !important}a.navLink[href~="https://smashboards.com/wiki/"]{display:none !important}a[href~="watched/wiki"]{display:none !important}.messageList .messageUserInfo a.avatar img,
+.quickReply .messageUserInfo a.avatar img,
+.conversation_view .messageList .messageUserInfo a.avatar img,
+.conversation_view .quickReply .messageUserInfo a.avatar
+img{width:150px;height:auto}.sponsor_box{text-align:center}.sponsor_box
+a{width:148px;height:100px;background:url(https://smashboards.com/rgba.php?r=0&amp;g=0&amp;b=0&amp;a=63);background:rgba(0,0,0,.25);_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3F000000,endColorstr=#3F000000);display:inline-block;margin-bottom:5px;-webkit-border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-khtml-border-radius:10px;border-radius:10px}.importantLinks{padding-top:8px;margin-bottom: -24px}.importantLinks
+img{float:left;max-width:48px;max-height:48px;margin-right:6px;margin-top: -6px;padding-bottom:6px}.importantLinks
+dl{min-height:54px;clear:both}.importantLinks
+dd{font-size:15px}.importantLinks
+dt{font-style:italic;font-size:11px}#userBar .navTabs .navLink
+.itemCount.alert{background:#fff;color:#760C00}.message
+.afterPostBlock{margin-top:10px}.titleBar+div[align~="center"]{margin-bottom:10px}.top_block{text-align:center;margin: -8px auto 0px;clear:both;overflow:hidden;position:relative}.top_block_content{padding:10px
+0px;width:728px;min-height:98px;margin:0px
+auto;position:relative}.cdm-zone-01,.cdm-zone-02,.cdm-zone-03,.cdm-zone-04,.cdm-zone-05,.cdm-zone-06{position:relative}@media (max-width: 740px){.top_block_content{width:auto;min-height:0px;padding:0px}}.noticeContainer{margin: -110px 0px 0px;border:2px
+solid rgb(184, 0, 0);padding:6px
+20px;color:#fff;opacity:0;position:relative;background:rgb(220,49,30);background: -moz-linear-gradient(top,  rgba(220,49,30,1) 0%, rgba(163,25,25,1) 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,url(https://smashboards.com/rgba.php?r=220&amp;g=49&amp;b=30&amp;a=255)), color-stop(100%,rgba(163,25,25,1)));background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220,49,30,1)), color-stop(100%,rgba(163,25,25,1)));_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFDC311E,endColorstr=#FFDC311E);background: -webkit-linear-gradient(top,  rgba(220,49,30,1) 0%,rgba(163,25,25,1) 100%);background: -o-linear-gradient(top,  rgba(220,49,30,1) 0%,rgba(163,25,25,1) 100%);background: -ms-linear-gradient(top,  rgba(220,49,30,1) 0%,rgba(163,25,25,1) 100%);background:linear-gradient(to bottom,  rgba(220,49,30,1) 0%,rgba(163,25,25,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc311e', endColorstr='#a31919',GradientType=0 )}.noticeContainer{transition:opacity .2s;-webkit-transition:opacity .2s}.noticeContainer
+.head{font-size:24px;font-weight:bold}.noticeContainer
+.foot{font-size:16px;margin-top:4px}.noticeContainer.hidden{display:none}.noticeTiny{font-size:12px}#Notices .panel
+.baseHtml.noticeContent{padding:0px;text-align:center}.noticeContent
+.noticeText{display:block;font-size:15px;text-align:center;padding:10px
+20px}.noticeContent
+.noticeImage{display:block;text-align:center;font-size:0px}.noticeContent .noticeImage
+img{max-width:100%}.noticeContent .noticeImage
+.fullNotice{display:inline-block}.noticeContent .noticeImage
+.smallNotice{display:none}@media (max-width: 600px){.noticeContent .noticeImage
+.fullNotice{display:none}.noticeContent .noticeImage
+.smallNotice{display:inline-block}}.premiumBlock{display:none;position:absolute;font-weight:bold;top:0;background:rgb(67, 180, 67);border:1px
+solid rgb(85, 85, 85);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;z-index:0;color:white;font-size:26px;text-shadow:0 0 0 transparent, 0px 1px 2px rgba(0,0,0,1);background:rgb(75,75,75);background: -moz-linear-gradient(top, rgba(75,75,75,1) 0%, rgba(47,47,47,1) 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,url(https://smashboards.com/rgba.php?r=75&amp;g=75&amp;b=75&amp;a=255)), color-stop(100%,rgba(47,47,47,1)));background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(75,75,75,1)), color-stop(100%,rgba(47,47,47,1)));_filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF4B4B4B,endColorstr=#FF4B4B4B);background: -webkit-linear-gradient(top, rgba(75,75,75,1) 0%,rgba(47,47,47,1) 100%);background: -o-linear-gradient(top, rgba(75,75,75,1) 0%,rgba(47,47,47,1) 100%);background: -ms-linear-gradient(top, rgba(75,75,75,1) 0%,rgba(47,47,47,1) 100%);background:linear-gradient(to bottom, rgba(75,75,75,1) 0%,rgba(47,47,47,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#2f2f2f',GradientType=0 )}.topLayer{position:relative;z-index:2}.topLayer.square,.topLayer.square2{height:250px}.topLayer.wide{height:90px}.premiumContain{width:728px;margin:0px
+auto}.premiumBlock.square,.premiumBlock.square2{height:250px;padding:85px
+10px 0px;width:300px;z-index: -1}.premiumBlock.square,.premiumBlock.square2{margin-left: -150px;left:50%}.premiumBlock.wide{height:90px;padding:8px
+10px 0px;width:728px}.premiumBlock.wide
+a{display:block;width:728px;height:48px;margin-top: -42px;padding-top:42px;z-index:1;margin-left: -11px;position:relative}.premiumBlock.square
+a{position:relative;display:block;height:130px;width:300px;margin-top: -119px;padding-top:120px;margin-left: -1px;z-index:1}.premiumBlock.square2
+a{position:relative;display:block;height:192px;width:300px;margin-top: -185px;padding-top:58px;margin-left: -11px;z-index:1}@media (max-width: 800px){.premiumContain{display:none}}.portaCopy,.atendoCopy,.torneoCopy,#waindigoCopyrightNotice,.medioCopy,.utilesCopy,.cartaCopy,#BRCopyright{display:none}.TwitchStream{width:100%;padding-bottom:56.25%;position:relative;float:left;z-index:1}.conversation_view
+.TwitchStream{width:100%;padding-bottom:56.25%}.MLGStream{width:70%;padding-bottom:44%;position:relative;float:left}.EWRporta_ArticleView
+.MLGStream{width:100%;padding-bottom:56.25%}.MLGStream
+iframe{width:100%;height:100%;position:absolute;top:0;left:0}@media (max-width: 1395px){.TwitchStream{width:100%;padding-bottom:5%}.MLGStream{width:100%;padding-bottom:56.25%}}.vineBox{background:url('../../../../styles/MediaSites/vine.png');width:320px;height:320px;cursor:pointer;text-indent: -99999px}.vineBox:hover{background:url('../../../../styles/MediaSites/vine-hover.png')}.tClipBox{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}.tClipBox
+iframe{position:absolute;top:0;left:0;width:100%;height:100%}.pranked .userText a, .sidebar .pranked .username,  .pranked .username a, .xenOverlay.memberCard .pranked .userInfo h3 a, .threadViewList .pranked a,
+.pranked .mainText .username, .comment .pranked, .pranked .messageContent>.username{font-weight:bold;color:rgb(220, 20, 220)}.premium .userText a, .sidebar .premium .username,  .premium .username a, .xenOverlay.memberCard .premium .userInfo h3 a, .threadViewList .premium a,
+.premium .mainText .username, .comment .premium, .premium .messageContent>.username{font-weight:bold;color:rgb(255, 149, 0)}.notable .userText a, .sidebar .notable .username, .notable .username a, .xenOverlay.memberCard .notable .userInfo h3 a, .threadViewList .notable a,
+.notable .mainText .username, .comment .notable, .notable .messageContent>.username{font-weight:bold;color:rgb(123, 38, 160)}.staff .userText a, .sidebar .staff .username, .staff .username a, .xenOverlay.memberCard .staff .userInfo h3 a, .threadViewList .staff a,
+.staff .mainText .username, .comment .staff, .staff .messageContent>.username{font-weight:bold;color:rgb(214, 14, 14)}.admin .userText a, .sidebar .admin .username, .admin .username a, .xenOverlay.memberCard .admin .userInfo h3 a, .threadViewList .admin a,
+.admin .mainText .username, .comment .admin, .admin .messageContent>.username{font-weight:bold;color:rgb(175, 175, 175)}.LikeText
+.username{color:rgb(108,67,255);font-weight:normal}.premHeader,.premFooter{text-align:center}.premHeader img, .premFooter
+img{height:100%}.premFeatures{width:80%;position:relative;margin:0px
+auto;min-width:410px}.premColumn:first-child{width:50%}.premColumn{float:left;width:25%;text-align:center;margin-bottom:5px}.premColumn
+dt{padding:5px
+0px;border-bottom:1px solid rgb(70,70,70)}.premText{color:#0fa9d0;font-weight:bold}@media (max-width: 800px){.premHeader{height:140px}.premFooter{height:61px}}@media (max-width: 600px){.premHeader{height:100px}.premFooter{height:43px}.premFeatures{width:90%}}@media (max-width: 480px){.premFeatures{width:100%}}.message
+table{border-collapse:separate}.message .baseHtml th,
+.message .baseHtml
+td{border-top:1px solid rgb(70, 70, 70);border-left:1px solid rgb(70, 70, 70);border-right:1px solid rgb(26, 21, 32);border-bottom:1px solid rgb(26, 21, 32)}.node.node_551 .categoryForumNodeInfo .nodeIcon,
+.node.node_551 .categoryForumNodeInfo.unread .nodeIcon,
+.node.node_548 .forumNodeInfo .nodeIcon,
+.node.node_548 .forumNodeInfo.unread .nodeIcon,
+.node.node_549 .forumNodeInfo .nodeIcon,
+.node.node_549 .forumNodeInfo.unread
+.nodeIcon{background-position: -56px 0}.node51 .titleBar
+h1{overflow:visible}.region1,.region2,.region3,.region4,.region5,.region6,.region7,.region8,.region9,.region10{padding:1px
+5px;-webkit-border-radius:2px;-moz-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;color:white}.region1{border:1px
+solid #29b5d8;background:#176B7F}.region2{border:1px
+solid #c63498;background:#771257}.region3{border:1px
+solid #7ac214;background:#416909}.region4{border:1px
+solid #dc9416;background:#91610c}.region5{border:1px
+solid #8244d7;background:#461d7d}.region6{border:1px
+solid #cacc20;background:#61620d}.region7{border:1px
+solid #d10202;background:#6d0606}.region8{border:1px
+solid #1636dc;background:#172156}.region9{border:1px
+solid #25b871;background:#04512c}.region10{border:1px
+solid #414141;background:#1c1c1c}#widget-18
+h3{display:none}.gameCountdown{height:120px;background:url('../../../../styles/warchamp/countdown.png') no-repeat top center;position:relative;text-align:center;font-weight:bold;font-size:20px;text-shadow:1px 1px 3px rgba(0,0,0,.5)}.countdown3DS{width:150px;display:block;position:absolute;left:0px;bottom:10px;color:#9f0105}.countdownWiiUNA{width:150px;display:block;position:absolute;right:1px;bottom:20px;color:#1854de;font-size:18px}.countdownWiiUEU{width:150px;display:block;position:absolute;right:0px;bottom:0px;color:#1854de;font-size:18px}@media (max-width: 800px){.hasFlexbox .messageList
+.uix_message{display:block;padding-right:8px}.sectionMain.message{position:relative}.uix_userTextInner{float:left}.sectionMain
+.messageUserBlock{width:100%;margin-bottom:5px}.sectionMain.quickReply
+.messageUserInfo{width:auto;margin-bottom:0}.sectionMain
+.extraUserInfo{margin-left:160px}.sectionMain
+.messageUserBlock{min-height:126px}.sectionMain.quickReply
+.messageUserBlock{width:150px;padding-bottom:0px;float:left}.sectionMain .messageUserBlock
+.arrow{display:none}.sectionMain.quickReply .messageUserBlock
+.arrow{display:block}.sectionMain .messageUserBlock
+.avatarHolder{float:left;background:none;width:150px;margin-right:10px}.sectionMain.quickReply .messageUserBlock
+.avatarHolder{float:none;background:none}.sectionMain .messageUserBlock .avatarHolder.premium
+img{max-height:210px;width:auto;max-width:150px}.sectionMain .messageUserBlock
+h3.userText{border-top:0px;height:40px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.sectionMain.message
+.messageInfo{clear:both;margin-left:0px}.sectionMain
+.ribbon{height:22px;margin:2px
+0px}.sectionMain .ribbon
+li{float:left;padding:2px
+6px 3px;margin:0px
+5px 0px 0px;-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;-khtml-border-top-right-radius:3px;border-top-right-radius:3px;-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;-khtml-border-top-left-radius:3px;border-top-left-radius:3px}.sectionMain .ribbon li
+div{display:none}}@media (max-width: 610px){.Responsive.hasFlexbox
+.messageUserBlock{display:block}.Responsive .messageUserBlock
+div.avatarHolder{width:48px}.sectionMain
+.messageUserBlock{min-height:auto}}@media (max-width: 480px){.messageList
+.sectionMain.message{padding:0px
+1px;-webkit-box-shadow:0px 0px 12px rgba(0,0,0,.75);-moz-box-shadow:0px 0px 12px rgba(0,0,0,.75);-khtml-box-shadow:0px 0px 12px rgba(0,0,0,.75);box-shadow:0px 0px 12px rgba(0,0,0,.75);margin:16px
+0px;border-top:none}}.directContainer{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;text-align:center}.directContainer  iframe,
+.directContainer  embed,
+.directContainer
+object{position:absolute;top:0;left:0;width:100%;height:100%}.directPage{position:relative;min-height:70px}.directPage
+img{position:absolute;left:0;max-width:100%}.heading
+a{color:rgb(26,21,32)}.prefix.Announcement{color:yellow;background-color:black;border-color:yellow}a.prefixLink:hover
+.prefix.Announcement{color: @texturl;background-color: @primary;border-color: @primary}.prefix.WiiU{color:white;background-color:blue;border-color:white}a.prefixLink:hover
+.prefix.WiiU{color: @texturl;background-color: @primary;border-color: @primary}.prefix.DS{color:white;background-color:red;border-color:white}a.prefixLink:hover
+.prefix.DS{color: @texturl;background-color: @primary;border-color: @primary}.prefix.Ignore{color:pink;background-color:purple;border-color:pink}a.prefixLink:hover
+.prefix.Ignore{color: @texturl;background-color: @primary;border-color: @primary}.xenOverlay.overlayConversations{max-width:80%;width:80%;max-height:80%;padding:20px
+10px 30px;overflow-y:scroll;background:rgb(26, 21, 32);border:1px
+solid rgb(65, 65, 65);-webkit-box-shadow:inset 0px 0px 5px rgba(25, 25, 25, .5);-moz-box-shadow:inset 0px 0px 5px rgba(25, 25, 25, .5);-khtml-box-shadow:inset 0px 0px 5px rgba(25, 25, 25, .5);box-shadow:inset 0px 0px 5px rgba(25,25,25,.5);-webkit-border-radius:4px;-moz-border-radius:4px;-khtml-border-radius:4px;border-radius:4px}.qvIcon{float:right;font-size:14px}.overlayConversations
+h2.heading.h1{background:none;color:rgb(159,159,159);margin:0px
+56px 0px 12px;font-size:20px;text-shadow:0 0 0 transparent, 1px 1px 2px black}.overlayConversations
+a.close{font-size:18px;top:25px;right:25px}.overlayConversations .messageList, .overlayConversations
+.quickReply{margin:10px
+20px 0px}.overlayConversations .pageNavLinkGroup h2,
+.overlayConversations .quickReply
+h2{display:none}.overlayConversations
+.sectionMain.message{padding:2%}.messageText{font-size:11pt;line-height:1.5}.discussionListItem
+.title{font-size:12pt}.online
+h3{font-size:13pt}.online h3
+.footnote{font-size:13px}.online
+.listInline{font-size:12px}.messageUserBlock div.avatarHolder
+.avatar{max-height:200px;height:201px}#commentsLocal .messageSimple
+.avatar{width:48px;height:48px}.avatar img, .avatar
+span{display:none;opacity:0}.premium .messageUserBlock div.avatarHolder
+.avatar{max-height:200px !important}@media(max-width: 480px){.Responsive .premium .messageUserBlock div.avatarHolder
+.avatar{max-height:48px !important}}.discussionListItem .lastPostInfo
+a.username{color:rgb(108, 67, 255) !important;font-weight:normal !important}.followedOnline
+a{display:block}.avatar{background-size:cover !important}.avatar[href$="01/"],.avatar[href$="51/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="02/"],.avatar[href$="52/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="03/"],.avatar[href$="53/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="04/"],.avatar[href$="54/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="05/"],.avatar[href$="55/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="06/"],.avatar[href$="56/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="07/"],.avatar[href$="57/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="08/"],.avatar[href$="58/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="09/"],.avatar[href$="59/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="10/"],.avatar[href$="60/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="11/"],.avatar[href$="61/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="12/"],.avatar[href$="62/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="13/"],.avatar[href$="63/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="14/"],.avatar[href$="64/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="15/"],.avatar[href$="65/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="16/"],.avatar[href$="66/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="17/"],.avatar[href$="67/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="18/"],.avatar[href$="68/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="19/"],.avatar[href$="69/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="20/"],.avatar[href$="70/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="21/"],.avatar[href$="71/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="22/"],.avatar[href$="72/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="23/"],.avatar[href$="73/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="24/"],.avatar[href$="74/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="25/"],.avatar[href$="75/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="26/"],.avatar[href$="76/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="27/"],.avatar[href$="77/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="28/"],.avatar[href$="78/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="29/"],.avatar[href$="79/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="30/"],.avatar[href$="80/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="31/"],.avatar[href$="81/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="32/"],.avatar[href$="82/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="33/"],.avatar[href$="83/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="34/"],.avatar[href$="84/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="35/"],.avatar[href$="85/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="36/"],.avatar[href$="86/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="37/"],.avatar[href$="87/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="38/"],.avatar[href$="88/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="39/"],.avatar[href$="89/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="40/"],.avatar[href$="90/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="41/"],.avatar[href$="91/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="42/"],.avatar[href$="92/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="43/"],.avatar[href$="93/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="44/"],.avatar[href$="94/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="45/"],.avatar[href$="95/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.avatar[href$="46/"],.avatar[href$="96/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/01.jpg')}.avatar[href$="47/"],.avatar[href$="97/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/02.jpg')}.avatar[href$="48/"],.avatar[href$="98/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/03.jpg')}.avatar[href$="49/"],.avatar[href$="99/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/04.jpg')}.avatar[href$="50/"],.avatar[href$="00/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/05.jpg')}.pranked
+.avatar{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Pranked.jpg')}.premium .avatar[href$="0/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="1/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="2/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="3/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="4/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="5/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="6/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="7/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="8/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.premium .avatar[href$="9/"]{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Premium.jpg')}.staff
+.avatar{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Staff.jpg')}.admin
+.avatar{background-image:url('../../../../styles/warchamp/ridleyboards/avatars/Admin.jpg')}li[class*="s4_"].sectionMain.message{background:url('../../../../styles/warchamp/ridleyboards/s4_ridley2.png') no-repeat top right !important}li[class*="s4_samus"].sectionMain.message{background:url('../../../../styles/uix/uix/post/flip/s4_samus.png') no-repeat top right !important}li[class*="s4_zss"].sectionMain.message{background:url('../../../../styles/uix/uix/post/flip/s4_zss.png') no-repeat top right !important}.postbits
+.n64{width:20px;margin:0px}li .postbits
+div{background:url('../../../../styles/warchamp/ridleyboards/postbit2.png') !important}.navTabs .navTab.account
+.avatar{background:url('../../../../styles/warchamp/ridleyboards/postbit2.png') !important}.alertsPopup .avatar,
+.event .avatar,
+.event .icon,
+.staffList .avatar,
+.searchResult .avatar,
+#ProfilePostList
+.avatar{width:32px;height:32px}.memberCard .avatarCropper
+a{width:150px;height:150px}#content .pageContent,
+.navTabs .navTab.selected .tabLinks,.navTabs{border-color:rgb(108, 67, 255)}.discussionListItem .title a.prefixLink:after{content:"" !important}.resultsList .listRow .avatar img,
+.eventsList .listRow .avatar
+img{display:inline;opacity:1}@media (max-width:800px){.qvIcon{display:none}}/* CSS saved with [bd] Cache (https://smashboards.com/css.php?css=EXTRA&style=57&dir=LTR&d=1522555747) */
