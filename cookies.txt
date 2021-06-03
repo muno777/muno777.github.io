@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-smashboards.com	TRUE	/	FALSE	1999999999	xf_session	dcbacd9a41ad53528b2ee1fd7ba24444
-.cursecdn.com	TRUE	/	FALSE	1999999999	__cfduid	d4cc19932042c38f2cb77bfc059ff1cda1522611246
-.google.com	TRUE	/	FALSE	1999999999	NID	127=dln5aWcScRrpg2Z9_R9lrauN-JYDQbQf5hiM3BzMZvankjWOp6r8Tm1vmqweb7ot-OHKgGfxhl_eLWkVRqzTE0PweEONwDF9Tqgf0RRO02sS9dskVWdE372J1hLwlAlp
-

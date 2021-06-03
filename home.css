@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "Titillum";
+	src: url("font/TitilliumWeb-Regular.ttf");
+}
+
+a {
+	color: #c7af6f;
+}
+
+body {
+	background-color: #2f55bb;
+	background-image: url("img/background.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	image-rendering: crisp-edges;
+}
+
+.bg_image {
+	padding-bottom:	0px;
+}
+
+.main {
+	background-color: #201541;
+	max-width: 960px;
+	margin: auto;
+	margin-top: 0px;
+	padding-bottom:	32px;
+}
+
+.pad {
+	padding-right: 	96px;
+	padding-left: 	96px;
+}
+
+img.stuff {
+	background-color: #3c3d5e;
+	display: block;
+}
+
+h1 {
+	color: #3357a6;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+p {
+	color: #ffffff;
+	font-family: "Titillum";
+	font-size: 20px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.float_left {
+	padding-top: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.line {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.big_img {
+	display: block;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 768px;
+}
