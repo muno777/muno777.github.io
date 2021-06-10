@@ -79,3 +79,15 @@ img {
 	margin-right: auto;
 	width: 768px;
 }
+
+.bottom_border {
+	width: 960px;
+	height: 20px;
+	background-color: #201541;
+	margin: auto;
+	display: block;
+}
+
+.bottom_border {
+	-webkit-mask-image: url("img/body_bottom.png");
+}
