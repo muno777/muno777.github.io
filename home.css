@@ -11,12 +11,8 @@ body {
 	background-color: #2f55bb;
 	background-image: url("img/background.png");
 	background-repeat: no-repeat;
-	background-size: contain;
 	image-rendering: crisp-edges;
-}
-
-.bg_image {
-	padding-bottom:	0px;
+	background-size: 100%;
 }
 
 .main {
@@ -78,16 +74,4 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 768px;
-}
-
-.bottom_border {
-	width: 960px;
-	height: 20px;
-	background-color: #201541;
-	margin: auto;
-	display: block;
-}
-
-.bottom_border {
-	-webkit-mask-image: url("img/body_bottom.png");
 }
