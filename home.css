@@ -12,7 +12,7 @@ body {
 	background-image: url("img/background.png");
 	background-repeat: no-repeat;
 	image-rendering: crisp-edges;
-	background-size: 100%;
+	background-size: cover;
 }
 
 .main {
