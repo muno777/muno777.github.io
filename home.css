@@ -34,9 +34,9 @@ img.stuff {
 }
 
 h1 {
-	color: #3357a6;
-	font-family: Helvetica, sans-serif;
-	text-align: center;
+	color: #ffffff;
+	font-family: "Titillum";
+	font-size: 30px;
 }
 
 p {
@@ -74,4 +74,10 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 768px;
+}
+
+.center_img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
