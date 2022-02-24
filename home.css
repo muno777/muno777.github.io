@@ -3,13 +3,32 @@
 	src: url("font/TitilliumWeb-Regular.ttf");
 }
 
+p {
+	color: #ffffff;
+	font-family: "Titillum";
+	font-size: 20px;
+}
+
 a {
 	color: #c7af6f;
+	transition: filter 50ms ease-out 50ms
+}
+
+a:hover{
+	filter: brightness(1.5);
+}
+
+a:active{
+	filter: brightness(2000);
+}
+
+a.home:hover{
+	filter: none;
 }
 
 body {
 	background-color: #2f55bb;
-	background-image: url("img/background.png");
+	background-image: url("img/background.gif");
 	background-repeat: no-repeat;
 	image-rendering: crisp-edges;
 	background-size: cover;
@@ -37,12 +56,6 @@ h1 {
 	color: #ffffff;
 	font-family: "Titillum";
 	font-size: 30px;
-}
-
-p {
-	color: #ffffff;
-	font-family: "Titillum";
-	font-size: 20px;
 }
 
 img {
