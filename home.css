@@ -47,6 +47,11 @@ body {
 	padding-left: 	96px;
 }
 
+.pad_less {
+	padding-right: 	16px;
+	padding-left: 	16px;
+}
+
 img.stuff {
 	background-color: #3c3d5e;
 	display: block;
@@ -93,4 +98,20 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.row {
+	background-color: #201541;
+}
+
+.column1 {
+	float: left;
+	width: 35%;
+}
+
+.column2 {
+	float: right;
+	width: 65%;
+	margin-right: 24px;
+	margin-left: -24px;
 }
