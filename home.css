@@ -100,18 +100,14 @@ img {
 	margin-right: auto;
 }
 
-.row {
-	background-color: #201541;
-}
-
 .column1 {
 	float: left;
 	width: 35%;
 }
 
 .column2 {
-	float: left;
-	width: 60%;
-	/* margin-right: 24px;
-	margin-left: -24px; */
+	float: right;
+	width: 65%;
+	margin-right: 24px;
+	margin-left: -24px;
 }
