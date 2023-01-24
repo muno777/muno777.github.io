@@ -21,50 +21,117 @@
 					<p>I enjoy drawing things made of tiny squares. Sometimes the tiny squares move! Exciting.</p>
 					<p>(P.S. the pixel art assets for <a href="/">this very website</a> were also made by me.)</p>
 				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>Link from Zelda: Breath of the Wild, animated for a Rivals character mod.</p>
-					<img src="pa/demo.gif">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A "fanart animation thing" based on the indie fighting game Arcus Chroma (based on the sprite from the game).</p>
-					<img src="pa/arcus chroma.gif">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A Chain Chomp from Mario, drawn in the Pokémon GBA art style.</p>
-					<img src="pa/chain chomp.png">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>Several more RoA character mods, in video form.</p>
-					<iframe width="768" height="432" src="https://www.youtube.com/embed/fMlMxhHPhjw"></iframe>
-					<iframe width="768" height="432" src="https://www.youtube.com/embed/emrZC_arVuM"></iframe>
-					<iframe width="768" height="432" src="https://www.youtube.com/embed/0OnJ81csnMQ"></iframe>
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A selection of environment art created for RoA stage mods.</p>
-					<a href="pa/link stage.png"><img src="pa/link stage.png"></a>
-					<a href="pa/toad stage.png"><img src="pa/toad stage.png"></a>
-					<a href="pa/sonic stage.png"><img src="pa/sonic stage.png"></a>
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>Some visual effects work for a RoA character mod, themed around prisms and infrared/ultraviolet light.</p>
-					<a href="pa/glare hfx no bg.gif"><img src="pa/glare hfx no bg.gif"></a>
-					<a href="pa/glare vfx no bg.gif"><img src="pa/glare vfx no bg.gif"></a>
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>Some miscellaneous pixel art.</p>
-					<a href="pa/korok.gif"><img src="pa/korok.gif"></a>
-					<a href="pa/tileset concept.png"><img src="pa/tileset concept.png"></a>
-					<a href="pa/inktober1.png"><img src="pa/inktober1.png"></a>
-					<a href="pa/inktober4.png"><img src="pa/inktober4.png"></a>
-					<a href="pa/inktober9.png"><img src="pa/inktober9.png"></a>
-				</div>
+				
+				<script type = "text/javascript">
+					function print_images(description, filenames) {
+						document.write('<img src="../img/line.png" class="line"><div class="pad" style="image-rendering: auto;"><p>');   
+						document.write(description);
+						document.write('</p>');
+						if (Array.isArray(filenames)) {
+							for (const filename of filenames) {
+								document.write('<img src="pa/' + filename + '">');
+							}
+						}
+						document.write('</div>');
+					}
+					
+					function print_videos(description, video_ids) {
+						document.write('<img src="../img/line.png" class="line"><div class="pad" style="image-rendering: auto;"><p>');   
+						document.write(description);
+						document.write('</p>');
+						if (Array.isArray(video_ids)) {
+							for (const video_id of video_ids) {
+								document.write('<iframe width="768" height="432" src="https://www.youtube.com/embed/' + video_id + '"></iframe>');
+							}
+						}
+						document.write('</div>');
+					}
+					
+					print_images(
+						"A \"fanart animation thing\" based on the indie fighting game Arcus Chroma (based on the sprite from the game).",
+						[
+							"arcus chroma.gif",
+						]);
+					
+					print_images(
+						"Two Zelda: Breath of the Wild animations, from my Rivals mods.",
+						[
+							"demo.gif",
+							"korok.gif",
+						]);
+					
+					print_images(
+						"Two Kirby animations!",
+						[
+							"kirby dances loop.gif",
+							"kirby dies.gif",
+						]);
+					
+					print_images(
+						"Two Splatoon animations!",
+						[
+							"inkling.gif",
+							"splatoon 3 map port.gif",
+						]);
+					
+					print_images(
+						"Two Mario animations!",
+						[
+							"mario jump.gif",
+							"full loop big.gif",
+						]);
+					
+					print_images(
+						"A Chain Chomp from Mario, drawn in the Pokémon GBA art style.",
+						[
+							"chain chomp.png",
+						]);
+					
+					print_videos(
+						"Several more Rivals character mods, in video form.",
+						[
+							"fMlMxhHPhjw",
+							"emrZC_arVuM",
+							"0OnJ81csnMQ",
+							
+						]);
+					
+					print_images(
+						"A Rivals stage mod based on Zelda: Breath of the Wild.",
+						[
+							"link stage.png",
+						]);
+					
+					print_images(
+						"Some visual effects work for a Rivals character mod, themed around prisms and infrared/ultraviolet light.",
+						[
+							"glare hfx no bg.gif",
+							"glare vfx no bg.gif",
+						]);
+					
+					print_images(
+						"Some more miscellaneous pixel art.",
+						[
+							"tileset concept.png",
+							"inktober1.png",
+							"inktober4.png",
+							"inktober9.png",
+						]);
+					
+					print_images(
+						"Some non-pixel art.",
+						[
+							"melting3.jpg",
+							"rose v2.jpg",
+						]);
+					
+					// print_images(
+					// 	"h",
+					// 	[
+					// 		"file.gif",
+					// 	]);
+					
+				</script>
 				
 				<img src="../img/line.png" class="line">
 				
