@@ -18,77 +18,119 @@
 				<a href="/" class="home"><img src="../img/header.gif" title="Back to the Home Page"></a>
 				<div class="pad">
 					<p>Portfolio: Graphic Design and Game UI</p>
-					<p>I am currently working as the <a href="https://twitter.com/Munomario777/status/1509945022552190990">UI Artist for Rivals 2</a>. I also enjoy graphic/UI design as an occasional hobby. See some of my old doodles below!</p>
-					<p>(P.S. <a href="/">this very website</a> could be considered part of this portfolio!)</p>
+					<p>I am currently working as the <a href="https://twitter.com/Munomario777/status/1509945022552190990">UI Artist for Rivals 2</a>. My work on that game is still under wraps, but for now, check out some of my old doodles below!</p>
 				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>The "MunoPhone" for Rivals of Aether, a fully-functioning training menu made within the game's constraints that can be added to Workshop Characters. It lets you view character information, review patches and frame data, and activate cheat codes.</p>
-					<img src="gd/munophone.gif">
-					<a href="https://www.youtube.com/watch?v=qkMm-QSmjKA"><p>Higher-fidelity demo</p></a>
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A showcase of all of the fancy, character-specific HUD elements I made for my Rivals Workshop characters.</p>
-					<img src="gd/roa hud showcase.gif">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A concept for a redesigned Minecraft inventory screen, with draggable inventory rows (for quick-swapping hotbars) and bulk storage (which is limited by "total weight" instead of slot count, like a higher-capacity version of the game's Bundle item).</p>
-					<img src="gd/minecraft inventory concept.png">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>The menus I made for my small Godot game "The Too-Helpful Knight". They're simple, but also coded from scratch rather than using Godot's built-in button nodes (for more control over inputs).</p>
-					<img src="gd/knightmenu.gif">
-					<a href="https://www.youtube.com/watch?v=CpFeDEQxxes"><p>Higher-fidelity demo</p></a>
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A Smash Bros character select mockup.</p>
-					<img src="gd/Roster-Sepia.png">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A mockup of a new menu flow for Smash Bros, designed to be easier to navigate.</p>
-					<img src="gd/menu-rules.png">
-					<img src="gd/menu-stage.png">
-					<img src="gd/menu-fighters.png">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A stage list image commissioned for a local Smash Ultimate tournament.</p>
-					<img src="gd/theo-DSR.png">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>Mockups of in-game character UI for a Smash Bros game.</p>
-					<img src="gd/ui.png">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A guide for designing cool gameplay mechanics in custom Rivals of Aether characters.</p>
-					<img src="gd/roa gimmick design.png">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>Branding done for my Smash Ultimate discord server and its "World Smash" tournament series.</p>
-					<img src="gd/SUW-Logo-V2.png">
-					<img src="gd/Discord-Logo-V2.png" width="300">
-					<img src="gd/World-Smash-Logo-V2.png" width="450">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>A selection of miscellaneous Smash Bros menu mockups.</p>
-					<img src="gd/36-Roster-Revamp.png">
-					<img src="gd/New-Main-Menu.png">
-					<img src="gd/Main-Menu.png">
-				</div>
-				<img src="../img/line.png" class="line">
-				<div class="pad" style="image-rendering: auto;">
-					<p>An illustrated concept for a Minecraft character in Smash Bros, which predates the character's official inclusion as well as my RoA character (and was pretty different from both).</p>
-					<img src="gd/stevemoveset.png">
-				</div>
+				
+				<script type = "text/javascript">
+					function print_images(description, filenames) {
+						document.write('<img src="../img/line.png" class="line"><div class="pad" style="image-rendering: auto;"><p>');   
+						document.write(description);
+						document.write('</p>');
+						if (Array.isArray(filenames)) {
+							for (const filename of filenames) {
+								document.write('<img src="gd/' + filename + '">');
+							}
+						}
+						document.write('</div>');
+					}
+					
+					function print_videos(description, video_ids) {
+						document.write('<img src="../img/line.png" class="line"><div class="pad" style="image-rendering: auto;"><p>');   
+						document.write(description);
+						document.write('</p>');
+						if (Array.isArray(video_ids)) {
+							for (const video_id of video_ids) {
+								document.write('<iframe width="768" height="432" src="https://www.youtube.com/embed/' + video_id + '"></iframe>');
+							}
+						}
+						document.write('</div>');
+					}
+					
+					print_images(
+						"A Smash Bros character select mockup.",
+						[
+							"Roster-Sepia.png",
+						]);
+					
+					print_images(
+						"The \"MunoPhone\" for Rivals of Aether, a fully-functioning training menu made within the game's constraints that can be added to Workshop Characters. It lets you view character information, review patches and frame data, and activate cheat codes.",
+						[
+							"munophone.gif",
+						]);
+					
+					print_images(
+						"A showcase of all of the fancy, character-specific HUD elements I made for my Rivals Workshop characters.",
+						[
+							"roa hud showcase.gif",
+						]);
+					
+					print_images(
+						"A mockup of a new menu flow for Smash Bros, designed to be easier to navigate.",
+						[
+							"menu-rules.png",
+							"menu-stages.png",
+							"menu-fighters.png",
+						]);
+					
+					print_images(
+						"A concept for a redesigned Minecraft inventory screen, with draggable inventory rows (for quick-swapping hotbars) and bulk storage (which is limited by \"total weight\" instead of slot count, like a higher-capacity version of the game's Bundle item).",
+						[
+							"minecraft inventory concept.png",
+						]);
+					
+					print_images(
+						"A rules graphic commissioned for a local Smash Ultimate tournament.",
+						[
+							"theo-DSR.png",
+						]);
+					
+					print_images(
+						"The menus I made for my small Godot game \"The Too-Helpful Knight\". They're simple, but also coded from scratch rather than using Godot's built-in button nodes (for more control over inputs).",
+						[
+							"knightmenu.gif",
+						]);
+					
+					print_images(
+						"Mockups of in-game character UI for a Smash Bros game.",
+						[
+							"ui.png",
+						]);
+					
+					print_images(
+						"An infographic I made to help people think of fun gameplay ideas for their Rivals of Aether mods.",
+						[
+							"roa gimmick design.png",
+						]);
+					
+					print_images(
+						"Branding I did for a Smash Ultimate discord server and its \"World Smash\" tournament series.",
+						[
+							"SUW-Logo-V2.png",
+							"Discord-Logo-V2.png",
+							"World-Smash-Logo-V2.png",
+						]);
+					
+					print_images(
+						"A selection of miscellaneous Smash Bros menu mockups.",
+						[
+							"36-Roster-Revamp.png",
+							"New-Main-Menu.png",
+							"Main-Menu.png",
+						]);
+					
+					print_images(
+						"An illustrated concept for a Minecraft character in Smash Bros, which predates the character's official inclusion as well as my RoA character (and was pretty different from both).",
+						[
+							"stevemoveset.png",
+						]);
+					
+					// print_images(
+					// 	"h",
+					// 	[
+					// 		"h",
+					// 	]);
+				
+				</script>
 				
 				<img src="../img/line.png" class="line">
 				
