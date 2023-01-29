@@ -1,155 +1,105 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="../home.css" media="screen"/>
+<script type="text/javascript" src="../common.js"></script>
+
 <html>
-	<head>
-		<title>Portfolio: Pixel Art and Animation</title>
-		<link rel="icon" href="../img/icon.png">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://byMuno.com">
-		<meta property="og:title" content="by Muno!">
-		<meta property="og:description" content="The very cool website of a pixel artist, animator, programmer, and graphic designer.">
-		<meta property="og:image" content="https://bymuno.com/img/logo-full.png">
-	</head>
-	
-	<body>
-		<div class="bg_image">
-			<img src="../img/body_top.gif" style="margin:auto; display: block;">
-			<div class="main" style="text-align:center;">
-				<a href="/" class="home"><img src="../img/header.gif" title="Back to the Home Page"></a>
-				<div class="pad">
-					<p>Portfolio: Pixel Art and Animation</p>
-					<p>I enjoy drawing things made of tiny squares. Sometimes the tiny squares move! Exciting.</p>
-					<p>(P.S. the pixel art assets for <a href="/">this very website</a> were also made by me.)</p>
-				</div>
-				
-				<script type = "text/javascript">
-					function print_images(description, filenames) {
-						document.write('<img src="../img/line.png" class="line"><div class="pad" style="image-rendering: auto;"><p>');   
-						document.write(description);
-						document.write('</p>');
-						if (Array.isArray(filenames)) {
-							for (const filename of filenames) {
-								document.write('<img src="pa/' + filename + '">');
-							}
-						}
-						document.write('</div>');
-					}
-					
-					function print_videos(description, video_ids) {
-						document.write('<img src="../img/line.png" class="line"><div class="pad" style="image-rendering: auto;"><p>');   
-						document.write(description);
-						document.write('</p>');
-						if (Array.isArray(video_ids)) {
-							for (const video_id of video_ids) {
-								document.write('<iframe width="768" height="432" src="https://www.youtube.com/embed/' + video_id + '"></iframe>');
-							}
-						}
-						document.write('</div>');
-					}
-					
-					print_images(
-						"A \"fanart animation thing\" based on the indie fighting game Arcus Chroma (based on the sprite from the game).",
-						[
-							"arcus chroma.gif",
-						]);
-					
-					print_images(
-						"Two Zelda: Breath of the Wild animations, from my Rivals mods.",
-						[
-							"demo.gif",
-							"korok.gif",
-						]);
-					
-					print_images(
-						"Two Kirby animations!",
-						[
-							"kirby dances loop.gif",
-							"kirby dies.gif",
-						]);
-					
-					print_images(
-						"Two Splatoon animations! (the second one is an injoke about the game)",
-						[
-							"inkling.gif",
-							"splatoon 3 map port.gif",
-						]);
-					
-					print_images(
-						"Two Mario animations!",
-						[
-							"mario jump.gif",
-							"full loop big.gif",
-						]);
-					
-					print_images(
-						"A Chain Chomp from Mario, drawn in the Pokémon GBA art style.",
-						[
-							"chain chomp.png",
-						]);
-					
-					print_videos(
-						"Several more Rivals character mods, in video form.",
-						[
-							"fMlMxhHPhjw",
-							"emrZC_arVuM",
-							"0OnJ81csnMQ",
-							
-						]);
-					
-					print_images(
-						"A Rivals stage mod based on Zelda: Breath of the Wild.",
-						[
-							"link stage.png",
-						]);
-					
-					print_images(
-						"Some visual effects work for a Rivals character mod, themed around prisms and infrared/ultraviolet light.",
-						[
-							"glare hfx no bg.gif",
-							"glare vfx no bg.gif",
-						]);
-					
-					print_images(
-						"A collage of all of my Rivals character mods.",
-						[
-							"char collage.png",
-						]);
-					
-					print_images(
-						"Some more miscellaneous pixel art.",
-						[
-							"tileset concept.png",
-							"inktober1.png",
-							"inktober4.png",
-							"inktober9.png",
-						]);
-					
-					print_images(
-						"Some non-pixel art.",
-						[
-							"melting.jpg",
-							"rose v2.jpg",
-							"pery.jpg",
-							"ocean sunset.jpg",
-							"capy cafe.jpg",
-							"eye.jpg",
-						]);
-					
-					// print_images(
-					// 	"h",
-					// 	[
-					// 		"file.gif",
-					// 	]);
-					
-				</script>
-				
-				<img src="../img/line.png" class="line">
-				
-				<div class="pad" style="text-align: center;">
-					<p><i><a href="../professional">Press / Business / Contact</a></i></p>
-				</div>
-			</div>
-			<img src="../img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541;">
-		</div>
-	</body>
+	<script>
+		print_head("Portfolio: Pixel Art and Animation");
+		print_page_start();
+		
+		print_content([
+			"Portfolio: Pixel Art and Animation",
+			"I enjoy drawing things made of tiny squares. Sometimes the tiny squares move! Exciting.",
+		]);
+		
+		print_line();
+		print_content([
+			"A \"fanart animation thing\" based on the indie fighting game Arcus Chroma (based on the sprite from the game).",
+			"pa/arcus chroma.gif",
+			]);
+		
+		print_line();
+		print_content([
+			"Two Zelda: Breath of the Wild animations, from my Rivals mods.",
+			"pa/demo.gif",
+			"pa/korok.gif",
+			]);
+		
+		print_line();
+		print_content([
+			"Two Kirby animations!",
+			"pa/kirby dances loop.gif",
+			"pa/kirby dies.gif",
+			]);
+		
+		print_line();
+		print_content([
+			"Two Splatoon animations! (the second one is an injoke about the game)",
+			"pa/inkling.gif",
+			"pa/splatoon 3 map port.gif",
+			]);
+		
+		print_line();
+		print_content([
+			"Two Mario animations!",
+			"pa/mario jump.gif",
+			"pa/full loop big.gif",
+			]);
+		
+		print_line();
+		print_content([
+			"A Chain Chomp from Mario, drawn in the Pokémon GBA art style.",
+			"pa/chain chomp.png",
+			]);
+		
+		print_line();
+		print_content([
+			"Several more Rivals character mods, in video form.",
+			"https://youtu.be/fMlMxhHPhjw",
+			"https://youtu.be/emrZC_arVuM",
+			"https://youtu.be/0OnJ81csnMQ",
+			
+			]);
+		
+		print_line();
+		print_content([
+			"A Rivals stage mod based on Zelda: Breath of the Wild.",
+			"pa/link stage.png",
+			]);
+		
+		print_line();
+		print_content([
+			"Some visual effects work for a Rivals character mod, themed around prisms and infrared/ultraviolet light.",
+			"pa/glare hfx no bg.gif",
+			"pa/glare vfx no bg.gif",
+			]);
+		
+		print_line();
+		print_content([
+			"A collage of all of my Rivals character mods.",
+			"pa/char collage.png",
+			]);
+		
+		print_line();
+		print_content([
+			"Some more miscellaneous pixel art.",
+			"pa/tileset concept.png",
+			"pa/inktober1.png",
+			"pa/inktober4.png",
+			"pa/inktober9.png",
+			]);
+		
+		print_line();
+		print_content([
+			"Some non-pixel art.",
+			"pa/melting.jpg",
+			"pa/rose v2.jpg",
+			"pa/pery.jpg",
+			"pa/ocean sunset.jpg",
+			"pa/capy cafe.jpg",
+			"pa/eye.jpg",
+			]);
+		
+		print_page_end(true);
+	</script>
 </html>

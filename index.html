@@ -1,85 +1,64 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="home.css" media="screen"/>
+<script type="text/javascript" src="common.js"></script>
+
 <html>
-	<head>
-		<title>by Muno!</title>
-		<link rel="icon" href="img/icon.png">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://bymuno.com">
-		<meta property="og:title" content="by Muno!">
-		<meta property="og:description" content="The very cool website of a pixel artist, animator, programmer, and graphic designer.">
-		<meta property="og:image" content="https://bymuno.com/img/logo-full.png">
-	</head>
-	
-	<body>
-		<div class="bg_image">
-			<img src="img/body_top.gif" style="margin:auto; display: block;">
-			<div class="main">
-				<!-- <img src="img/stuff.gif" class="stuff" title="_______, by Muno"> -->
-				<a href="/" class="home"><img src="img/header.gif" title="Back to the Home Page"></a>
-				
-				<div style="text-align:center; margin-top:16px;">
-					<div class="float_left" style="padding-left:0px;padding-right:0px;">
-						<a href="https://discord.gg/yhchvBB"><img src="img/socials1.png" title="My Discord server" class="float_left"></a>
-						<a href="https://patreon.com/muno"><img src="img/socials2.png" title="My Patreon where you can give me money" class="float_left"></a>
-					</div>
-					<div class="float_left" style="padding-left:0px;padding-right:0px;">
-						<a href="https://twitter.com/munosnail"><img src="img/socials3.png" title="My Twitter" class="float_left"></a>
-						<a href="https://youtube.com/bymuno"><img src="img/socials4.png" title="My YouTube" class="float_left"></a>
-					</div>
-				</div>
-				
-				<br>
-				
-				<!-- <div class="pad" style="text-align: center;">
-					<a href="mailinglist"><img src="img/mailinglist.png" title="Mailing List - Get updates on big news!"></a>
-				</div> -->
-				
-				<img src="img/line.png" class="line">
-				
-				<div class="pad" style="text-align: center;">
-					<img src="portfolio/pa/inkling.gif">
-					<!-- <img src="img/splash.png"> -->
-					<p>Hey! It's me, Muno!</p>
-					<p>I'm a pixel artist, animator, programmer, graphic designer, and more.</p>
-					<p>I'm best known for <a href="https://steamcommunity.com/workshop/filedetails/?id=2115895106">Rivals of Aether mods</a>, but these days I'm the UI Artist for <a href="https://rivals2.com/">Rivals 2</a>.
-					<p>On the side, I've been hard at work on my own game! I'll show it off when it's ready.</p>
-					<p>Consider signing up for my mailing list to hear about my game as soon as it's revealed!</p>
-					<p>In the meantime, you can always keep in touch on Twitter, YouTube, and Discord.</p>
-				</div>
-				
-				<img src="img/line.png" class="line">
-				
-				<div class="row">
-					<div class="pad_less" style="text-align: center;">
-						<div class="column1">				
-							<p>Portfolios</p>
-							<p>✨ <i><a href="portfolio/pixelart">Pixel Art and Animation</a></i> ✨</p>
-							<p><i><a href="portfolio/graphicdesign">Graphic Design and Game UI</a></i></p>
-							<p><i><a href="portfolio/music">Music</a></i></p>
-							<p><i><a href="portfolio/programming">Programming</a></i></p>
-						
-						
-							<img src="img/line_small.png" class="line">
-									
-							<p>Other Links</p>
-							<p><i><a href="professional">Press / Business / Contact</a></i></p>
-							<p><i><a rel="me" href="https://mastodon.gamedev.place/@muno">Mastodon</a></i></p>
-							<!---
-							<p><i><a href="blog">Blog</a></i></p>
-							--->
-						</div>
-						<div class="column2">	
-							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqs24q6trm6fdannITSqUPcByEl80gpo8m8tIKczR280KLGw/viewform?embedded=true" width="640" height="794" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-						</div>
-					</div>
-				</div>
-				
-				<img src="img/line.png" class="line">
+	<script>
+		print_head("by Muno!");
+		print_page_start();
+	</script>
 			
-			</div>
-			
-			<img src="img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541;" title="Congrats, you hovered over the bottom border image. It seems you've stumbled upon a very tucked-away bit of this website's HTML code.">
+	<div style="text-align:center; margin-top:16px;">
+		<div class="float_left" style="padding-left:0px;padding-right:0px;">
+			<a href="https://discord.gg/yhchvBB"><img src="img/socials1.png" title="My Discord server" class="float_left"></a>
+			<a href="https://patreon.com/muno"><img src="img/socials2.png" title="My Patreon where you can give me money" class="float_left"></a>
 		</div>
-	</body>
+		<div class="float_left" style="padding-left:0px;padding-right:0px;">
+			<a href="https://twitter.com/munosnail"><img src="img/socials3.png" title="My Twitter" class="float_left"></a>
+			<a href="https://youtube.com/bymuno"><img src="img/socials4.png" title="My YouTube" class="float_left"></a>
+		</div>
+	</div>
+	
+	<br>
+	
+	<script>
+		print_line();
+		print_content([
+			"portfolio/pa/inkling.gif",
+			"Hey! It's me, Muno!",
+			"I'm a pixel artist, animator, programmer, graphic designer, and more.",
+			"I'm best known for <a href='https://steamcommunity.com/workshop/filedetails/?id=2115895106'>Rivals of Aether mods</a>, but these days I'm the UI Artist for <a href='https://rivals2.com/'>Rivals 2</a>.",
+			"On the side, I've been hard at work on my own game! I'll show it off when it's ready.",
+			"Consider signing up for my mailing list to hear about my game as soon as it's revealed!",
+			"In the meantime, you can always keep in touch on Twitter, YouTube, and Discord.",
+		]);
+		print_line();
+	</script>
+	
+	<div class="row">
+		<div class="pad_less" style="text-align: center;">
+			<div class="column1">				
+				<p>Portfolios</p>
+				<p>✨ <i><a href="portfolio/pixelart">Pixel Art and Animation</a></i> ✨</p>
+				<p><i><a href="portfolio/graphicdesign">Graphic Design and Game UI</a></i></p>
+				<p><i><a href="portfolio/music">Music</a></i></p>
+				<p><i><a href="portfolio/programming">Programming</a></i></p>
+			
+			
+				<img src="img/line_small.png" class="line">
+						
+				<p>Other Links</p>
+				<p><i><a href="professional">Press / Business / Contact</a></i></p>
+				<p><i><a rel="me" href="https://mastodon.gamedev.place/@muno">Mastodon</a></i></p>
+				<!---
+				<p><i><a href="blog">Blog</a></i></p>
+				--->
+			</div>
+			<div class="column2">	
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqs24q6trm6fdannITSqUPcByEl80gpo8m8tIKczR280KLGw/viewform?embedded=true" width="640" height="794" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			</div>
+		</div>
+	<script>
+		print_page_end();
+	</script>
 </html>

@@ -1,35 +1,17 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="home.css" media="screen"/>
+<script type="text/javascript" src="common.js"></script>
+
 <html>
-	<head>
-		<title>Professional</title>
-		<link rel="icon" href="img/icon.png">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://bymuno.com">
-		<meta property="og:title" content="by Muno!">
-		<meta property="og:description" content="The very cool website of a pixel artist, animator, programmer, and graphic designer.">
-		<meta property="og:image" content="https://bymuno.com/img/logo-full.png">
-	</head>
-	
-	<body>
-		<div class="bg_image">
-			<img src="img/body_top.gif" style="margin:auto; display: block;">
-			<div class="main">
-				<a href="/" class="home"><img src="img/header.gif" title="Back to the Home Page"></a>
-				<img src="img/line.png" class="line">				
-				<div class="pad" style="text-align: center;">
-					<p>Business email: <a href="mailto:munosnail@gmail.com">munosnail@gmail.com</a></p>
-					<p><i>I should see whatever you send, but feel free to also DM me through Discord or Twitter to make sure (in the event of a phone email notification failure).</i></p>
-				</div>
-				<!---
-				<img src="img/line.png" class="line">
-				<div class="pad" style="text-align: center;">
-					<p>Press Kit: <a href="professional">Coming when I make something vaguely newsworthy.</a></p>
-					<p><i>In the meantime: <a href="img/logo-full.png">here's</a> a version of my logo with no background color.</i></p>
-				</div>
-				--->
-			</div>
-			<img src="img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541;">
-		</div>
-	</body>
+	<script>
+		print_head("Professional");
+		print_page_start();
+		
+		print_content([
+			"Business email: <a href=\"mailto:munosnail@gmail.com\">munosnail@gmail.com</a>",
+			"I should see whatever you send, but feel free to also DM me through Discord or Twitter to make sure (in the event of a phone email notification failure).",
+		]);
+		
+		print_page_end(true);
+	</script>
 </html>
