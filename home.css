@@ -41,6 +41,8 @@ body {
 	margin: auto;
 	margin-top: 0px;
 	padding-bottom:	32px;
+	border-left: solid 4px #255dc3;
+	border-right: solid 4px #255dc3;
 }
 
 .pad {
