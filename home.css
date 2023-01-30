@@ -27,11 +27,12 @@ a.home:hover{
 }
 
 body {
-	background-color: #2f55bb;
+	background-color: #1b0091;
 	background-image: url("img/background.gif");
 	background-repeat: no-repeat;
 	image-rendering: crisp-edges;
-	background-size: cover;
+	background-size: auto;
+	background-position: top;
 }
 
 .main {
