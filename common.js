@@ -12,6 +12,10 @@ function print_page_end(contact_info = false) {
 		document.write('<div class="pad" style="text-align: center;"><p><i><a href="../professional">Press / Business / Contact</a></i></p></div>');
 	}
 	document.write('</div></div><img src="https://bymuno.com/img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541;"></body>');
+	
+	// document.write('<img src="img/trum.gif" style="position: absolute; right: 0px; bottom: 0px;">');
+	
+	document.write('<div style="height:100%; width:100%;"><img src="https://bymuno.com/img/trum.gif" style="position: fixed; left: 0px; bottom: 0px; z-index: 2;"></div>')
 }
 
 function print_line(small = false) {
