@@ -15,7 +15,7 @@ function print_page_end(contact_info = false) {
 	
 	// document.write('<img src="img/trum.gif" style="position: absolute; right: 0px; bottom: 0px;">');
 	
-	document.write('<div style="height:100%; width:100%;"><img src="https://bymuno.com/img/trum.gif" style="position: fixed; left: 0px; bottom: 0px; z-index: -2;"></div>')
+	// document.write('<div style="height:100%; width:100%;"><img src="https://bymuno.com/img/trum.gif" style="position: fixed; left: 0px; bottom: 0px; z-index: -2;"></div>')
 }
 
 function print_line(small = false) {

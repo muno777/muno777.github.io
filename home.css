@@ -45,6 +45,16 @@ body {
 	border-right: solid 4px #255dc3;
 }
 
+.bg_image {
+	background-image: url("img/trum.gif");
+	/* background-color: #ff0000; */
+	background-repeat: no-repeat;
+	image-rendering: crisp-edges;
+	background-size: auto;
+	background-position: bottom left;
+}
+
+
 .pad {
 	padding-right: 	96px;
 	padding-left: 	96px;
