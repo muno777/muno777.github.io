@@ -6,6 +6,12 @@ function get_posts() {
 			url: "post/rollback",
 			date: new Date("2022-11-23"),
 		},
+		{
+			name: "How do 2d Cameras Work?",
+			description: "An animated tour through various challenges in creating game cameras (e.g. Super Mario Bros.).",
+			url: "post/camera",
+			date: new Date("2022-11-28"),
+		},
 	]
 }
 

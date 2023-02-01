@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="../home.css" media="screen"/>
+<script type="text/javascript" src="../common.js"></script>
+
+<html>
+	<script>
+		print_head("How do 2d Cameras Work?");
+		print_page_start();
+		
+		print_back_to_blog();
+		
+		print_content([
+			"How do you program a 2d game camera that properly frames the action?",
+			"I answer this question and more in this blog post adapted from my <a href=\"https://twitter.com/munosnail/status/1597255824904441859\">Twitter thread</a>.",
+		]);
+		
+		print_line();
+		print_content([
+			"The setup: you've made your platform game's player character and need to make the camera follow them. Easy, right...?",
+		]);
+		print_content_no_div([
+			"02/jumping A.gif",
+		]);
+		
+		print_line();
+		print_content([
+			"...Well, there's more to it than that. If you just lock the center of the camera to the center of the character, it won't give the player a very good view.",
+			"In fact, nearly half of the screen real estate is now dedicated to showing the ground texture... not helpful!",
+		]);
+		print_content_no_div([
+			"02/walk and run A.gif",
+		]);
+		print_content([
+			"Easy fix: move the camera up a little bit! Now the player can see all of the blocks above, at least. But our work isn't done yet.",
+			"For one thing, the camera shows the menacing out-of-bounds void when the player walks near the edge of the map.",
+		]);
+		print_content_no_div([
+			"02/walk and run B.gif",
+		]);
+		print_content([
+			"No problem: just restrict its position to within the edges of the map.",
+		]);
+		print_content_no_div([
+			"02/walk and run C.gif",
+		]);
+		print_content([
+			"You may notice that it's difficult to see far ahead of the character while moving. Classic Sonic fans are familiar with this problem.",
+			"...So let's move the camera a little bit ahead of the player during movement! The effect scales with the current speed.",
+		]);
+		print_content_no_div([
+			"02/walk and run D.gif",
+		]);
+		
+		print_line();
+		print_content([
+			"At this point, the camera serves its PRACTICAL function... but it still feels pretty cheap.",
+			"It's very rigid, and even small movements cause the camera to shift around a bit.",
+			"Let's fix that",
+		]);
+		print_content([
+			"Idea: Instead of matching the player's x-position EXACTLY, we'll give a RANGE of positions that the character may be within before the camera will move (the blue box).",
+			"This area moves with the player, since the camera needs to account for player velocity like before.",
+		]);
+		print_content_no_div([
+			"02/walk and run E.gif",
+		]);
+		print_content([
+			"Even so, it's still kind of jerky... we can fix this by smoothing out its movement with a lerp. So now, the camera moves more gradually.",
+			"By now, this camera is pretty good for walking and running!",
+		]);
+		print_content_no_div([
+			"02/walk and run F.gif",
+		]);
+		print_content([
+			"...But if we try jumping, there's a lot to be desired.",
+			"It's pretty jarring for the camera to follow the player upward with every jump... in many games, there isn't even anything up there!",
+		]);
+		print_content_no_div([
+			"02/jumping B.gif",
+		]);
+		print_content([
+			"So let's fix that by locking the camera's y-coordinate in place from the beginning of the stage.",
+		]);
+		print_content_no_div([
+			"02/jumping C.gif",
+		]);
+		print_content([
+			"But now the camera doesn't work for vertical climbing levels... Hm.",
+		]);
+		print_content_no_div([
+			"02/climbing A.gif",
+		]);
+		print_content([
+			"Okay, compromise: the camera's y-coordinate DOES change (marked by the blue X), but ONLY when the character is grounded.",
+			"There's also now a bottom margin used for when the character is falling.",
+			"Now jumps look fine, and the climbing section works too!",
+		]);
+		print_content_no_div([
+			"02/climbing B.gif",
+		]);
+		print_content([
+			"Oh, but now landing on the blocks from before causes the camera to pan up...",
+			"Ideally, we want the player to still see the ground when standing on these blocks. What to do...?",
+		]);
+		print_content_no_div([
+			"02/jumping D.gif",
+		]);
+		
+		print_line();
+		print_content([
+			"This is an example where a camera's needs CONFLICT with one another.",
+			"You want platforms to keep the focus at ground level, but other sections of the game should allow climbing.",
+			"Luckily, there's a solution!",
+		]);
+		print_content([
+			"For situations like these, you need \"camera bounds\" that change the camera behavior for certain areas.",
+			"Here, when the character is within the yellow box, the camera's y-coordinate is locked. Otherwise, the y-coordinate will update when the character lands. Cool!",
+		]);
+		print_content_no_div([
+			"02/full loop A.gif",
+		]);
+		print_content([
+			"That should be the last piece of the puzzle for this little demo!",
+			"To show how far we've come, here's a comparison with the very first camera we tried (camera follows character x,y rigidly). The dynamic camera is much nicer, huh?",
+		]);
+		print_content_no_div([
+			"02/full loop BA.gif",
+		]);
+		
+		print_line();
+		print_content([
+			"But there are still other considerations.",
+			"For example, what if we want the player to travel DOWNWARD here? Our current camera setup doesn't let the player see BELOW very well...",
+		]);
+		print_content_no_div([
+			"02/descending A.gif",
+		]);
+		print_content([
+			"...so we could add a camera bound to shift the view downward!",
+		]);
+		print_content_no_div([
+			"02/descending B.gif",
+		]);
+		print_content([
+			"Also, if the player goes above the camera, should it follow them?",
+			"In the old-school Mario games, it doesn't follow until the player lands on the ground.",
+			"It depends on the situation: is there anything of interest up there, or should the focus be on the landing zone?",
+		]);
+		print_content_no_div([
+			"02/spring BA.gif",
+		]);
+		print_content([
+			"In addition, you can add a special camera offset for certain actions, such as aiming a projectile attack.",
+			"This helps the player see what's ahead at key moments.",
+		]);
+		print_content_no_div([
+			"02/gun A.gif",
+		]);
+		
+		print_line();
+		print_content([
+			"That's about it! These are just some of the challenges that come with something as simple as a camera.",
+			"I made these gifs with Aseprite scripts that automate the camera movement based on the position of the character drawing. Download them <a href=\"https://drive.google.com/file/d/1ePZlTpzxsycVQOIi4lu_ZccSablEust-/view\"here</a>!",
+		]);
+		
+		print_page_end(true);
+	</script>
+</html>
