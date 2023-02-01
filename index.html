@@ -39,6 +39,17 @@
 		<div class="pad_less" style="text-align: center;">
 			<div class="column1">
 				<script>
+					print_content_no_div([
+						"Portfolios",
+						"✨ <i><a href=\"portfolio/pixelart\">Pixel Art and Animation</a></i> ✨",
+						"<i><a href=\"portfolio/graphicdesign\">Graphic Design and Game UI</a></i>",
+						"<i><a href=\"portfolio/music\">Music</a></i>",
+						"<i><a href=\"portfolio/videos\">Videos</a></i>",
+						"✨ <i><a href=\"portfolio/traditionalart\">Traditional Art</a></i> ✨",
+						"<i><a href=\"portfolio/programming\">Programming</a></i>",
+					]);
+					
+					print_line(true);
 					var latest_posts = get_posts();
 					var posts_shown = 3;
 					to_post = [
@@ -52,17 +63,6 @@
 					print_content_no_div(
 						to_post,
 					);
-					
-					print_line(true);
-					print_content_no_div([
-						"Portfolios",
-						"✨ <i><a href=\"portfolio/pixelart\">Pixel Art and Animation</a></i> ✨",
-						"<i><a href=\"portfolio/graphicdesign\">Graphic Design and Game UI</a></i>",
-						"<i><a href=\"portfolio/music\">Music</a></i>",
-						"<i><a href=\"portfolio/videos\">Videos</a></i>",
-						"✨ <i><a href=\"portfolio/traditionalart\">Traditional Art</a></i> ✨",
-						"<i><a href=\"portfolio/programming\">Programming</a></i>",
-					]);
 				</script>
 			</div>
 			<div class="column2">	
