@@ -1,4 +1,19 @@
+function get_posts() {
+	return [
+		{
+			name: "What is Rollback Netcode?",
+			description: "An animated tour through various approaches to programming an online video game.",
+			url: "post/rollback",
+			date: new Date("2022-11-23"),
+		},
+	]
+}
+
 function print_head(page_name) {
+	if (page_name != "") {
+		page_name += " - ";
+	}
+	page_name += "by Muno!";
 	document.write('<head><title>' + page_name + '</title><link rel="icon" href="https://bymuno.com/img/icon.png"><meta property="og:type" content="website"><meta property="og:url" content="https://bymuno.com"><meta property="og:title" content="by Muno!"><meta property="og:description" content="The very cool website of a pixel artist, animator, programmer, and graphic designer."><meta property="og:image" content="https://bymuno.com/img/logo-full.png"></head>');
 }
 
@@ -27,6 +42,10 @@ function print_line(small = false) {
 	}
 }
 
+function print_back_to_blog() {
+	document.write('<div class="pad" style="image-rendering: auto; text-align: center;"><p style=\"text-align: left\"><a href="../blog"><< Blog</a></p></div>')
+}
+
 function print_content(contents) {
 	document.write('<div class="pad" style="image-rendering: auto; text-align: center;">');
 	if (Array.isArray(contents)) {
@@ -43,6 +62,22 @@ function print_content(contents) {
 		}
 	}
 	document.write('</div>');
+}
+
+function print_content_no_div(contents) {
+	if (Array.isArray(contents)) {
+		for (const content of contents) {
+			if (content.endsWith(".png") || content.endsWith(".jpeg") || content.endsWith(".jpg") || content.endsWith(".gif")) {
+				document.write('<img src="' + content + '" style="margin-bottom: 20px">');
+			}
+			else if (content.startsWith("https://youtu.be/") || content.startsWith("https://youtube.com/watch?v=")) {
+				document.write('<iframe width="768" height="432" style="margin-bottom: 20px" src="https://www.youtube.com/embed/' + content.replace("https://youtu.be/", "").replace("https://youtube.com/watch?v=", "") + '"></iframe>');
+			}
+			else {
+				document.write('<p>' + content + '</p>');
+			}
+		}
+	}
 }
 
 function redirect_to(url) {
