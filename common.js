@@ -52,6 +52,10 @@ function print_back_to_blog() {
 	document.write('<div class="pad" style="image-rendering: auto; text-align: center;"><p style=\"text-align: left\"><a href="../blog"><< Blog</a></p></div>')
 }
 
+function print_back_to_home() {
+	document.write('<div class="pad" style="image-rendering: auto; text-align: center;"><p style=\"text-align: left\"><a href="/"><< Home</a></p></div>')
+}
+
 function print_content(contents) {
 	document.write('<div class="pad" style="image-rendering: auto; text-align: center;">');
 	if (Array.isArray(contents)) {
