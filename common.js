@@ -2,7 +2,7 @@ function get_posts() {
 	return [
 		{
 			name: "How do 2d Cameras Work?",
-			description: "An animated tour through various challenges in creating game cameras (e.g. Super Mario Bros.).",
+			description: "An animated tour of various challenges in creating game cameras (e.g. Super Mario Bros.).",
 			url: "post/camera",
 			date: new Date("2022-11-28"),
 		},
