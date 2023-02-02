@@ -18,7 +18,7 @@
 		for (var i = 0; i < latest_posts.length && i < posts_shown; i++){
 			print_line();
 			print_content([
-				"<i><a href=\"" + latest_posts[i].url + "\">" + latest_posts[i].name + "</a></i> - " + latest_posts[i].date.getFullYear() + " / " + latest_posts[i].date.getMonth() + " / " + latest_posts[i].date.getDate(),
+				"<i><a href=\"" + latest_posts[i].url + "\">" + latest_posts[i].name + "</a></i> - " + latest_posts[i].date.getFullYear() + " / " + (latest_posts[i].date.getMonth() + 1) + " / " + (latest_posts[i].date.getDate() + 1),
 				latest_posts[i].description,
 			]);
 		}
