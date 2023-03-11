@@ -28,7 +28,8 @@ a.home:hover{
 
 body {
 	background-color: #1b0091;
-	background-image: url("img/background.gif");
+	background-image: url("img/background.svg");
+	/* background-image: url("img/background.gif"); */
 	background-repeat: no-repeat;
 	image-rendering: crisp-edges;
 	background-size: auto;

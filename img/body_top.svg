@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 968 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,4,-69)">
+        <rect id="Artboard2" x="-4" y="69" width="968" height="20" style="fill:none;"/>
+        <g id="Artboard21" serif:id="Artboard2">
+            <path d="M0,89L6,75L20,69L940,69L954,75L960,89L0,89Z" style="fill:rgb(66,67,103);"/>
+            <clipPath id="_clip1">
+                <path d="M0,89L6,75L20,69L940,69L954,75L960,89L0,89Z"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <path d="M8,89L12,81L22,77L938,77L948,81L952,89L960,89L954,75L940,69L20,69L6,75L0,89L8,89Z" style="fill:rgb(110,123,144);"/>
+                <path d="M4,89L9,78L21,73L939,73L951,78L956,89L960,89L954,75L940,69L20,69L6,75L0,89L4,89Z" style="fill:rgb(34,18,73);"/>
+            </g>
+        </g>
+    </g>
+</svg>
