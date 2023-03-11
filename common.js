@@ -23,28 +23,48 @@ function print_head(page_name) {
 	document.write('<head><title>' + page_name + '</title><link rel="icon" href="https://bymuno.com/img/icon.png"><meta property="og:type" content="website"><meta property="og:url" content="https://bymuno.com"><meta property="og:title" content="by Muno!"><meta property="og:description" content="The very cool website of a pixel artist, animator, programmer, and graphic designer."><meta property="og:image" content="https://bymuno.com/img/logo-full.png"></head>');
 }
 
-function print_page_start() {
-	document.write('<body><div class="bg_image"><img src="https://bymuno.com/img/body_top.gif" style="margin:auto; display: block;"><div class="main"><a href="/" class="home"><img src="https://bymuno.com/img/header.gif" title="Back to the Home Page"></a>');
+function print_page_start(pixel = false) {
+	if (pixel) {
+		document.write('<body><div class="bg_image"><img src="img/body_top.gif" style="margin:auto; display: block; width: 968px;"><div class="main"><a href="/" class="home"><img src="img/header.svg" title="Back to the Home Page"></a>');
+		// document.write('<body><div class="bg_image"><img src="https://bymuno.com/img/body_top.gif" style="margin:auto; display: block; width: 968px;"><div class="main"><a href="/" class="home"><img src="https://bymuno.com/img/header.svg" title="Back to the Home Page"></a>');
+		return;
+	}
+	document.write('<body><div class="bg_image"><img src="img/body_top.svg" style="margin:auto; display: block; width: 968px;"><div class="main"><a href="/" class="home"><img src="img/header.svg" title="Back to the Home Page"></a>');
+	// document.write('<body><div class="bg_image"><img src="https://bymuno.com/img/body_top.svg" style="margin:auto; display: block; width: 968px;"><div class="main"><a href="/" class="home"><img src="https://bymuno.com/img/header.svg" title="Back to the Home Page"></a>');
 }
 
-function print_page_end(contact_info = false) {
-	document.write('<img src="https://bymuno.com/img/line.png" class="line">');
+function print_page_end(contact_info = false, pixel = false) {
+	print_line(false, pixel)
 	if (contact_info) {
 		document.write('<div class="pad" style="text-align: center;"><p><i><a href="../professional">Press / Business / Contact</a></i></p></div>');
 	}
-	document.write('</div></div><img src="https://bymuno.com/img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541;"></body>');
-	
-	// document.write('<img src="img/trum.gif" style="position: absolute; right: 0px; bottom: 0px;">');
-	
-	// document.write('<div style="height:100%; width:100%;"><img src="https://bymuno.com/img/trum.gif" style="position: fixed; left: 0px; bottom: 0px; z-index: -2;"></div>')
+	if (pixel) {
+		document.write('</div></div><img src="img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541; width: 968px;"></body>');
+		// document.write('</div></div><img src="https://bymuno.com/img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541; width: 968px;"></body>');
+		return;
+	}
+	document.write('</div></div><img src="img/body_bottom.svg" style="margin:auto; display: block; background-color: #201541; width: 968px;"></body>');
+	// document.write('</div></div><img src="https://bymuno.com/img/body_bottom.svg" style="margin:auto; display: block; background-color: #201541; width: 968px;"></body>');
 }
 
-function print_line(small = false) {
+function print_line(small = false, pixel = false) {
 	if (small) {
-		document.write('<img src="https://bymuno.com/img/line_small.png" class="line">');
+		if (pixel) {
+			document.write('<img src="img/line_small.gif" style="width: 228px" class="line">');
+			// document.write('<img src="https://bymuno.com/img/line_small.gif" style="width: 228px class="line">');
+			return;
+		}
+		document.write('<img src="img/line_small.svg" style="width: 228px" class="line">');
+		// document.write('<img src="https://bymuno.com/img/line_small.svg" style="width: 228px class="line">');
 	}
 	else{
-		document.write('<img src="https://bymuno.com/img/line.png" class="line">');
+		if (pixel) {
+			document.write('<img src="img/line.gif" style="width: 228px" class="line">');
+			// document.write('<img src="https://bymuno.com/img/line.gif" style="width: 228px class="line">');
+			return;
+		}
+		document.write('<img src="img/line.svg" style="width: 832px" class="line">');
+		// document.write('<img src="https://bymuno.com/img/line.svg" style="width: 832px class="line">');
 	}
 }
 
