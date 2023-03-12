@@ -80,7 +80,7 @@ function print_content(contents) {
 	document.write('<div class="pad" style="image-rendering: auto; text-align: center;">');
 	if (Array.isArray(contents)) {
 		for (const content of contents) {
-			if (content.endsWith(".png") || content.endsWith(".jpeg") || content.endsWith(".jpg") || content.endsWith(".gif")) {
+			if (content.endsWith(".png") || content.endsWith(".jpeg") || content.endsWith(".jpg") || content.endsWith(".gif") || content.endsWith(".svg")) {
 				document.write('<img src="' + content + '" style="margin-bottom: 20px">');
 			}
 			else if (content.startsWith("https://youtu.be/") || content.startsWith("https://youtube.com/watch?v=")) {
@@ -97,7 +97,7 @@ function print_content(contents) {
 function print_content_no_div(contents) {
 	if (Array.isArray(contents)) {
 		for (const content of contents) {
-			if (content.endsWith(".png") || content.endsWith(".jpeg") || content.endsWith(".jpg") || content.endsWith(".gif")) {
+			if (content.endsWith(".png") || content.endsWith(".jpeg") || content.endsWith(".jpg") || content.endsWith(".gif") || content.endsWith(".svg")) {
 				document.write('<img src="' + content + '" style="margin-bottom: 20px">');
 			}
 			else if (content.startsWith("https://youtu.be/") || content.startsWith("https://youtube.com/watch?v=")) {
