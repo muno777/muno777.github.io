@@ -83,8 +83,8 @@ function print_content(contents) {
 			if (content.endsWith(".png") || content.endsWith(".jpeg") || content.endsWith(".jpg") || content.endsWith(".gif") || content.endsWith(".svg")) {
 				document.write('<img src="' + content + '" style="margin-bottom: 20px">');
 			}
-			else if (content.startsWith("https://youtu.be/") || content.startsWith("https://youtube.com/watch?v=")) {
-				document.write('<iframe width="768" height="432" style="margin-bottom: 20px" src="https://www.youtube.com/embed/' + content.replace("https://youtu.be/", "").replace("https://youtube.com/watch?v=", "") + '"></iframe>');
+			else if (content.startsWith("https://youtu.be/") || content.startsWith("https://youtube.com/watch?v=") || content.startsWith("https://www.youtu.be/") || content.startsWith("https://www.youtube.com/watch?v=")) {
+				document.write('<iframe width="768" height="432" style="margin-bottom: 20px" src="https://www.youtube.com/embed/' + content.replace("https://youtu.be/", "").replace("https://youtube.com/watch?v=", "").replace("https://www.youtu.be/", "").replace("https://www.youtube.com/watch?v=", "") + '"></iframe>');
 			}
 			else {
 				document.write('<p>' + content + '</p>');
