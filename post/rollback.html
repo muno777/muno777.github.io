@@ -111,11 +111,11 @@
 			"Also, as a developer, rollback is pretty difficult to implement.",
 			"The details are kind of technical, but the basic steps are: 1) keep track of past game states (a \"save state\"), 2) restore a past game state when an input is received (\"reload\" a save state), and 3) resimulate the frames since then but with the new input accounted for.",
 			"...All in the span of 1/60th of a second. You're basically adding time travel into your game, and it's gotta run FAST.",
-			"Adding rollback to a game is like adding a drive-thru to a restaurant: you need to rethink how everything works in order to enable an entirely different mode of operation.",
 			"01/rollback_blocked.gif",
 			"Not only that, but you need to rethink your game's logic to account for teleporting. Your code can't depend on things happening in order! Prepare to refactor and bugfix like never before.",
 			"And there are design considerations. The teleporting effect is most noticeable on actions with instant startup, so adding some startup time to an action (e.g. squatting down before a jump) can help mask it.",
 			"Similarly, introducing input delay on purpose can help mask teleports. When the Slippi team reworked Super Smash Bros. Melee to run on PC with rollback, they managed to get it running faster than on native GameCube hardware - so they could introduce some input delay without affecting players' muscle memory.",
+			"Adding rollback to a game is like adding a drive-thru to a restaurant: you need to rethink how everything works in order to enable an entirely different mode of operation.",
 		]);
 		
 		print_line();
