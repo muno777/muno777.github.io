@@ -24,9 +24,7 @@
 		print_line();
 	</script>
 	
-	
-			
-	<div style="text-align:center; margin-top:16px;">
+	<!-- <div style="text-align:center; margin-top:16px;">
 		<div class="float_left" style="padding-left:0px;padding-right:0px;">
 			<a href="https://discord.gg/yhchvBB"><img src="img/social_discord.svg" title="Discord" class="float_left" style="width: 260px;"></a>
 			<a href="https://youtube.com/@muno"><img src="img/social_youtube.svg" title="YouTube" class="float_left" style="width: 260px;"></a>
@@ -38,24 +36,12 @@
 	
 	<script>
 		print_line();
-	</script>
+	</script> -->
 	
 	<div class="row">
 		<div class="pad_less" style="text-align: center;">
-			<div class="column1">
-				<script>
-					print_content_no_div([
-						"Portfolios",
-						"✨ <i><a href=\"portfolio/overview\">Everything at a Glance</a></i> ✨",
-						"✨ <i><a href=\"portfolio/pixelart\">Pixel Art and Animation</a></i> ✨",
-						"<i><a href=\"portfolio/graphicdesign\">Graphic Design and Game UI</a></i>",
-						"✨ <i><a href=\"portfolio/traditionalart\">Traditional Art</a></i> ✨",
-						"<i><a href=\"portfolio/music\">Music</a></i>",
-						"<i><a href=\"portfolio/videos\">Videos</a></i>",
-						"<i><a href=\"portfolio/programming\">Programming</a></i>",
-					]);
-					
-					print_line(true);
+			<div class="three_column">
+					<script>
 					var latest_posts = get_posts();
 					var posts_shown = 3;
 					to_post = [
@@ -69,10 +55,31 @@
 					print_content_no_div(
 						to_post,
 					);
-				</script>
+					</script>
 			</div>
-			<div class="column2">	
-				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfqs24q6trm6fdannITSqUPcByEl80gpo8m8tIKczR280KLGw/viewform?embedded=true" width="640" height="794" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			<div class="three_column">
+				<script>
+					print_content_no_div([
+						"Portfolios",
+						"✨ <i><a href=\"portfolio/overview\">Everything at a Glance</a></i> ✨",
+						"✨ <i><a href=\"portfolio/pixelart\">Pixel Art and Animation</a></i> ✨",
+						"<i><a href=\"portfolio/graphicdesign\">Graphic Design and Game UI</a></i>",
+						"✨ <i><a href=\"portfolio/traditionalart\">Traditional Art</a></i> ✨",
+						"<i><a href=\"portfolio/music\">Music</a></i>",
+						"<i><a href=\"portfolio/videos\">Videos</a></i>",
+						"<i><a href=\"portfolio/programming\">Programming</a></i>",
+					]);
+					</script>
+			</div>
+			<div class="three_column">
+					<script>
+					print_content_no_div([
+						"External Links",
+						"<a href=\"https://discord.gg/yhchvBB\">Discord Server</a>",
+						"<a href=\"https://youtube.com/@muno\">YouTube</a>",
+						"<a href=\"https://forms.gle/3kTuF7wxGcTmLUft8\">Mailing List</a>",
+					]);
+				</script>
 			</div>
 		</div>
 	<script>

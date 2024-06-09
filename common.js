@@ -24,7 +24,7 @@ function print_head(page_name) {
 }
 
 function print_page_start(pixel = false) {
-	if (pixel) {
+	if (pixel || true) {
 		// document.write('<body><div class="bg_image"><img src="img/body_top.gif" style="margin:auto; display: block; width: 968px;"><div class="main"><a href="/" class="home"><img src="img/header.svg" title="Back to the Home Page"></a>');
 		document.write('<body><div class="bg_image"><img src="https://bymuno.com/img/body_top.gif" style="margin:auto; display: block; width: 968px;"><div class="main"><a href="/" class="home"><img src="https://bymuno.com/img/header.gif" title="Back to the Home Page"></a>');
 		return;
@@ -38,7 +38,7 @@ function print_page_end(contact_info = false, pixel = false) {
 	if (contact_info) {
 		document.write('<div class="pad" style="text-align: center;"><p><i><a href="../professional">Press / Business / Contact</a></i></p></div>');
 	}
-	if (pixel) {
+	if (pixel || true) {
 		// document.write('</div></div><img src="img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541; width: 968px;"></body>');
 		document.write('</div></div><img src="https://bymuno.com/img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541; width: 968px;"></body>');
 		return;
@@ -49,7 +49,7 @@ function print_page_end(contact_info = false, pixel = false) {
 
 function print_line(small = false, pixel = false) {
 	if (small) {
-		if (pixel) {
+		if (pixel || true) {
 			// document.write('<img src="img/line_small.png" style="width: 228px" class="line">');
 			document.write('<img src="https://bymuno.com/img/line_small.png" style="width: 228px" class="line">');
 			return;
@@ -58,7 +58,7 @@ function print_line(small = false, pixel = false) {
 		document.write('<img src="https://bymuno.com/img/line_small.svg" style="width: 228px" class="line">');
 	}
 	else{
-		if (pixel) {
+		if (pixel || true) {
 			// document.write('<img src="img/line.png" style="width: 832" class="line">');
 			document.write('<img src="https://bymuno.com/img/line.png" style="width: 832px" class="line">');
 			return;
