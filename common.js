@@ -30,7 +30,7 @@ function print_page_start() {
 function print_page_end(contact_info = false) {
 	print_line(false)
 	if (contact_info) {
-		document.write('<div class="pad" style="text-align: center;"><p><i><a href="../professional">Press / Business / Contact</a></i></p></div>');
+		document.write('<div class="pad" style="text-align: center;"><p><i><a href="../professional">Contact</a></i></p></div>');
 	}
 	// document.write('</div></div><img src="img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541; width: 968px;"></body>');
 	document.write('</div></div><img src="https://bymuno.com/img/body_bottom.gif" style="margin:auto; display: block; background-color: #201541; width: 968px;"></body>');
