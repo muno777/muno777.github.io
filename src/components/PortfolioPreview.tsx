@@ -1,12 +1,20 @@
 // import { PortfolioItem, PortfolioItemType, Portfolio } from "~/data/portfolio";
+import { For } from "solid-js";
 import portfolioList from "~/data/portfolioList.json";
 
 export default function PortfolioPreview(props: {portfolio_id: string}) {
-  if (props.portfolio_id in portfolioList) {
-    console.log((portfolioList as any)[props.portfolio_id]);
+  if (!(props.portfolio_id in portfolioList)) {
+    return (
+      <p>ERROR</p>
+    )
   }
+  var portfolio = (portfolioList as any)[props.portfolio_id];
   return (
-    <div>TODO</div>
+    <div>
+      <For each={portfolio._files}>
+        {(src) => <img src={src} alt="" />}
+      </For>
+    </div>
   );
 }
 

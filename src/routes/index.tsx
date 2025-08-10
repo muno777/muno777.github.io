@@ -25,6 +25,7 @@ export default function Home() {
       </div>
       <LineBig/>
       <PortfolioPreview portfolio_id="pixelart"></PortfolioPreview>
+      {/* <PortfolioPreview portfolio_id="doodles"></PortfolioPreview> */}
     </div>
   );
 }

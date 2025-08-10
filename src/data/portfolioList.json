@@ -128,10 +128,6 @@
       ]
     }
   },
-  "illustration": {
-    "description": "",
-    "videos": []
-  },
   "pixelart": {
     "description": "",
     "videos": [],
@@ -170,15 +166,9 @@
       "/img/portfolio/pixelart/sonic stage.png",
       "/img/portfolio/pixelart/splatoon 3 map port.gif",
       "/img/portfolio/pixelart/sprangler.png",
+      "/img/portfolio/pixelart/stick walk.gif",
       "/img/portfolio/pixelart/tileset concept.png",
       "/img/portfolio/pixelart/toad stage.png"
-    ],
-    "foo": {
-      "description": "",
-      "videos": [],
-      "_files": [
-        "/img/portfolio/pixelart/foo/stick walk.gif"
-      ]
-    }
+    ]
   }
 }
