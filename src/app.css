@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {  
+  --color-bymuno-blue-0: #75bbff;
+  --color-bymuno-blue-1: #255dc3;
+  --color-bymuno-blue-2: #202faa;
+  --color-bymuno-blue-3: #1b0091;
+  
+  --color-bymuno-grey-0: #424367;
+  --color-bymuno-grey-1: #322b58;
+  --color-bymuno-grey-2: #322b58;
+  --color-bymuno-grey-3: #221249;
+  
+  --color-bymuno-white-0: #e3eaf7;
+  --color-bymuno-white-1: #acafd8;
+  --color-bymuno-white-2: #7474b9;
+}
+
+.pixel-image {
+  image-rendering: crisp-edges;
+}
