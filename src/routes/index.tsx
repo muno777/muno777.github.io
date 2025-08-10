@@ -2,12 +2,15 @@ import { Title } from "@solidjs/meta";
 import { A } from "@solidjs/router";
 import Counter from "~/components/Counter";
 import LineBig from "~/components/LineBig";
+import PageTitle from "~/components/PageTitle";
+import PortfolioPreview from "~/components/PortfolioPreview";
 import YouTubeVideo from "~/components/YouTubeVideo";
+import { pixelart, PortfolioItem, PortfolioItemType } from "~/data/portfolio";
 
 export default function Home() {
   return (
     <div class="flex flex-col items-center">
-      <Title>Fuck You - by Muno!</Title>
+      <PageTitle>Home</PageTitle>
       <YouTubeVideo video_id="K4lvfmbMkcw"/>
       <LineBig/>
       <div class="w-full flex justify-between flex-col sm:flex-row items-center sm:items-start gap-y-4 gap-x-4">
@@ -22,6 +25,7 @@ export default function Home() {
         </div>
       </div>
       <LineBig/>
+      <PortfolioPreview portfolio={pixelart}></PortfolioPreview>
     </div>
   );
 }

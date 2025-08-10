@@ -2,6 +2,6 @@ import { createSignal } from "solid-js";
 
 export default function LineSmall() {
   return (
-    <img src="https://bymuno.com/img/line_small.png" class="py-8"/>
+    <img src="/img/layout/line_small.png" class="py-8"/>
   );
 }
