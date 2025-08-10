@@ -1,13 +1,12 @@
-import { Title } from "@solidjs/meta";
-import { A } from "@solidjs/router";
 import Counter from "~/components/Counter";
 import LineBig from "~/components/LineBig";
 import PageTitle from "~/components/PageTitle";
 import PortfolioPreview from "~/components/PortfolioPreview";
 import YouTubeVideo from "~/components/YouTubeVideo";
-import { pixelart, PortfolioItem, PortfolioItemType } from "~/data/portfolio";
+import portfolioList from "~/data/portfolioList.json";
 
 export default function Home() {
+  // console.log(portfolioList)
   return (
     <div class="flex flex-col items-center">
       <PageTitle>Home</PageTitle>
@@ -25,7 +24,7 @@ export default function Home() {
         </div>
       </div>
       <LineBig/>
-      <PortfolioPreview portfolio={pixelart}></PortfolioPreview>
+      <PortfolioPreview portfolio_id="pixelart"></PortfolioPreview>
     </div>
   );
 }
