@@ -1,6 +1,7 @@
 // import { PortfolioItem, PortfolioItemType, Portfolio } from "~/data/portfolio";
 import { For } from "solid-js";
 import portfolioList from "~/data/portfolioList.json";
+import ExpandableImage from "./ExpandableImage";
 
 export default function PortfolioPreview(props: {portfolio_id: string}) {
   if (!(props.portfolio_id in portfolioList)) {
@@ -12,7 +13,7 @@ export default function PortfolioPreview(props: {portfolio_id: string}) {
   return (
     <div>
       <For each={portfolio._files}>
-        {(src) => <img src={src} alt="" />}
+        {(src) => <ExpandableImage src={src} alt="" />}
       </For>
     </div>
   );
