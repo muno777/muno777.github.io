@@ -40,7 +40,7 @@ export default function ExpandableImage(props: { src: string; alt?: string }) {
         src={props.src}
         alt={props.alt ?? ""}
         onClick={open}
-        class="cursor-pointer max-w-full max-h-full block"
+        class="cursor-pointer max-w-full max-h-full block hover:scale-105 duration-200"
       />
 
       {show() && (

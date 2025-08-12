@@ -1,6 +1,7 @@
 import { readdirSync, statSync, readFileSync } from "fs";
 import { join } from "path";
 import { writeFileSync } from "fs";
+import fs from "fs/promises";
 
 const PUBLIC_SUBFOLDER = "img/portfolio";
 
@@ -21,7 +22,11 @@ function walk(dir: string, baseUrl: string): any {
 			result = JSON.parse(contents);
 		}
 	} catch {
-		// file DNE or is bad, ignore
+		fs.writeFile(
+			jsonPath,
+			'{\n\t"description": "",\n\t"videos": [],\n\t"columns": 1\n}',
+			"utf8"
+		);
 	}
 	
 	for (const file of readdirSync(dir)) {
@@ -49,3 +54,20 @@ const outputPath = join(process.cwd(), "src", "data", "portfolioList.json");
 writeFileSync(outputPath, JSON.stringify(hierarchicalList, null, 2), "utf-8");
 
 console.log(`Wrote portfolio JSON to ${outputPath}`);
+
+if (false) {
+	for (const portfolio_id in hierarchicalList) {
+		try {
+			let content = await fs.readFile(join(process.cwd(), "src", "routes", "portfolio_template.tsx"), 'utf8');
+			
+			content = content.replaceAll("foofoo", portfolio_id);
+			content = content.replaceAll("Foo Foo", hierarchicalList[portfolio_id].title || "Portfolio Name");
+			content = content.replaceAll("FooFoo", hierarchicalList[portfolio_id].title.replaceAll(" ", "") || "PortfolioName");
+			
+			await fs.writeFile(join(process.cwd(), "src", "routes", "portfolio", portfolio_id + ".tsx"), content, 'utf8');
+			console.log(`File copied and replaced for ${portfolio_id}`);
+		} catch (err) {
+			console.error('Error:', err);
+		}
+	}
+}

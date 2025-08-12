@@ -1,0 +1,5 @@
+{
+	"description": "A concept for a redesigned Minecraft inventory screen, with draggable inventory rows (for quick-swapping hotbars) and bulk storage (which is limited by \"total weight\" instead of slot count, like a higher-capacity version of the game's Bundle item).",
+	"videos": [],
+	"columns": 1
+}

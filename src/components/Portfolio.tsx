@@ -7,7 +7,7 @@ import PortfolioGroup from "./PortfolioGroup";
 export default function PortfolioPreview(props: {portfolio_id: string}) {
   if (!(props.portfolio_id in portfolioList)) {
     return (
-      <p>ERROR</p>
+      <p>I AM ERROR</p>
     )
   }
   var portfolio = (portfolioList as any)[props.portfolio_id];
@@ -19,24 +19,3 @@ export default function PortfolioPreview(props: {portfolio_id: string}) {
     </div>
   );
 }
-
-// export default function PortfolioPreview(props: {portfolio: Portfolio}) {
-//   var valid_items: PortfolioItem[] = [];
-//   props.portfolio.item_groups.forEach(
-//     item_group => 
-//     valid_items = valid_items.concat(
-//       item_group.items
-//       .filter(
-//         item =>
-//         item.get_type() == PortfolioItemType.IMAGE
-//       )
-//     )
-//   );
-//   valid_items = valid_items
-//     .sort(() => 0.5 - Math.random())
-//     .slice(0, 5);
-//   console.log(valid_items);
-//   return (
-//     <div>{valid_items.toString()}</div>
-//   );
-// }

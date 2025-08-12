@@ -1,181 +1,403 @@
 {
   "doodles": {
-    "files": [
-      "/img/portfolio/doodles/advilarva.jpg",
-      "/img/portfolio/doodles/bee bass.jpg",
-      "/img/portfolio/doodles/capy cafe.jpg",
-      "/img/portfolio/doodles/cheese point.jpg",
-      "/img/portfolio/doodles/costco banana.jpg",
-      "/img/portfolio/doodles/eye.jpg",
-      "/img/portfolio/doodles/fox cringe.jpg",
-      "/img/portfolio/doodles/glowshroom.jpg",
-      "/img/portfolio/doodles/melting.jpg",
-      "/img/portfolio/doodles/music balloon.jpg",
-      "/img/portfolio/doodles/Notes_230622_190034.jpg",
-      "/img/portfolio/doodles/Notes_230623_195140.jpg",
-      "/img/portfolio/doodles/Notes_230630_173546.jpg",
-      "/img/portfolio/doodles/Notes_230630_203226.jpg",
-      "/img/portfolio/doodles/Notes_230630_205658.jpg",
-      "/img/portfolio/doodles/Notes_230701_150442.jpg",
-      "/img/portfolio/doodles/Notes_230701_151944.jpg",
-      "/img/portfolio/doodles/Notes_230701_152050.jpg",
-      "/img/portfolio/doodles/Notes_230707_190541.jpg",
-      "/img/portfolio/doodles/Notes_230709_225634.jpg",
-      "/img/portfolio/doodles/Notes_230713_151940.jpg",
-      "/img/portfolio/doodles/Notes_230714_224709.jpg",
-      "/img/portfolio/doodles/Notes_230820_110353.jpg",
-      "/img/portfolio/doodles/Notes_230831_142203.jpg",
-      "/img/portfolio/doodles/Notes_231122_104626.jpg",
-      "/img/portfolio/doodles/Notes_231126_173220.jpg",
-      "/img/portfolio/doodles/Notes_231127_093811.jpg",
-      "/img/portfolio/doodles/Notes_231201_173317.jpg",
-      "/img/portfolio/doodles/Notes_231206_134009.jpg",
-      "/img/portfolio/doodles/Notes_231226_195723.jpg",
-      "/img/portfolio/doodles/Notes_240414_101155.jpg",
-      "/img/portfolio/doodles/Notes_240608_225631.jpg",
-      "/img/portfolio/doodles/Notes_240928_143248.jpg",
-      "/img/portfolio/doodles/Notes_241012_185112.jpg",
-      "/img/portfolio/doodles/Notes_241022_192949.jpg",
-      "/img/portfolio/doodles/Notes_241023_085742.jpg",
-      "/img/portfolio/doodles/Notes_241025_233736.jpg",
-      "/img/portfolio/doodles/Notes_241026_001402.jpg",
-      "/img/portfolio/doodles/Notes_241027_110106.jpg",
-      "/img/portfolio/doodles/Notes_241104_195409.jpg",
-      "/img/portfolio/doodles/Notes_241110_113210.jpg",
-      "/img/portfolio/doodles/Notes_241110_121311.jpg",
-      "/img/portfolio/doodles/Notes_241111_184752.jpg",
-      "/img/portfolio/doodles/Notes_241111_205730.jpg",
-      "/img/portfolio/doodles/Notes_241112_194222.jpg",
-      "/img/portfolio/doodles/Notes_241112_200549.jpg",
-      "/img/portfolio/doodles/Notes_241112_202105.jpg",
-      "/img/portfolio/doodles/Notes_241112_203557.jpg",
-      "/img/portfolio/doodles/Notes_241113_200822.jpg",
-      "/img/portfolio/doodles/Notes_241114_214749.jpg",
-      "/img/portfolio/doodles/Notes_241115_210520.jpg",
-      "/img/portfolio/doodles/Notes_241116_174212.jpg",
-      "/img/portfolio/doodles/Notes_241117_112624.jpg",
-      "/img/portfolio/doodles/Notes_241117_113925.jpg",
-      "/img/portfolio/doodles/Notes_241117_115332.jpg",
-      "/img/portfolio/doodles/Notes_241121_170922.jpg",
-      "/img/portfolio/doodles/Notes_241123_165758.jpg",
-      "/img/portfolio/doodles/Notes_241123_170121.jpg",
-      "/img/portfolio/doodles/Notes_241123_171810.jpg",
-      "/img/portfolio/doodles/Notes_241123_172400.jpg",
-      "/img/portfolio/doodles/Notes_241124_163002.jpg",
-      "/img/portfolio/doodles/Notes_241127_162455.jpg",
-      "/img/portfolio/doodles/Notes_241130_093138.jpg",
-      "/img/portfolio/doodles/Notes_241201_081022.jpg",
-      "/img/portfolio/doodles/Notes_241208_112358.jpg",
-      "/img/portfolio/doodles/Notes_241210_121905.jpg",
-      "/img/portfolio/doodles/Notes_241211_182128.jpg",
-      "/img/portfolio/doodles/Notes_241211_192927.jpg",
-      "/img/portfolio/doodles/Notes_241220_123932.jpg",
-      "/img/portfolio/doodles/Notes_241220_193947.jpg",
-      "/img/portfolio/doodles/Notes_241222_111705.jpg",
-      "/img/portfolio/doodles/Notes_241225_080737.jpg",
-      "/img/portfolio/doodles/ocean sunset.jpg",
-      "/img/portfolio/doodles/pery.jpg",
-      "/img/portfolio/doodles/rose v2.jpg",
-      "/img/portfolio/doodles/salt with fries.jpg",
-      "/img/portfolio/doodles/squid game.jpg",
-      "/img/portfolio/doodles/treeshroom.jpg"
-    ]
-  },
-  "graphicdesign": {
-    "files": [
-      "/img/portfolio/graphicdesign/36-Roster-Revamp.png",
-      "/img/portfolio/graphicdesign/challonge-logo.png",
-      "/img/portfolio/graphicdesign/Discord-Banner.png",
-      "/img/portfolio/graphicdesign/Discord-Logo-V2.png",
-      "/img/portfolio/graphicdesign/knightmenu.gif",
-      "/img/portfolio/graphicdesign/Main-Menu.png",
-      "/img/portfolio/graphicdesign/menu-fighters.png",
-      "/img/portfolio/graphicdesign/menu-rules.png",
-      "/img/portfolio/graphicdesign/menu-stage.png",
-      "/img/portfolio/graphicdesign/minecraft inventory concept.png",
-      "/img/portfolio/graphicdesign/munophone.gif",
-      "/img/portfolio/graphicdesign/New-Main-Menu.png",
-      "/img/portfolio/graphicdesign/roa gimmick design.png",
-      "/img/portfolio/graphicdesign/roa hud showcase.gif",
-      "/img/portfolio/graphicdesign/Roster-Sepia.png",
-      "/img/portfolio/graphicdesign/sploosh.png",
-      "/img/portfolio/graphicdesign/stevemoveset.png",
-      "/img/portfolio/graphicdesign/SUW-Logo-V2.png",
-      "/img/portfolio/graphicdesign/theo-DSR.png",
-      "/img/portfolio/graphicdesign/ui.png",
-      "/img/portfolio/graphicdesign/World-Smash-Logo-V2.png"
-    ],
+    "title": "Doodles",
     "dirs": {
-      "fightinggame": {
+      "all": {
+        "description": "",
+        "videos": [],
+        "columns": 2,
         "files": [
-          "/img/portfolio/graphicdesign/fightinggame/attack data.png",
-          "/img/portfolio/graphicdesign/fightinggame/character select.png",
-          "/img/portfolio/graphicdesign/fightinggame/icons 2.png",
-          "/img/portfolio/graphicdesign/fightinggame/icons.png",
-          "/img/portfolio/graphicdesign/fightinggame/inventory item.png",
-          "/img/portfolio/graphicdesign/fightinggame/main menu.png",
-          "/img/portfolio/graphicdesign/fightinggame/online stats.png",
-          "/img/portfolio/graphicdesign/fightinggame/online.png",
-          "/img/portfolio/graphicdesign/fightinggame/settings.png",
-          "/img/portfolio/graphicdesign/fightinggame/stage select.png"
+          "/img/portfolio/doodles/all/advilarva.jpg",
+          "/img/portfolio/doodles/all/bee bass.jpg",
+          "/img/portfolio/doodles/all/capy cafe.jpg",
+          "/img/portfolio/doodles/all/cheese point.jpg",
+          "/img/portfolio/doodles/all/costco banana.jpg",
+          "/img/portfolio/doodles/all/eye.jpg",
+          "/img/portfolio/doodles/all/fox cringe.jpg",
+          "/img/portfolio/doodles/all/glowshroom.jpg",
+          "/img/portfolio/doodles/all/melting.jpg",
+          "/img/portfolio/doodles/all/music balloon.jpg",
+          "/img/portfolio/doodles/all/Notes_230622_190034.jpg",
+          "/img/portfolio/doodles/all/Notes_230623_195140.jpg",
+          "/img/portfolio/doodles/all/Notes_230630_173546.jpg",
+          "/img/portfolio/doodles/all/Notes_230630_203226.jpg",
+          "/img/portfolio/doodles/all/Notes_230630_205658.jpg",
+          "/img/portfolio/doodles/all/Notes_230701_150442.jpg",
+          "/img/portfolio/doodles/all/Notes_230701_151944.jpg",
+          "/img/portfolio/doodles/all/Notes_230701_152050.jpg",
+          "/img/portfolio/doodles/all/Notes_230707_190541.jpg",
+          "/img/portfolio/doodles/all/Notes_230709_225634.jpg",
+          "/img/portfolio/doodles/all/Notes_230713_151940.jpg",
+          "/img/portfolio/doodles/all/Notes_230714_224709.jpg",
+          "/img/portfolio/doodles/all/Notes_230820_110353.jpg",
+          "/img/portfolio/doodles/all/Notes_230831_142203.jpg",
+          "/img/portfolio/doodles/all/Notes_231122_104626.jpg",
+          "/img/portfolio/doodles/all/Notes_231126_173220.jpg",
+          "/img/portfolio/doodles/all/Notes_231127_093811.jpg",
+          "/img/portfolio/doodles/all/Notes_231201_173317.jpg",
+          "/img/portfolio/doodles/all/Notes_231206_134009.jpg",
+          "/img/portfolio/doodles/all/Notes_231226_195723.jpg",
+          "/img/portfolio/doodles/all/Notes_240414_101155.jpg",
+          "/img/portfolio/doodles/all/Notes_240608_225631.jpg",
+          "/img/portfolio/doodles/all/Notes_240928_143248.jpg",
+          "/img/portfolio/doodles/all/Notes_241012_185112.jpg",
+          "/img/portfolio/doodles/all/Notes_241022_192949.jpg",
+          "/img/portfolio/doodles/all/Notes_241023_085742.jpg",
+          "/img/portfolio/doodles/all/Notes_241025_233736.jpg",
+          "/img/portfolio/doodles/all/Notes_241026_001402.jpg",
+          "/img/portfolio/doodles/all/Notes_241027_110106.jpg",
+          "/img/portfolio/doodles/all/Notes_241104_195409.jpg",
+          "/img/portfolio/doodles/all/Notes_241110_113210.jpg",
+          "/img/portfolio/doodles/all/Notes_241110_121311.jpg",
+          "/img/portfolio/doodles/all/Notes_241111_184752.jpg",
+          "/img/portfolio/doodles/all/Notes_241111_205730.jpg",
+          "/img/portfolio/doodles/all/Notes_241112_194222.jpg",
+          "/img/portfolio/doodles/all/Notes_241112_200549.jpg",
+          "/img/portfolio/doodles/all/Notes_241112_202105.jpg",
+          "/img/portfolio/doodles/all/Notes_241112_203557.jpg",
+          "/img/portfolio/doodles/all/Notes_241113_200822.jpg",
+          "/img/portfolio/doodles/all/Notes_241114_214749.jpg",
+          "/img/portfolio/doodles/all/Notes_241115_210520.jpg",
+          "/img/portfolio/doodles/all/Notes_241116_174212.jpg",
+          "/img/portfolio/doodles/all/Notes_241117_112624.jpg",
+          "/img/portfolio/doodles/all/Notes_241117_113925.jpg",
+          "/img/portfolio/doodles/all/Notes_241117_115332.jpg",
+          "/img/portfolio/doodles/all/Notes_241121_170922.jpg",
+          "/img/portfolio/doodles/all/Notes_241123_165758.jpg",
+          "/img/portfolio/doodles/all/Notes_241123_170121.jpg",
+          "/img/portfolio/doodles/all/Notes_241123_171810.jpg",
+          "/img/portfolio/doodles/all/Notes_241123_172400.jpg",
+          "/img/portfolio/doodles/all/Notes_241124_163002.jpg",
+          "/img/portfolio/doodles/all/Notes_241127_162455.jpg",
+          "/img/portfolio/doodles/all/Notes_241130_093138.jpg",
+          "/img/portfolio/doodles/all/Notes_241201_081022.jpg",
+          "/img/portfolio/doodles/all/Notes_241208_112358.jpg",
+          "/img/portfolio/doodles/all/Notes_241210_121905.jpg",
+          "/img/portfolio/doodles/all/Notes_241211_182128.jpg",
+          "/img/portfolio/doodles/all/Notes_241211_192927.jpg",
+          "/img/portfolio/doodles/all/Notes_241220_123932.jpg",
+          "/img/portfolio/doodles/all/Notes_241220_193947.jpg",
+          "/img/portfolio/doodles/all/Notes_241222_111705.jpg",
+          "/img/portfolio/doodles/all/Notes_241225_080737.jpg",
+          "/img/portfolio/doodles/all/ocean sunset.jpg",
+          "/img/portfolio/doodles/all/pery.jpg",
+          "/img/portfolio/doodles/all/rose v2.jpg",
+          "/img/portfolio/doodles/all/salt with fries.jpg",
+          "/img/portfolio/doodles/all/squid game.jpg",
+          "/img/portfolio/doodles/all/treeshroom.jpg"
         ]
       }
     }
   },
-  "pixelart": {
-    "files": [
-      "/img/portfolio/pixelart/arcus chroma.gif",
-      "/img/portfolio/pixelart/chain chomp.png",
-      "/img/portfolio/pixelart/c_beach_indoors.png",
-      "/img/portfolio/pixelart/c_beach_outdoors.png",
-      "/img/portfolio/pixelart/demo.gif",
-      "/img/portfolio/pixelart/dry bones.png",
-      "/img/portfolio/pixelart/egg game apartment.png",
-      "/img/portfolio/pixelart/egg game background.png",
-      "/img/portfolio/pixelart/full loop big.gif",
-      "/img/portfolio/pixelart/glare anims.gif",
-      "/img/portfolio/pixelart/glare hfx no bg.gif",
-      "/img/portfolio/pixelart/glare vfx no bg.gif",
-      "/img/portfolio/pixelart/guy putting on shoes.gif",
-      "/img/portfolio/pixelart/inkling.gif",
-      "/img/portfolio/pixelart/inktober1.png",
-      "/img/portfolio/pixelart/inktober4.png",
-      "/img/portfolio/pixelart/inktober9.png",
-      "/img/portfolio/pixelart/kirby dances loop.gif",
-      "/img/portfolio/pixelart/kirby dies.gif",
-      "/img/portfolio/pixelart/kirby sword fight cropped.gif",
-      "/img/portfolio/pixelart/korok.gif",
-      "/img/portfolio/pixelart/link stage.png",
-      "/img/portfolio/pixelart/mario jump.gif",
-      "/img/portfolio/pixelart/mariomon cloud 1.png",
-      "/img/portfolio/pixelart/mariomon grass 1.png",
-      "/img/portfolio/pixelart/mariomon grass 2.png",
-      "/img/portfolio/pixelart/mariomon logo.png",
-      "/img/portfolio/pixelart/orange tree.gif",
-      "/img/portfolio/pixelart/owl v2.gif",
-      "/img/portfolio/pixelart/owl.gif",
-      "/img/portfolio/pixelart/ring jump.gif",
-      "/img/portfolio/pixelart/sonic stage.png",
-      "/img/portfolio/pixelart/splatoon 3 map port.gif",
-      "/img/portfolio/pixelart/sprangler.png",
-      "/img/portfolio/pixelart/stick walk.gif",
-      "/img/portfolio/pixelart/tileset concept.png",
-      "/img/portfolio/pixelart/toad stage.png"
-    ],
+  "graphicdesign": {
+    "title": "Graphic Design and Game UI",
     "dirs": {
-      "test": {
-        "description": "Some cool stuff.",
-        "videos": [
-          "https://youtu.be/K4lvfmbMkcw",
-          "https://youtu.be/dQw4w9WgXcQ // rick astleyyy"
-        ],
+      "1smash": {
+        "description": "Various Smash Bros UI mockups.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/1smash/36-Roster-Revamp.png",
+          "/img/portfolio/graphicdesign/1smash/Main-Menu.png",
+          "/img/portfolio/graphicdesign/1smash/menu-fighters.png",
+          "/img/portfolio/graphicdesign/1smash/menu-rules.png",
+          "/img/portfolio/graphicdesign/1smash/menu-stage.png",
+          "/img/portfolio/graphicdesign/1smash/New-Main-Menu.png",
+          "/img/portfolio/graphicdesign/1smash/Roster-Sepia.png",
+          "/img/portfolio/graphicdesign/1smash/ui.png"
+        ]
+      },
+      "commercial_fighting_game": {
+        "description": "Concepts made for a commercial fighting game. Any references to the game's IP have been removed or replaced with funny stock images.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/commercial_fighting_game/attack data.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/character select.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/icons 2.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/icons.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/inventory item.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/main menu.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/online stats.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/online.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/settings.png",
+          "/img/portfolio/graphicdesign/commercial_fighting_game/stage select.png"
+        ]
+      },
+      "elm_city_esports_rules": {
+        "description": "A rules graphic commissioned for a local Smash Ultimate tournament.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/elm_city_esports_rules/theo-DSR.png"
+        ]
+      },
+      "exw_gimmick_design": {
+        "description": "An infographic showing tips for designing a Rivals Workshop fighting game character.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/exw_gimmick_design/roa gimmick design.png"
+        ]
+      },
+      "fan_movesets": {
+        "description": "Smash Bros fan moveset ideas, with graphic design in the style of different games.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/fan_movesets/sploosh.png",
+          "/img/portfolio/graphicdesign/fan_movesets/stevemoveset.png"
+        ]
+      },
+      "minecraft_inventory": {
+        "description": "A concept for a redesigned Minecraft inventory screen, with draggable inventory rows (for quick-swapping hotbars) and bulk storage (which is limited by \"total weight\" instead of slot count, like a higher-capacity version of the game's Bundle item).",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/minecraft_inventory/minecraft inventory concept.png"
+        ]
+      },
+      "roa_ws_hud": {
+        "description": "Fancy in-game HUDs I coded for my Rivals Workshop characters.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/roa_ws_hud/munophone.gif",
+          "/img/portfolio/graphicdesign/roa_ws_hud/roa hud showcase.gif"
+        ]
+      },
+      "suw": {
+        "description": "Branding I did for a Smash Ultimate discord server I used to manage in like 2019.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/suw/Discord-Banner.png",
+          "/img/portfolio/graphicdesign/suw/SUW-Logo-V2.png",
+          "/img/portfolio/graphicdesign/suw/World-Smash-Logo-V2.png"
+        ]
+      },
+      "too_helpful_knight": {
+        "description": "The menus I made for my small Godot game \"The Too-Helpful Knight\". They're simple, but also coded from scratch rather than using Godot's built-in button nodes (for more control over inputs).",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/graphicdesign/too_helpful_knight/knightmenu.gif"
+        ]
+      }
+    }
+  },
+  "illustrations": {
+    "title": "Illustrations",
+    "dirs": {
+      "all": {
+        "description": "",
+        "videos": [],
         "columns": 2,
         "files": [
-          "/img/portfolio/pixelart/test/arcus chroma - Copy (2).gif",
-          "/img/portfolio/pixelart/test/arcus chroma - Copy (3).gif",
-          "/img/portfolio/pixelart/test/arcus chroma - Copy.gif",
-          "/img/portfolio/pixelart/test/arcus chroma.gif"
+          "/img/portfolio/illustrations/all/Notes_250607_182330.jpg",
+          "/img/portfolio/illustrations/all/Notes_250607_191728.jpg",
+          "/img/portfolio/illustrations/all/Notes_250607_192418.jpg",
+          "/img/portfolio/illustrations/all/Notes_250607_193528.jpg",
+          "/img/portfolio/illustrations/all/Notes_250607_201648.jpg",
+          "/img/portfolio/illustrations/all/Notes_250622_123954.jpg",
+          "/img/portfolio/illustrations/all/Notes_250630_185621.jpg",
+          "/img/portfolio/illustrations/all/Notes_250701_103501.jpg",
+          "/img/portfolio/illustrations/all/Notes_250704_111721.jpg",
+          "/img/portfolio/illustrations/all/Notes_250704_125416.jpg",
+          "/img/portfolio/illustrations/all/Notes_250704_211743.jpg",
+          "/img/portfolio/illustrations/all/Notes_250706_101510.jpg",
+          "/img/portfolio/illustrations/all/Notes_250706_110911.jpg",
+          "/img/portfolio/illustrations/all/Notes_250713_110740.jpg",
+          "/img/portfolio/illustrations/all/Notes_250720_102940.jpg",
+          "/img/portfolio/illustrations/all/Notes_250720_105517.jpg",
+          "/img/portfolio/illustrations/all/Notes_250725_120523.jpg",
+          "/img/portfolio/illustrations/all/Notes_250729_172752.jpg",
+          "/img/portfolio/illustrations/all/Notes_250729_172802.jpg",
+          "/img/portfolio/illustrations/all/Notes_250729_174134.jpg",
+          "/img/portfolio/illustrations/all/Notes_250803_133546_1.jpg",
+          "/img/portfolio/illustrations/all/Notes_250806_184013.jpg",
+          "/img/portfolio/illustrations/all/Notes_250809_103051.jpg"
         ]
+      }
+    }
+  },
+  "music": {
+    "title": "Music",
+    "dirs": {
+      "egg_ep": {
+        "description": "The music from my two canceled indie game projects, bundled together in one lovely EP.",
+        "videos": [
+          "https://youtu.be/azgoMTU2Z8I"
+        ],
+        "columns": 1
+      },
+      "rivals_workshop": {
+        "description": "Music composed/arranged for my Rivals Workshop mods. The first one is original, the rest are arrangements.",
+        "videos": [
+          "https://youtu.be/JFeMuCGmeeY // trummel",
+          "https://youtu.be/UsZSYykPPCg // rosalina",
+          "https://youtu.be/UZUu-QNqbDg // honeyhive",
+          "https://youtu.be/zG78p4_7rzQ // sweden",
+          "https://youtu.be/hUsZmBMd_oU // ttown",
+          "https://youtu.be/wTYHGmnwKzA // coda",
+          "https://youtu.be/e0YRbHmN8to // otto",
+          "https://youtu.be/QuonS7YF7vk // nsmbu",
+          "https://youtu.be/1vGd6hCId_k // trummel come home"
+        ],
+        "columns": 1
+      }
+    }
+  },
+  "pixelart": {
+    "title": "Pixel Art and Animation",
+    "dirs": {
+      "1animations": {
+        "description": "Fun little animations!",
+        "videos": [],
+        "columns": 2,
+        "files": [
+          "/img/portfolio/pixelart/1animations/guy putting on shoes.gif",
+          "/img/portfolio/pixelart/1animations/inkling.gif",
+          "/img/portfolio/pixelart/1animations/kirby sword fight cropped.gif",
+          "/img/portfolio/pixelart/1animations/korok.gif",
+          "/img/portfolio/pixelart/1animations/mario jump.gif",
+          "/img/portfolio/pixelart/1animations/orange tree.gif",
+          "/img/portfolio/pixelart/1animations/owl v2.gif",
+          "/img/portfolio/pixelart/1animations/ring jump.gif",
+          "/img/portfolio/pixelart/1animations/splatoon 3 map port.gif",
+          "/img/portfolio/pixelart/1animations/zarcus chroma.gif"
+        ]
+      },
+      "2roa_trailers": {
+        "description": "The trailers for two of my Rivals mods, which include animated/animatic intros in addition to lots of character and environment art.",
+        "videos": [
+          "https://youtu.be/rAVkI9dCjs0 // animation vs rivals",
+          "https://youtu.be/2OjSwi5bnTQ // wes"
+        ],
+        "columns": 1
+      },
+      "game_stages": {
+        "description": "Environments for my unreleased indie games: Slingshell and Sunny Side Down.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/pixelart/game_stages/c_beach_indoors.png",
+          "/img/portfolio/pixelart/game_stages/c_beach_outdoors.png",
+          "/img/portfolio/pixelart/game_stages/egg game apartment.png",
+          "/img/portfolio/pixelart/game_stages/egg game background.png"
+        ]
+      },
+      "inktober": {
+        "description": "Misc. art pieces.",
+        "videos": [],
+        "columns": 2,
+        "files": [
+          "/img/portfolio/pixelart/inktober/inktober1.png",
+          "/img/portfolio/pixelart/inktober/inktober4.png",
+          "/img/portfolio/pixelart/inktober/inktober9.png",
+          "/img/portfolio/pixelart/inktober/tileset concept.png"
+        ]
+      },
+      "mariomon_big": {
+        "description": "Logo and tilesets I did for Alpharad's project, Super Mariomon.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/pixelart/mariomon_big/1mariomon logo.png",
+          "/img/portfolio/pixelart/mariomon_big/mariomon 1grass 1.png",
+          "/img/portfolio/pixelart/mariomon_big/mariomon cloud 1.png"
+        ]
+      },
+      "mariomon_small": {
+        "description": "Some of the initial enemy sprites I did for Super Mariomon (replaced in the final version).",
+        "videos": [],
+        "columns": 3,
+        "files": [
+          "/img/portfolio/pixelart/mariomon_small/chain chomp.png",
+          "/img/portfolio/pixelart/mariomon_small/dry bones.png",
+          "/img/portfolio/pixelart/mariomon_small/sprangler.png"
+        ]
+      },
+      "roa_anims": {
+        "description": "Animations for some of my Rivals Workshop characters.",
+        "videos": [],
+        "columns": 2,
+        "files": [
+          "/img/portfolio/pixelart/roa_anims/demo.gif",
+          "/img/portfolio/pixelart/roa_anims/glare anims.gif",
+          "/img/portfolio/pixelart/roa_anims/glare hfx no bg.gif",
+          "/img/portfolio/pixelart/roa_anims/glare vfx no bg.gif"
+        ]
+      },
+      "roa_stages": {
+        "description": "Rivals Workshop stages.",
+        "videos": [],
+        "columns": 1,
+        "files": [
+          "/img/portfolio/pixelart/roa_stages/link stage.png",
+          "/img/portfolio/pixelart/roa_stages/sonic stage.png",
+          "/img/portfolio/pixelart/roa_stages/toad stage.png"
+        ]
+      }
+    },
+    "files": [
+      "/img/portfolio/pixelart/full loop big.gif",
+      "/img/portfolio/pixelart/kirby dances loop.gif",
+      "/img/portfolio/pixelart/kirby dies.gif",
+      "/img/portfolio/pixelart/mariomon grass 2.png",
+      "/img/portfolio/pixelart/owl.gif",
+      "/img/portfolio/pixelart/stick walk.gif"
+    ]
+  },
+  "videos": {
+    "title": "Videos",
+    "dirs": {
+      "1game_trailers": {
+        "description": "Teaser trailers for my shelved indie games.",
+        "videos": [
+          "https://youtu.be/waDu3bNFntk // slingshell",
+          "https://youtu.be/fMAp7kGDQZM // sunny side down"
+        ],
+        "columns": 1
+      },
+      "2egg_devlog": {
+        "description": "The devlogs for Sunny Side Down, documenting my process making the game (before I shelved it due to not finding a publisher).",
+        "videos": [
+          "https://youtu.be/OM5bKRGLrhU",
+          "https://youtu.be/J5jogK0Th2Y",
+          "https://youtu.be/KNPdS5tKDks"
+        ],
+        "columns": 1
+      },
+      "3rivals_workshop": {
+        "description": "The trailers for my Rivals Workshop mods.",
+        "videos": [
+          "https://youtu.be/rAVkI9dCjs0 // yellow",
+          "https://youtu.be/d7GP6357bU0 // home run contest",
+          "https://youtu.be/2OjSwi5bnTQ // wes",
+          "https://youtu.be/fMlMxhHPhjw // glare",
+          "https://youtu.be/emrZC_arVuM // goku",
+          "https://youtu.be/k5FFKae47-4 // link",
+          "https://youtu.be/4R5KYUrezek // toad",
+          "https://youtu.be/0OnJ81csnMQ // akira",
+          "https://youtu.be/HhLltfPFgNI // trummel",
+          "https://youtu.be/i8A7nKaLOKE // otto",
+          "https://youtu.be/CZ8FOhs9_YQ // coda",
+          "https://youtu.be/6bMXe7kt76s // steve",
+          "https://youtu.be/KdopGJZgON4 // sonic"
+        ],
+        "columns": 1
+      },
+      "rivals_showcases": {
+        "description": "Longer-form showcases of Rivals Workshop mods. The first three are my mods, and the other two are mods made by other creators.",
+        "videos": [
+          "https://youtu.be/qkMm-QSmjKA // phone touch",
+          "https://youtu.be/Wgv4u8grQpU // steve runes",
+          "https://youtu.be/nZ0vjr_Ey04 // akira and toad",
+          "https://youtu.be/IKHg0EtRqJU // rsnm",
+          "https://youtu.be/QUMReGt5SnQ // sr link"
+        ],
+        "columns": 1
       }
     }
   }

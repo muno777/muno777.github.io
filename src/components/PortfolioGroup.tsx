@@ -10,11 +10,11 @@ export default function PortfolioPreview(props: {portfolio_group: Record<string,
   
   // this exists so tailwind will allow the columns below to be dynamic
   // basically getting tailwind to load in these column classes
-  "columns-1"
-  "columns-2"
-  "columns-3"
-  "columns-4"
-  "columns-5"
+  "sm:columns-1"
+  "sm:columns-2"
+  "sm:columns-3"
+  "sm:columns-4"
+  "sm:columns-5"
   
   return (
     <div>
@@ -27,12 +27,20 @@ export default function PortfolioPreview(props: {portfolio_group: Record<string,
           </p>
         </div>
       }
-      <div class={`columns-${props.portfolio_group.columns ?? 1} gap-2 space-y-2`}>
+      <div class={`columns-1 sm:columns-${props.portfolio_group.columns ?? 1} gap-2 space-y-2`}>
         <For each={props.portfolio_group.files}>
-          {(src) => <ExpandableImage src={src} alt="" />}
+          {(src) => (
+            <div class="flex justify-center">
+              <ExpandableImage src={src} alt="" />
+            </div>
+          )}
         </For>
         <For each={props.portfolio_group.videos}>
-          {(id) => <YouTubeVideo video_id={id}/>}
+          {(id) => (
+            <div class="flex justify-center">
+              <YouTubeVideo video_id={id} />
+            </div>
+          )}
         </For>
       </div>
     </div>

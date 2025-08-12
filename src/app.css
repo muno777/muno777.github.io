@@ -19,3 +19,9 @@
 .pixel-image {
   image-rendering: crisp-edges;
 }
+
+@layer base {
+  a {
+    @apply text-bymuno-blue-0 hover:text-bymuno-blue-1 underline;
+  }
+}

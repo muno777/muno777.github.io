@@ -17,7 +17,7 @@ export default function PageWrapper(props: {children: JSXElement | JSXElement[]}
           {/* border */}
           <div class="bg-bymuno-blue-1 px-1 w-full max-w-[968px]">
             {/* body */}
-            <div class="min-h-[600px] w-full bg-bymuno-grey-3 h-full max-w-[960px] text-bymuno-white-0">
+            <div class="min-h-[600px] w-full bg-bymuno-grey-3 h-full max-w-[960px] text-bymuno-white-0 pb-6">
               <A href="/">
                 <img src="/img/layout/header.gif" class="w-fit pixel-image pb-6"/>
               </A>
