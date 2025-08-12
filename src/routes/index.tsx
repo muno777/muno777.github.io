@@ -22,21 +22,36 @@ export default function Home() {
       <p>
         Previous:
       </p>
-      <p>
-        Preliminary UI Artist for <a href="https://store.steampowered.com/app/2217000/Rivals_of_Aether_II/">Rivals of Aether II</a>
-      </p>
-      <p>
-        Pixel Artist for <a href="https://www.youtube.com/watch?v=2B1v94Dp1Jw">Super Mariomon</a>
-      </p>
-      <p>
-        Starving Indie Dev for two <a href="https://bymuno.itch.io/slingshell">shelved</a> <a href="https://youtu.be/fMAp7kGDQZM">projects</a>
-      </p>
-      <p class="py-4">
+      <div class="flex gap-x-4">
+        <div class="text-right">
+          <p>
+            Preliminary UI Artist
+          </p>
+          <p>
+            Pixel Artist 
+          </p>
+          <p>
+            Starving Indie Dev 
+          </p>
+        </div>
+        <div class="text-left">
+          <p>
+            <a href="https://store.steampowered.com/app/2217000/Rivals_of_Aether_II/">Rivals of Aether II</a>
+          </p>
+          <p>
+            <a href="https://www.youtube.com/watch?v=2B1v94Dp1Jw">Super Mariomon</a>
+          </p>
+          <p>
+            two <a href="https://bymuno.itch.io/slingshell">shelved</a> <a href="https://youtu.be/fMAp7kGDQZM">projects</a>
+          </p>
+        </div>
+      </div>
+      <p class="pt-4">
         <a href="https://discord.gg/yhchvBB">Discord</a> | <a href="https://youtube.com/@muno">YouTube</a> | <a href="https://bsky.app/profile/bymuno.com">Bluesky</a> | <a href="mailto:munosnail@gmail.com">munosnail@gmail.com</a>
       </p>
-      <p>
+      {/* <p>
         Check out my portfolios below!
-      </p>
+      </p> */}
       <LineBig/>
       <PortfolioPreview portfolio_id="pixelart"></PortfolioPreview>
       <PortfolioPreview portfolio_id="illustrations"></PortfolioPreview>
