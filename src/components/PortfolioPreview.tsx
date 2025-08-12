@@ -65,7 +65,7 @@ export default function PortfolioPreview(props: {portfolio_id: string}) {
         ))}
       </A>
 
-      <div class="absolute bottom-6 right-2 text-5xl text-bymuno-white-0 bg-bymuno-grey-3/90 bg-opacity-50 px-3 pt-1 pb-4 pointer-events-none select-none">
+      <div class="absolute bottom-8 -right-6 text-5xl text-bymuno-blue-0 bg-bymuno-grey-3 bg-opacity-50 px-3 pt-1 pb-4 pointer-events-none select-none">
         {portfolio.title || "Portfolio Title"}
       </div>
     </div>

@@ -4,7 +4,7 @@ import Portfolio from "~/components/Portfolio";
 export default function PortfolioGraphicDesignandGameUI() {
   return (
 	<div class="flex flex-col items-center">
-	  <PageTitle>Portfolio: Graphic Design and Game UI</PageTitle>
+	  <PageTitle>Graphic Design and Game UI</PageTitle>
 	  <p>Portfolio: Graphic Design and Game UI</p>
 	  <Portfolio portfolio_id="graphicdesign"></Portfolio>
 	</div>

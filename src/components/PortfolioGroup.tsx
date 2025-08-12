@@ -27,7 +27,7 @@ export default function PortfolioPreview(props: {portfolio_group: Record<string,
           </p>
         </div>
       }
-      <div class={`columns-1 sm:columns-${props.portfolio_group.columns ?? 1} gap-2 space-y-2`}>
+      <div class={`columns-${Math.min(props.portfolio_group.columns ?? 1, 2)} sm:columns-${props.portfolio_group.columns ?? 1} gap-2 space-y-2`}>
         <For each={props.portfolio_group.files}>
           {(src) => (
             <div class="flex justify-center">

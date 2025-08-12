@@ -25,10 +25,13 @@ export default function Home() {
       <p>
         Preliminary UI Artist for <a href="https://store.steampowered.com/app/2217000/Rivals_of_Aether_II/">Rivals of Aether II</a>
       </p>
-      <p class="pb-4">
+      <p>
         Pixel Artist for <a href="https://www.youtube.com/watch?v=2B1v94Dp1Jw">Super Mariomon</a>
       </p>
-      <p class="pb-4">
+      <p>
+        Starving Indie Dev for two <a href="https://bymuno.itch.io/slingshell">shelved</a> <a href="https://youtu.be/fMAp7kGDQZM">projects</a>
+      </p>
+      <p class="py-4">
         <a href="https://discord.gg/yhchvBB">Discord</a> | <a href="https://youtube.com/@muno">YouTube</a> | <a href="https://bsky.app/profile/bymuno.com">Bluesky</a> | <a href="mailto:munosnail@gmail.com">munosnail@gmail.com</a>
       </p>
       <p>
