@@ -11,13 +11,13 @@ export default function Home() {
       <PageTitle>Home</PageTitle>
       {/* <YouTubeVideo video_id="K4lvfmbMkcw"/> */}
       <p class="pb-4">
-        Hi! I'm Muno.
+        Hi! I'm Muno!
       </p>
       <p>
-        I'm an artist and programmer known for making <a href="https://steamcommunity.com/workshop/filedetails/?id=2115895106">popular mods</a> in the Rivals of Aether workshop.
+        Artist and programmer known for making <a href="https://steamcommunity.com/workshop/filedetails/?id=2115895106">popular mods</a> in the Rivals of Aether workshop.
       </p>
       <p class="pb-4">
-        Nowadays, I'm working with Alan Becker as the Lead Developer for <a href="https://www.kickstarter.com/projects/animationversus/animation-versus">Animation VERSUS</a>!
+        Currently working with Alan Becker as the Lead Developer on <a href="https://www.kickstarter.com/projects/animationversus/animation-versus">Animation VERSUS</a>.
       </p>
       <p>
         Previous:
