@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "portfolio-json": "ts-node scripts/generatePortfolioJson.ts",
-    "watch-portfolio-json": "nodemon --watch public/img/portfolio --ext png,jpg,jpeg,gif,webp,txt --exec \"ts-node scripts/generatePortfolioJson.ts\"",
+    "watch-portfolio-json": "nodemon --watch public/img/portfolio --ext png,jpg,jpeg,gif,webp,json --exec \"ts-node scripts/generatePortfolioJson.ts\"",
     "vinxi-dev": "vinxi dev",
     "dev": "npm-run-all -p watch-portfolio-json vinxi-dev",
     "build": "npm run portfolio-json && vinxi build",

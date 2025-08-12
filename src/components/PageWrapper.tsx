@@ -8,11 +8,11 @@ export default function PageWrapper(props: {children: JSXElement | JSXElement[]}
       <div class="
         bg-[url(/img/layout/background.gif)]
         bg-top bg-no-repeat
-        px-4 py-2
+        px-2 py-2
         w-full h-full
-        flex items-center flex-col
         text-xl
       ">
+        <div class="bg-[url(/img/layout/trum.gif)] bg-bottom-left h-full w-full bg-no-repeat flex items-center flex-col">
           <img src="/img/layout/body_top.gif" class="pixel-image"/>
           {/* border */}
           <div class="bg-bymuno-blue-1 px-1 w-full max-w-[968px]">
@@ -28,6 +28,7 @@ export default function PageWrapper(props: {children: JSXElement | JSXElement[]}
           </div>
           <img src="/img/layout/body_bottom.gif" class="bg-bymuno-grey-3 pixel-image"/>
         </div>
+      </div>
     </main>
   );
 }

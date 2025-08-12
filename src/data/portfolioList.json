@@ -1,10 +1,6 @@
 {
-  "description": "",
-  "videos": [],
   "doodles": {
-    "description": "",
-    "videos": [],
-    "_files": [
+    "files": [
       "/img/portfolio/doodles/advilarva.jpg",
       "/img/portfolio/doodles/bee bass.jpg",
       "/img/portfolio/doodles/capy cafe.jpg",
@@ -86,9 +82,7 @@
     ]
   },
   "graphicdesign": {
-    "description": "",
-    "videos": [],
-    "_files": [
+    "files": [
       "/img/portfolio/graphicdesign/36-Roster-Revamp.png",
       "/img/portfolio/graphicdesign/challonge-logo.png",
       "/img/portfolio/graphicdesign/Discord-Banner.png",
@@ -111,27 +105,25 @@
       "/img/portfolio/graphicdesign/ui.png",
       "/img/portfolio/graphicdesign/World-Smash-Logo-V2.png"
     ],
-    "fightinggame": {
-      "description": "",
-      "videos": [],
-      "_files": [
-        "/img/portfolio/graphicdesign/fightinggame/attack data.png",
-        "/img/portfolio/graphicdesign/fightinggame/character select.png",
-        "/img/portfolio/graphicdesign/fightinggame/icons 2.png",
-        "/img/portfolio/graphicdesign/fightinggame/icons.png",
-        "/img/portfolio/graphicdesign/fightinggame/inventory item.png",
-        "/img/portfolio/graphicdesign/fightinggame/main menu.png",
-        "/img/portfolio/graphicdesign/fightinggame/online stats.png",
-        "/img/portfolio/graphicdesign/fightinggame/online.png",
-        "/img/portfolio/graphicdesign/fightinggame/settings.png",
-        "/img/portfolio/graphicdesign/fightinggame/stage select.png"
-      ]
+    "dirs": {
+      "fightinggame": {
+        "files": [
+          "/img/portfolio/graphicdesign/fightinggame/attack data.png",
+          "/img/portfolio/graphicdesign/fightinggame/character select.png",
+          "/img/portfolio/graphicdesign/fightinggame/icons 2.png",
+          "/img/portfolio/graphicdesign/fightinggame/icons.png",
+          "/img/portfolio/graphicdesign/fightinggame/inventory item.png",
+          "/img/portfolio/graphicdesign/fightinggame/main menu.png",
+          "/img/portfolio/graphicdesign/fightinggame/online stats.png",
+          "/img/portfolio/graphicdesign/fightinggame/online.png",
+          "/img/portfolio/graphicdesign/fightinggame/settings.png",
+          "/img/portfolio/graphicdesign/fightinggame/stage select.png"
+        ]
+      }
     }
   },
   "pixelart": {
-    "description": "",
-    "videos": [],
-    "_files": [
+    "files": [
       "/img/portfolio/pixelart/arcus chroma.gif",
       "/img/portfolio/pixelart/chain chomp.png",
       "/img/portfolio/pixelart/c_beach_indoors.png",
@@ -169,6 +161,22 @@
       "/img/portfolio/pixelart/stick walk.gif",
       "/img/portfolio/pixelart/tileset concept.png",
       "/img/portfolio/pixelart/toad stage.png"
-    ]
+    ],
+    "dirs": {
+      "test": {
+        "description": "Some cool stuff.",
+        "videos": [
+          "https://youtu.be/K4lvfmbMkcw",
+          "https://youtu.be/dQw4w9WgXcQ // rick astleyyy"
+        ],
+        "columns": 2,
+        "files": [
+          "/img/portfolio/pixelart/test/arcus chroma - Copy (2).gif",
+          "/img/portfolio/pixelart/test/arcus chroma - Copy (3).gif",
+          "/img/portfolio/pixelart/test/arcus chroma - Copy.gif",
+          "/img/portfolio/pixelart/test/arcus chroma.gif"
+        ]
+      }
+    }
   }
 }

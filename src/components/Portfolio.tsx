@@ -2,6 +2,7 @@
 import { For } from "solid-js";
 import portfolioList from "~/data/portfolioList.json";
 import ExpandableImage from "./ExpandableImage";
+import PortfolioGroup from "./PortfolioGroup";
 
 export default function PortfolioPreview(props: {portfolio_id: string}) {
   if (!(props.portfolio_id in portfolioList)) {
@@ -12,16 +13,12 @@ export default function PortfolioPreview(props: {portfolio_id: string}) {
   var portfolio = (portfolioList as any)[props.portfolio_id];
   return (
     <div>
-      <For each={portfolio.files}>
-        {(src) => <ExpandableImage src={src} alt="" />}
+      <For each={Object.values(portfolio.dirs)}>
+        {(group) => <PortfolioGroup portfolio_group={group as Record<string, any>}/>}
       </For>
     </div>
   );
 }
-
-// TODO this component should show an infinite scrolling preview of the items
-
-
 
 // export default function PortfolioPreview(props: {portfolio: Portfolio}) {
 //   var valid_items: PortfolioItem[] = [];

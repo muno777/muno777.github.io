@@ -63,7 +63,7 @@ export default function ExpandableImage(props: { src: string; alt?: string }) {
             }}
             classList={{
               // base styles
-              "max-w-[calc(100%-40px)] max-h-[calc(100%-40px)] object-contain transform scale-95 opacity-0 transition duration-300 ease-[cubic-bezier(.2,.9,.2,1)] will-change-transform will-change-opacity border-[6px] border-bymuno-grey-0 shadow-[0_10px_30px_rgba(0,0,0,0.5)] pointer-events-auto bg-bymuno-grey-3":
+              "max-w-[calc(100%-40px)] max-h-[calc(100%-40px)] object-contain transform scale-95 opacity-0 transition duration-300 ease-[cubic-bezier(.2,.9,.2,1)] will-change-transform will-change-opacity border-[6px] border-bymuno-grey-3 shadow-[0_10px_30px_rgba(0,0,0,0.5)] pointer-events-auto bg-bymuno-grey-3":
                 true,
               // active/open state
               "scale-100 opacity-100": active(),

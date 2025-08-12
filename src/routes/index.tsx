@@ -1,6 +1,7 @@
 import Counter from "~/components/Counter";
 import LineBig from "~/components/LineBig";
 import PageTitle from "~/components/PageTitle";
+import Portfolio from "~/components/Portfolio";
 import PortfolioPreview from "~/components/PortfolioPreview";
 import YouTubeVideo from "~/components/YouTubeVideo";
 import portfolioList from "~/data/portfolioList.json";
@@ -23,8 +24,7 @@ export default function Home() {
           This is a decently long sentence.
         </div>
       </div>
-      <LineBig/>
-      <PortfolioPreview portfolio_id="pixelart"></PortfolioPreview>
+      <Portfolio portfolio_id="pixelart"></Portfolio>
       {/* <PortfolioPreview portfolio_id="doodles"></PortfolioPreview> */}
     </div>
   );
